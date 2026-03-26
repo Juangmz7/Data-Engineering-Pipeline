@@ -8,7 +8,7 @@ from unittest.mock import patch
 root_path = Path(__file__).parent.parent
 sys.path.append(str(root_path))
 
-from trip_data_processor import TripDataProcessor 
+from processor.trip_data_processor import TripDataProcessor 
 
 
 @pytest.fixture
