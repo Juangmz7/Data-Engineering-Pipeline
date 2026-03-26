@@ -18,19 +18,18 @@ class LocalParquetWriter(ParquetWriter):
         self._logger.info("LocalParquetWriter initialized.")
 
     def write(self, source_path: str, destination: str) -> None:
-        src = Path(source_path)
-        dst = Path(destination)
-        self._logger.info(f"Copying data from {src} to local path: {dst}")
-        
-        if not src.exists():
-            self._logger.error(f"Source file not found: {src}")
-            raise FileNotFoundError(f"Source file not found: {src}")
-        
         try:
+            src = Path(source_path)
+            dst = Path(destination)
+            self._logger.info(f"Copying data from {src} to local path: {dst}")
+            
+            if not src.exists():
+                self._logger.error(f"Source file not found: {src}")
+            
             self._ensure_directory_exists(dst.parent)
             shutil.copy2(src, dst)
             self._logger.info("Data successfully written to local disk.")
-            
+        
         except PermissionError as e:
             self._logger.error(f"Permission denied writing to {dst}: {e}")
             raise
@@ -41,6 +40,10 @@ class LocalParquetWriter(ParquetWriter):
             
         except OSError as e:
             self._logger.error(f"OS error during local copy to {dst}: {e}")
+            raise
+
+        except FileNotFoundError as e:
+            self._logger.error(f"File not found during local copy to {dst}: {e}")
             raise
             
         except Exception as e:
