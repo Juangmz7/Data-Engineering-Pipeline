@@ -1,13 +1,13 @@
-from pathlib import Path
 from typing import List
 import numpy as np
 import pandas as pd
 
 from util.id_generator import IdGenerator
 from util.pipeline_log_formatter import get_pipeline_logger
+from .data_processor import DataProcessor
 
 
-class TripDataProcessor:
+class TripDataProcessor(DataProcessor):
     def __init__(self, correlation_id: str) -> None:
         self._correlation_id = correlation_id
         self._local_id = IdGenerator.generate()
