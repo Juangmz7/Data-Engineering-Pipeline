@@ -1,10 +1,11 @@
-from anyio import Path
+from pathlib import Path
 
 from parquet_writer import ParquetWriter
 from util.id_generator import IdGenerator
 from util.pipeline_log_formatter import get_pipeline_logger
 
 from azure.storage.blob import BlobServiceClient
+from azure.core.exceptions import AzureError
 
 class AzureBlobParquetWriter(ParquetWriter):
     def __init__(self, connection_string: str, container_name: str, correlation_id: str) -> None:
@@ -21,13 +22,13 @@ class AzureBlobParquetWriter(ParquetWriter):
         self._logger.info(f"AzureBlobParquetWriter initialized for container: {self._container_name}")
 
     def write(self, source_path: str, destination: str) -> None:
-        src = Path(source_path)
-        self._logger.info(f"Uploading data from {src} to Azure Blob: {destination}")
-        
-        if not src.exists():
-            raise FileNotFoundError(f"Source file not found: {src}")
-        
         try:
+            src = Path(source_path)
+            self._logger.info(f"Uploading data from {src} to Azure Blob: {destination}")
+            
+            if not src.exists():
+                raise FileNotFoundError(f"Source file not found: {src}")
+            
             blob_client = self._blob_service_client.get_blob_client(
                 container=self._container_name, 
                 blob=destination
@@ -40,6 +41,10 @@ class AzureBlobParquetWriter(ParquetWriter):
         except IOError as e:
             # Handles local disk issues during the read operation
             self._logger.error(f"Local file system error reading {src}: {e}")
+            raise
+
+        except FileNotFoundError as e:
+            self._logger.error(f"File not found: {src}")
             raise
             
         except AzureError as e:
