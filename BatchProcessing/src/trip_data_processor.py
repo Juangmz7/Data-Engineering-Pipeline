@@ -17,6 +17,7 @@ class TripDataProcessor:
             local_id=self._local_id
         )
         
+        # Derived from the document's non-mandatory columns
         self._optional_columns: List[str] = [
             'tip_amount', 'tolls_amount', 'extra', 'airport_fee',
             'congestion_surcharge', 'cbd_congestion_fee'
