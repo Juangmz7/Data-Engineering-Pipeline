@@ -28,25 +28,13 @@ class TripDataProcessor:
 
         self._logger.info("TripDataProcessor initialized.")
 
-    def execute(self, input_directory: str, output_directory: str, filename: str) -> None:
-        self._logger.info(f"Starting execution for file: {filename}")
-        
-        input_path = Path(input_directory) / filename
-        output_path = Path(output_directory) / filename
+    def execute(self, df: pd.DataFrame) -> None:
+        self._logger.info(f"Starting data frame processing ")
 
-        df = self._read_data(input_path)
         processed_df = self._apply_business_logic(df)
-        self._write_data(processed_df, output_path)
         
         self._logger.info("Execution completed successfully.")
-
-    def _read_data(self, file_path: Path) -> pd.DataFrame:
-        self._logger.info(f"Reading data from: {file_path}")
-        try:
-            return pd.read_parquet(file_path, engine='pyarrow')
-        except Exception as e:
-            self._logger.error(f"Failed to read input file {file_path}: {e}")
-            raise IOError(f"Input data read error: {e}") from e
+        return processed_df
 
     def _apply_business_logic(self, df: pd.DataFrame) -> pd.DataFrame:
         self._logger.info("Applying business logic transformations.")
@@ -150,11 +138,3 @@ class TripDataProcessor:
         fare_choices = ['Low', 'Medium', 'High']
         df['fare_category'] = np.select(fare_conditions, fare_choices, default='Unknown')
         return df
-    
-    def _write_data(self, df: pd.DataFrame, file_path: Path) -> None:
-        try:
-            file_path.parent.mkdir(parents=True, exist_ok=True)
-            df.to_parquet(file_path, index=False, engine='pyarrow')
-        except Exception as e:
-            self._logger.error(f"Failed to write output file {file_path}: {e}")
-            raise IOError(f"Output data write error: {e}") from e
