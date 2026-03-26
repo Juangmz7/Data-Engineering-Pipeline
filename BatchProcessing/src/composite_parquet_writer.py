@@ -1,10 +1,6 @@
-
-
-import pandas as pd
-
 from util.id_generator import IdGenerator
 from util.pipeline_log_formatter import get_pipeline_logger
-from writer import ParquetWriter
+from writer.parquet_writer import ParquetWriter
 
 """
     ParquetWriter implementation that delegates the write operation to multiple underlying ParquetWriter instances.
