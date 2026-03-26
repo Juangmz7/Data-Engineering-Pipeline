@@ -1,12 +1,12 @@
 from util.id_generator import IdGenerator
 from util.pipeline_log_formatter import get_pipeline_logger
-from writer.parquet_writer import ParquetWriter
+from shared.contracts.data_writer import DataWriter
 
 """
     ParquetWriter implementation that delegates the write operation to multiple underlying ParquetWriter instances.
 """
-class CompositeParquetWriter(ParquetWriter):
-    def __init__(self, writers: list[ParquetWriter], correlation_id: str) -> None:
+class CompositeParquetWriter(DataWriter):
+    def __init__(self, writers: list[DataWriter], correlation_id: str) -> None:
         self._writers = writers
         self._correlation_id = correlation_id
         self._local_id = IdGenerator.generate()

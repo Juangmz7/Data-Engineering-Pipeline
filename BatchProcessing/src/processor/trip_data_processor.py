@@ -2,10 +2,10 @@ from typing import List
 import numpy as np
 import pandas as pd
 
-from util.id_generator import IdGenerator
-from util.pipeline_log_formatter import get_pipeline_logger
-from .data_processor import DataProcessor
+from ....shared.util.id_generator import IdGenerator
+from ....shared.util.pipeline_log_formatter import get_pipeline_logger
 
+from ....shared.contracts.data_processor import DataProcessor
 
 class TripDataProcessor(DataProcessor):
     def __init__(self, correlation_id: str) -> None:
@@ -28,7 +28,7 @@ class TripDataProcessor(DataProcessor):
 
         self._logger.info("TripDataProcessor initialized.")
 
-    def execute(self, df: pd.DataFrame) -> None:
+    def process(self, df: pd.DataFrame) -> pd.DataFrame:
         self._logger.info(f"Starting data frame processing ")
 
         processed_df = self._apply_business_logic(df)
