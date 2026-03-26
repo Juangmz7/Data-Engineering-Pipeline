@@ -72,7 +72,7 @@ class TripDataProcessor:
             self._logger.error(f"Validation contract broken. Invalid data type encountered: {e}")
             raise RuntimeError(f"Data validation failed prior to processing. Invalid data type: {e}") from e
         except Exception as e:
-            self._logger.error(f"Unexpected error during business logic execution: {e}")
+            self._logger.critical(f"Unexpected error during business logic execution: {e}")
             raise RuntimeError(f"Unexpected error in Processor: {e}") from e
         
         return df
