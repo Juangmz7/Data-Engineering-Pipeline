@@ -169,7 +169,7 @@ class TestTripDataProcessor:
 
     def test_execute_orchestrates_processing_successfully(self, processor, sample_dataframe):
         # Act
-        result_df = processor.execute(sample_dataframe.copy())
+        result_df = processor.process(sample_dataframe.copy())
         
         # Assert
         # Verify that all transformations were applied by checking for newly engineered features

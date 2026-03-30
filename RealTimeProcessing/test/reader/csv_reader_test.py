@@ -3,18 +3,18 @@ import pandas as pd
 from unittest.mock import patch, MagicMock
 from pathlib import Path
 
-from RealTimeProcessing.src.reader import CsvReader
+from RealTimeProcessing.src.reader.csv_reader import CsvReader
 
 @pytest.fixture
 def mock_logger():
     """Provides a mocked pipeline logger to verify observability calls."""
-    with patch("shared.utils.pipeline_log_formatter.get_pipeline_logger") as mock:
+    with patch("RealTimeProcessing.src.reader.csv_reader.get_pipeline_logger") as mock:
         yield mock.return_value
 
 @pytest.fixture
 def mock_id_gen():
     """Mocks the ID generator for consistent test metadata."""
-    with patch("shared.utils.id_generator.IdGenerator.generate", return_value="test-local-uuid"):
+    with patch("RealTimeProcessing.src.reader.csv_reader.IdGenerator.generate", return_value="test-local-uuid"):
         yield
 
 @pytest.fixture
@@ -30,8 +30,8 @@ class TestCsvReader:
         source_file = "data/valid_data.csv"
         expected_df = pd.DataFrame({"col1": [1, 2], "col2": ["A", "B"]})
 
-        with patch("csv_reader.Path") as mock_path_cls, \
-             patch("csv_reader.pd.read_csv") as mock_read_csv:
+        with patch("RealTimeProcessing.src.reader.csv_reader.Path") as mock_path_cls, \
+             patch("RealTimeProcessing.src.reader.csv_reader.pd.read_csv") as mock_read_csv:
             
             mock_src = MagicMock(spec=Path)
             mock_src.exists.return_value = True
@@ -56,7 +56,7 @@ class TestCsvReader:
         """Ensures FileNotFoundError is raised and logged before invoking pandas."""
         source_file = "data/missing_data.csv"
         
-        with patch("csv_reader.Path") as mock_path_cls:
+        with patch("RealTimeProcessing.src.reader.csv_reader.Path") as mock_path_cls:
             mock_src = MagicMock(spec=Path)
             mock_src.exists.return_value = False
             mock_src.__str__.return_value = source_file
@@ -72,8 +72,8 @@ class TestCsvReader:
         """Verifies that native Python IO errors (e.g., permissions) are logged and re-raised."""
         source_file = "data/locked_data.csv"
         
-        with patch("csv_reader.Path") as mock_path_cls, \
-            patch("csv_reader.pd.read_csv", side_effect=IOError("Permission denied")):
+        with patch("RealTimeProcessing.src.reader.csv_reader.Path") as mock_path_cls, \
+            patch("RealTimeProcessing.src.reader.csv_reader.pd.read_csv", side_effect=IOError("Permission denied")):
             
             mock_src = MagicMock(spec=Path)
             mock_src.exists.return_value = True
@@ -95,8 +95,8 @@ class TestCsvReader:
         """
         source_file = "data/empty.csv"
         
-        with patch("csv_reader.Path") as mock_path_cls, \
-             patch("csv_reader.pd.read_csv", side_effect=pd.errors.EmptyDataError("No columns")):
+        with patch("RealTimeProcessing.src.reader.csv_reader.Path") as mock_path_cls, \
+             patch("RealTimeProcessing.src.reader.csv_reader.pd.read_csv", side_effect=pd.errors.EmptyDataError("No columns")):
             
             mock_src = MagicMock(spec=Path)
             mock_src.exists.return_value = True
@@ -116,8 +116,8 @@ class TestCsvReader:
         """
         source_file = "data/malformed.csv"
         
-        with patch("csv_reader.Path") as mock_path_cls, \
-            patch("csv_reader.pd.read_csv", side_effect=pd.errors.ParserError("Tokenizing failed")):
+        with patch("RealTimeProcessing.src.reader.csv_reader.Path") as mock_path_cls, \
+            patch("RealTimeProcessing.src.reader.csv_reader.pd.read_csv", side_effect=pd.errors.ParserError("Tokenizing failed")):
             
             mock_src = MagicMock(spec=Path)
             mock_src.exists.return_value = True
@@ -136,7 +136,7 @@ class TestCsvReader:
         """Ensures unforeseen runtime errors trigger a CRITICAL log with stack trace."""
         source_file = "data/any.csv"
         
-        with patch("csv_reader.Path") as mock_path_cls:
+        with patch("RealTimeProcessing.src.reader.csv_reader.Path") as mock_path_cls:
             mock_src = MagicMock(spec=Path)
             mock_src.exists.return_value = True
             mock_src.__str__.return_value = source_file

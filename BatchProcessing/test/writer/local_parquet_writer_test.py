@@ -28,7 +28,7 @@ class TestLocalParquetWriter:
         source = "source/data.parquet"
         destination = "target/subdir/data.parquet"
 
-        with patch("local_parquet_writer.Path") as mock_path_cls, \
+        with patch("BatchProcessing.src.writer.local_parquet_writer.Path") as mock_path_cls, \
              patch("shutil.copy2") as mock_copy:
             
             mock_src = MagicMock(spec=Path)
@@ -48,7 +48,7 @@ class TestLocalParquetWriter:
 
     def test_write_raises_file_not_found_when_source_missing(self, writer, mock_logger):
         """Ensures FileNotFoundError is raised and logged."""
-        with patch("local_parquet_writer.Path") as mock_path_cls:
+        with patch("BatchProcessing.src.writer.local_parquet_writer.Path") as mock_path_cls:
             mock_src = MagicMock(spec=Path)
             mock_src.exists.return_value = False
             mock_path_cls.return_value = mock_src
@@ -61,7 +61,7 @@ class TestLocalParquetWriter:
 
     def test_write_handles_permission_error(self, writer, mock_logger):
         """Verifies logging for PermissionError using the specific message pattern."""
-        with patch("local_parquet_writer.Path") as mock_path_cls, \
+        with patch("BatchProcessing.src.writer.local_parquet_writer.Path") as mock_path_cls, \
              patch("shutil.copy2", side_effect=PermissionError("Access denied")):
             
             mock_src = MagicMock(spec=Path)
@@ -78,7 +78,7 @@ class TestLocalParquetWriter:
 
     def test_write_handles_same_file_error(self, writer, mock_logger):
         """Verifies logging for shutil.SameFileError using the specific message pattern."""
-        with patch("local_parquet_writer.Path") as mock_path_cls, \
+        with patch("BatchProcessing.src.writer.local_parquet_writer.Path") as mock_path_cls, \
              patch("shutil.copy2", side_effect=shutil.SameFileError("Identical paths")):
             
             mock_src = MagicMock(spec=Path)
@@ -94,7 +94,7 @@ class TestLocalParquetWriter:
 
     def test_write_handles_os_error(self, writer, mock_logger):
         """Verifies logging for OSError using the specific message pattern."""
-        with patch("local_parquet_writer.Path") as mock_path_cls, \
+        with patch("BatchProcessing.src.writer.local_parquet_writer.Path") as mock_path_cls, \
              patch("shutil.copy2", side_effect=OSError("No space left")):
             
             mock_src = MagicMock(spec=Path)
@@ -110,7 +110,7 @@ class TestLocalParquetWriter:
 
     def test_write_handles_unexpected_exceptions(self, writer, mock_logger):
         """Verifies that unforeseen errors trigger a critical log with specific message."""
-        with patch("local_parquet_writer.Path", side_effect=Exception("Unexpected crash")):
+        with patch("BatchProcessing.src.writer.local_parquet_writer.Path", side_effect=Exception("Unexpected crash")):
             with pytest.raises(Exception):
                 writer.write("src.parquet", "dst.parquet")
             

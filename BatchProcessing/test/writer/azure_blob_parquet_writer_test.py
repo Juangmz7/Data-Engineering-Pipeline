@@ -23,7 +23,7 @@ def writer(mock_logger, mock_id_gen):
     Provides an instance of AzureBlobParquetWriter with a mocked Azure client.
     We patch the BlobServiceClient inside the target module.
     """
-    with patch("azure_blob_parquet_writer.BlobServiceClient.from_connection_string") as mock_factory:
+    with patch("BatchProcessing.src.writer.azure_blob_parquet_writer.BlobServiceClient.from_connection_string") as mock_factory:
         conn_str = "DefaultEndpointsProtocol=https;AccountName=test;AccountKey=key;EndpointSuffix=core.windows.net"
         instance = AzureBlobParquetWriter(conn_str, "test-container", "test-correlation-id")
         # Store the mock client for assertion purposes in tests
@@ -39,7 +39,7 @@ class TestAzureBlobParquetWriter:
         mock_data = b"parquet_binary_content"
 
         # Patching Path inside the module where it is used
-        with patch("azure_blob_parquet_writer.Path") as mock_path_cls:
+        with patch("BatchProcessing.src.writer.azure_blob_parquet_writer.Path") as mock_path_cls:
             mock_path_cls.return_value.exists.return_value = True
             
             with patch("builtins.open", mock_open(read_data=mock_data)) as m_open:
@@ -59,7 +59,7 @@ class TestAzureBlobParquetWriter:
 
     def test_write_raises_file_not_found_when_source_missing(self, writer, mock_logger):
         """Ensures FileNotFoundError is raised and logged when the local source is missing."""
-        with patch("azure_blob_parquet_writer.Path") as mock_path_cls:
+        with patch("BatchProcessing.src.writer.azure_blob_parquet_writer.Path") as mock_path_cls:
             mock_path_cls.return_value.exists.return_value = False
             
             with pytest.raises(FileNotFoundError, match="Source file not found"):
@@ -69,7 +69,7 @@ class TestAzureBlobParquetWriter:
     def test_write_handles_io_error_during_read(self, writer, mock_logger):
         source_str = "source.parquet"
         
-        with patch("azure_blob_parquet_writer.Path") as mock_path_cls:
+        with patch("BatchProcessing.src.writer.azure_blob_parquet_writer.Path") as mock_path_cls:
             mock_instance = mock_path_cls.return_value
             mock_instance.exists.return_value = True
             mock_instance.__str__.return_value = source_str 
@@ -85,7 +85,7 @@ class TestAzureBlobParquetWriter:
 
     def test_write_handles_azure_sdk_error(self, writer, mock_logger):
         """Verifies that Azure service-related errors are properly logged and re-raised."""
-        with patch("azure_blob_parquet_writer.Path") as mock_path_cls:
+        with patch("BatchProcessing.src.writer.azure_blob_parquet_writer.Path") as mock_path_cls:
             mock_path_cls.return_value.exists.return_value = True
             
             blob_client = writer._mock_client.get_blob_client.return_value
@@ -101,7 +101,7 @@ class TestAzureBlobParquetWriter:
 
     def test_write_handles_unexpected_exceptions(self, writer, mock_logger):
         """Ensures unforeseen runtime errors trigger a CRITICAL log with stack trace."""
-        with patch("azure_blob_parquet_writer.Path") as mock_path_cls:
+        with patch("BatchProcessing.src.writer.azure_blob_parquet_writer.Path") as mock_path_cls:
             mock_path_cls.return_value.exists.return_value = True
             
             writer._mock_client.get_blob_client.side_effect = Exception("Connection reset")

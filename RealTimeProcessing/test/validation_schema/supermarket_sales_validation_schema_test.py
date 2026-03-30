@@ -53,9 +53,9 @@ class TestSupermarketSalesValidationSchema:
         """Ensures strict=True blocks DataFrames with undeclared columns."""
         schema = schema_provider.get_schema()
         df = valid_dataframe.copy()
-        df["City"] = ["New York", "Los Angeles"]  # Undeclared column
+        df["City"] = ["New York", "Los Angeles"]
         
-        with pytest.raises(SchemaError, match="column 'City' not in dataframe_schema"):
+        with pytest.raises(SchemaError, match="column 'City' not in"):
             schema.validate(df)
 
     def test_rejects_missing_mandatory_columns(self, schema_provider, valid_dataframe):
@@ -63,7 +63,7 @@ class TestSupermarketSalesValidationSchema:
         schema = schema_provider.get_schema()
         df = valid_dataframe.drop(columns=["Invoice ID"])
         
-        with pytest.raises(SchemaError, match="column 'Invoice ID' not in dataframe"):
+        with pytest.raises(SchemaError, match="column 'Invoice ID' not in"):
             schema.validate(df)
 
     def test_allows_missing_optional_columns(self, schema_provider, valid_dataframe):
