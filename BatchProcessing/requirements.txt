@@ -2,3 +2,4 @@ pandas>=2.0.0
 numpy>=1.24.0
 pyarrow>=14.0.1
 azure-storage-blob>=12.19.0
+pandera>=0.20.0
