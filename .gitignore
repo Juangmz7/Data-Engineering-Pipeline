@@ -3,3 +3,5 @@
 __pycache__
 
 airflow/.env
+airflow/config/airflow.cfg
+airflow/logs
