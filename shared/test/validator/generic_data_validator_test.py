@@ -18,7 +18,7 @@ def mock_logger():
 @pytest.fixture
 def mock_id_gen():
     """Mocks the ID generator for consistent test metadata."""
-    with patch("generic_data_validator.IdGenerator.generate", return_value="test-local-uuid"):
+    with patch("shared.validator.generic_data_validator.IdGenerator.generate", return_value="test-local-uuid"):
         yield
 
 
@@ -65,19 +65,21 @@ class TestGenericDataValidator:
         # Arrange
         mock_column = MagicMock()
         mock_column.name = "Price"
-        
-        # Instantiate a real Pandera SchemaError to act as the side_effect
+
         simulated_error = SchemaError(
-            schema=mock_column, 
-            data=dummy_dataframe, 
-            failure_cases="Mocked failure case"
+            schema=mock_column,
+            data=dummy_dataframe,
+            message="Mocked error message"
         )
+        # Inject the property separately to satisfy the constructor signature
+        simulated_error.failure_cases = "Mocked failure case"
+
         mock_schema.validate.side_effect = simulated_error
-        
+
         # Act & Assert
         with pytest.raises(ValueError, match="Data validation failed on column 'Price'"):
             validator.validate(dummy_dataframe)
-            
+
         mock_logger.error.assert_called_once()
         args, _ = mock_logger.error.call_args
         assert "Data validation failed on column 'Price'" in args[0]
@@ -85,22 +87,19 @@ class TestGenericDataValidator:
 
     def test_validate_maps_multiple_schema_errors_to_value_error(self, validator, mock_schema, mock_logger, dummy_dataframe):
         """
-        Ensures multiple schema violations (triggered by lazy=True) 
+        Ensures multiple schema violations (triggered by lazy=True)
         are properly logged and wrapped into a standard ValueError.
         """
         # Arrange
-        simulated_errors = SchemaErrors(
-            schema=mock_schema,
-            schema_errors=[],
-            data=dummy_dataframe,
-            failure_cases="Multiple mocked failures"
-        )
+        simulated_errors = SchemaErrors.__new__(SchemaErrors)
+        simulated_errors.failure_cases = "Multiple mocked failures"
+
         mock_schema.validate.side_effect = simulated_errors
-        
+
         # Act & Assert
         with pytest.raises(ValueError, match="Data validation failed due to multiple schema violations"):
             validator.validate(dummy_dataframe)
-            
+
         mock_logger.error.assert_called_once()
         args, _ = mock_logger.error.call_args
         assert "Multiple validation failures detected" in args[0]

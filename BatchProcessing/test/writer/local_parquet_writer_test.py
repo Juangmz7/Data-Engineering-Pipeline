@@ -8,13 +8,13 @@ from BatchProcessing.src.writer.local_parquet_writer import LocalParquetWriter
 @pytest.fixture
 def mock_logger():
     """Provides a mocked pipeline logger to verify log calls."""
-    with patch("local_parquet_writer.get_pipeline_logger") as mock:
+    with patch("BatchProcessing.src.writer.local_parquet_writer.get_pipeline_logger") as mock:
         yield mock.return_value
 
 @pytest.fixture
 def mock_id_gen():
     """Mocks the ID generator to return a predictable local ID."""
-    with patch("local_parquet_writer.IdGenerator.generate", return_value="test-local-uuid"):
+    with patch("BatchProcessing.src.writer.local_parquet_writer.IdGenerator.generate", return_value="test-local-uuid"):
         yield
 
 @pytest.fixture

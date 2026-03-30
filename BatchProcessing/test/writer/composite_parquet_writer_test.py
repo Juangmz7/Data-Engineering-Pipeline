@@ -6,13 +6,13 @@ from BatchProcessing.src.writer.composite_parquet_writer import CompositeParquet
 @pytest.fixture
 def mock_logger():
     """Provides a mocked pipeline logger to verify orchestration logs."""
-    with patch("composite_parquet_writer.get_pipeline_logger") as mock:
+    with patch("BatchProcessing.src.writer.composite_parquet_writer.get_pipeline_logger") as mock:
         yield mock.return_value
 
 @pytest.fixture
 def mock_id_gen():
     """Mocks the ID generator for a consistent local ID during testing."""
-    with patch("composite_parquet_writer.IdGenerator.generate", return_value="test-composite-uuid"):
+    with patch("BatchProcessing.src.writer.composite_parquet_writer.IdGenerator.generate", return_value="test-composite-uuid"):
         yield
 
 class TestCompositeParquetWriter:

@@ -8,13 +8,13 @@ from RealTimeProcessing.src.reader import CsvReader
 @pytest.fixture
 def mock_logger():
     """Provides a mocked pipeline logger to verify observability calls."""
-    with patch("csv_reader.get_pipeline_logger") as mock:
+    with patch("shared.utils.pipeline_log_formatter.get_pipeline_logger") as mock:
         yield mock.return_value
 
 @pytest.fixture
 def mock_id_gen():
     """Mocks the ID generator for consistent test metadata."""
-    with patch("csv_reader.IdGenerator.generate", return_value="test-local-uuid"):
+    with patch("shared.utils.id_generator.IdGenerator.generate", return_value="test-local-uuid"):
         yield
 
 @pytest.fixture

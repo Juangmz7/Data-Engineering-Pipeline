@@ -8,13 +8,13 @@ from BatchProcessing.src.writer.azure_blob_parquet_writer import AzureBlobParque
 @pytest.fixture
 def mock_logger():
     """Provides a mocked pipeline logger. Patch path must match the implementation module."""
-    with patch("azure_blob_parquet_writer.get_pipeline_logger") as mock:
+    with patch("BatchProcessing.src.writer.azure_blob_parquet_writer.get_pipeline_logger") as mock:
         yield mock.return_value
 
 @pytest.fixture
 def mock_id_gen():
     """Mocks the ID generator within the specific writer module."""
-    with patch("azure_blob_parquet_writer.IdGenerator.generate", return_value="test-local-uuid"):
+    with patch("BatchProcessing.src.writer.azure_blob_parquet_writer.IdGenerator.generate", return_value="test-local-uuid"):
         yield
 
 @pytest.fixture

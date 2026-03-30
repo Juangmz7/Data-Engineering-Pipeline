@@ -14,8 +14,8 @@ from BatchProcessing.src.processor.trip_data_processor import TripDataProcessor
 @pytest.fixture
 def mock_dependencies():
     """Mocks external utilities to prevent side effects during testing."""
-    with patch("trip_data_processor.IdGenerator.generate", return_value="test-local-id"), \
-         patch("trip_data_processor.get_pipeline_logger") as mock_logger:
+    with patch("BatchProcessing.src.processor.trip_data_processor.IdGenerator.generate", return_value="test-local-id"), \
+         patch("BatchProcessing.src.processor.trip_data_processor.get_pipeline_logger") as mock_logger:
         yield mock_logger
 
 
