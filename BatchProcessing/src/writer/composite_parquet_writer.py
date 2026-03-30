@@ -1,5 +1,5 @@
-from util.id_generator import IdGenerator
-from util.pipeline_log_formatter import get_pipeline_logger
+from shared.util.id_generator import IdGenerator
+from shared.util.pipeline_log_formatter import get_pipeline_logger
 from shared.contracts.data_writer import DataWriter
 
 """

@@ -3,8 +3,8 @@ import pandera as pa
 from pandera.errors import SchemaError
 
 from shared.contracts.data_validator import DataValidator
-from util.id_generator import IdGenerator
-from util.pipeline_log_formatter import get_pipeline_logger
+from shared.util.id_generator import IdGenerator
+from shared.util.pipeline_log_formatter import get_pipeline_logger
 
 class GenericDataValidator(DataValidator):
     def __init__(self, correlation_id: str, dataframe_schema: pa.DataFrameSchema) -> None:

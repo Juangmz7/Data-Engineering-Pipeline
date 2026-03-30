@@ -1,7 +1,7 @@
 import pytest
 from unittest.mock import patch, MagicMock
 
-from composite_parquet_writer import CompositeParquetWriter
+from BatchProcessing.src.writer.composite_parquet_writer import CompositeParquetWriter
 
 @pytest.fixture
 def mock_logger():

@@ -3,7 +3,7 @@ import shutil
 from unittest.mock import patch, MagicMock
 from pathlib import Path
 
-from local_parquet_writer import LocalParquetWriter
+from BatchProcessing.src.writer.local_parquet_writer import LocalParquetWriter
 
 @pytest.fixture
 def mock_logger():

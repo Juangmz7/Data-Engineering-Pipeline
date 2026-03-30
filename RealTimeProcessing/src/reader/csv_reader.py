@@ -2,8 +2,8 @@ from pathlib import Path
 import pandas as pd
 
 from shared.contracts.data_reader import DataReader
-from util.id_generator import IdGenerator
-from util.pipeline_log_formatter import get_pipeline_logger
+from shared.util.id_generator import IdGenerator
+from shared.util.pipeline_log_formatter import get_pipeline_logger
 
 class CsvReader(DataReader):
     def __init__(self, correlation_id: str) -> None:

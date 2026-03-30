@@ -4,14 +4,14 @@ import pandera as pa
 from pandera.errors import SchemaError, SchemaErrors
 from unittest.mock import patch, MagicMock
 
-from validator.generic_data_validator import GenericDataValidator
+from shared.validator.generic_data_validator import GenericDataValidator
 
 
 
 @pytest.fixture
 def mock_logger():
     """Provides a mocked pipeline logger to verify observability calls."""
-    with patch("generic_data_validator.get_pipeline_logger") as mock:
+    with patch("shared.validator.generic_data_validator.get_pipeline_logger") as mock:
         yield mock.return_value
 
 

@@ -1,9 +1,9 @@
 import shutil
 from zipfile import Path
 
-from ....shared.contracts.data_writer import DataWriter
-from ....shared.util.pipeline_log_formatter import get_pipeline_logger
-from ....shared.util.id_generator import IdGenerator
+from shared.contracts.data_writer import DataWriter
+from shared.util.pipeline_log_formatter import get_pipeline_logger
+from shared.util.id_generator import IdGenerator
 
 class LocalParquetWriter(DataWriter):
     def __init__(self, correlation_id: str) -> None:

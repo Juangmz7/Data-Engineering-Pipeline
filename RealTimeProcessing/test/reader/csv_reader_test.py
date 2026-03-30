@@ -3,7 +3,7 @@ import pandas as pd
 from unittest.mock import patch, MagicMock
 from pathlib import Path
 
-from src.reader.csv_reader import CsvReader
+from RealTimeProcessing.src.reader import CsvReader
 
 @pytest.fixture
 def mock_logger():

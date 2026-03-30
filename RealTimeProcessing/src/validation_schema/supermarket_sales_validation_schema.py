@@ -1,7 +1,7 @@
 import pandera as pa
 from pandera import Column, Check
 
-from validation_schema import DataFrameSchema
+from shared.contracts.validation_schema import DataFrameSchema
 
 class SupermarketSalesValidationSchema(DataFrameSchema):
 

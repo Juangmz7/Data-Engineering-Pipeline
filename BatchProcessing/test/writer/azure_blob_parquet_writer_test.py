@@ -3,7 +3,7 @@ from unittest.mock import patch, MagicMock, mock_open
 from azure.core.exceptions import AzureError
 from pathlib import Path
 
-from azure_blob_parquet_writer import AzureBlobParquetWriter
+from BatchProcessing.src.writer.azure_blob_parquet_writer import AzureBlobParquetWriter
 
 @pytest.fixture
 def mock_logger():
