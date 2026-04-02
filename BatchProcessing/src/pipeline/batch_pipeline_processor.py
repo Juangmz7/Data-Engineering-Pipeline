@@ -8,7 +8,7 @@ from implementations.composite_writer import CompositeWriter
 
 class BatchPipelineProcessor(PipelineProcessor):
     
-    def run_reader(self, execution_date: str, output_path: str) -> str:
+    def run_reader(self, execution_date: str, source_path: str, output_path: str) -> str:
         # TODO: Instantiate and invoke the Reader contract.
         return output_path
 
@@ -24,7 +24,3 @@ class BatchPipelineProcessor(PipelineProcessor):
         
         processed_df.to_parquet(output_path, index=False)
         return output_path
-
-    def run_validator_backup(self, input_path: str) -> str:
-        # TODO: Instantiate and invoke the secondary/backup Validator contract.
-        return input_path
