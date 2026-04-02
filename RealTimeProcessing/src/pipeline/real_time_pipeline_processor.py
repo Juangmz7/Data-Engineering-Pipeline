@@ -2,8 +2,6 @@ import pandas as pd
 from typing import Type
 
 from RealTimeProcessing.src.reader.csv_reader import CsvReader
-from RealTimeProcessing.src.validation_schema.supermarket_sales_validation_schema import SupermarketSalesValidationSchema
-from RealTimeProcessing.src.validation_schema.supermarket_sales_backup_validatation import SupermarketSalesBackupValidationSchema
 from shared.contracts.pipeline_processor import PipelineProcessor
 from shared.validator.generic_data_validator import GenericDataValidator
 from shared.contracts.validation_schema import DataFrameSchema
