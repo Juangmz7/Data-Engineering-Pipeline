@@ -19,14 +19,12 @@ class GenericDataValidator(DataValidator):
         self._schema = dataframe_schema
         self._logger.info("SupermarketSalesValidator initialized with Pandera schema.")
 
-    def validate(self, df: pd.DataFrame) -> bool:
+    def validate(self, df: pd.DataFrame) -> None:
         self._logger.info(f"Starting validation for DataFrame with {len(df)} rows.")
         
         try:
             self._schema.validate(df, lazy=True)
-            self._logger.info("DataFrame successfully passed schema validation.")
-            return True
-            
+            self._logger.info("DataFrame successfully passed schema validation.")            
         except SchemaError as e:
             error_msg = f"Data validation failed on column '{e.schema.name}': {e.failure_cases}"
             self._logger.error(error_msg)

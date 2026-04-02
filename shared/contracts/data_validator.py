@@ -7,7 +7,7 @@ import pandera as pa
 class DataValidator(ABC):
 
     @abstractmethod
-    def validate(self, df: pd.DataFrame, dataset_schema: pa.DataFrameSchema) -> bool:
+    def validate(self, df: pd.DataFrame, dataset_schema: pa.DataFrameSchema) -> None:
         """
           Validates the DataFrame against the predefined schema.
         """
