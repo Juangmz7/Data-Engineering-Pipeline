@@ -4,7 +4,7 @@ from typing import List
 from shared.contracts.data_writer import DataWriter
 from shared.contracts.pipeline_processor import PipelineProcessor
 from BatchProcessing.src.processor.trip_data_processor import TripDataProcessor
-from implementations.composite_parquet_writer import CompositeWriter
+from implementations.composite_writer import CompositeWriter
 
 class BatchPipelineProcessor(PipelineProcessor):
     

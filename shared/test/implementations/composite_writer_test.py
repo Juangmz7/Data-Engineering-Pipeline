@@ -1,18 +1,18 @@
 import pytest
 from unittest.mock import patch, MagicMock
 
-from BatchProcessing.src.writer.composite_parquet_writer import CompositeParquetWriter
+from implementations.composite_writer import CompositeWriter
 
 @pytest.fixture
 def mock_logger():
     """Provides a mocked pipeline logger to verify orchestration logs."""
-    with patch("BatchProcessing.src.writer.composite_parquet_writer.get_pipeline_logger") as mock:
+    with patch("shared.util.pipeline_log_formatter.get_pipeline_logger") as mock:
         yield mock.return_value
 
 @pytest.fixture
 def mock_id_gen():
     """Mocks the ID generator for a consistent local ID during testing."""
-    with patch("BatchProcessing.src.writer.composite_parquet_writer.IdGenerator.generate", return_value="test-composite-uuid"):
+    with patch("shared.util.id_generator.IdGenerator.generate", return_value="test-composite-uuid"):
         yield
 
 class TestCompositeParquetWriter:
@@ -23,7 +23,7 @@ class TestCompositeParquetWriter:
         mock_writers = [MagicMock(), MagicMock()]
         
         # Act
-        CompositeParquetWriter(writers=mock_writers, correlation_id="test-corr")
+        CompositeWriter(writers=mock_writers, correlation_id="test-corr")
         
         # Assert
         mock_logger.info.assert_any_call("CompositeParquetWriter initialized with 2 underlying writers.")
@@ -33,7 +33,7 @@ class TestCompositeParquetWriter:
         # Arrange
         writer_a = MagicMock()
         writer_b = MagicMock()
-        composite = CompositeParquetWriter(writers=[writer_a, writer_b], correlation_id="test-corr")
+        composite = CompositeWriter(writers=[writer_a, writer_b], correlation_id="test-corr")
         
         source = "source.parquet"
         destination = "destination.parquet"
@@ -63,7 +63,7 @@ class TestCompositeParquetWriter:
         # Mocking a failure in the second writer
         writer_fail.write.side_effect = RuntimeError("Storage connection failed")
         
-        composite = CompositeParquetWriter(
+        composite = CompositeWriter(
             writers=[writer_success, writer_fail, writer_unreachable], 
             correlation_id="test-corr"
         )
@@ -81,7 +81,7 @@ class TestCompositeParquetWriter:
     def test_write_handles_empty_writer_list(self, mock_logger, mock_id_gen):
         """Ensures the composite handles an empty writer list gracefully without errors."""
         # Arrange
-        composite = CompositeParquetWriter(writers=[], correlation_id="test-corr")
+        composite = CompositeWriter(writers=[], correlation_id="test-corr")
         
         # Act
         composite.write("src", "dst")
