@@ -3,9 +3,9 @@ from shared.util.pipeline_log_formatter import get_pipeline_logger
 from shared.contracts.data_writer import DataWriter
 
 """
-    ParquetWriter implementation that delegates the write operation to multiple underlying ParquetWriter instances.
+    Writer implementation that delegates the write operation to multiple underlying Writer instances.
 """
-class CompositeParquetWriter(DataWriter):
+class CompositeWriter(DataWriter):
     def __init__(self, writers: list[DataWriter], correlation_id: str) -> None:
         self._writers = writers
         self._correlation_id = correlation_id
@@ -15,7 +15,7 @@ class CompositeParquetWriter(DataWriter):
             correlation_id=self._correlation_id,
             local_id=self._local_id
         )
-        self._logger.info(f"CompositeParquetWriter initialized with {len(self._writers)} underlying writers.")
+        self._logger.info(f"CompositeWriter initialized with {len(self._writers)} underlying writers.")
 
     def write(self, source_path: str, destination: str) -> None:
         self._logger.info(f"Starting composite write operation from {source_path} to destination: {destination}")

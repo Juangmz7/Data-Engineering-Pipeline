@@ -1,4 +1,8 @@
 .vscode
 .pytest_cache
 __pycache__
+
+airflow/.env
+airflow/config/airflow.cfg
+airflow/logs
 .venv
