@@ -6,3 +6,5 @@ airflow/.env
 airflow/config/airflow.cfg
 airflow/logs
 .venv
+**/.env
+.env
