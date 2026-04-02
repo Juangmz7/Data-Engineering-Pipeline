@@ -1,5 +1,6 @@
+import uuid
 from datetime import datetime, timedelta
-from typing import List
+from typing import List, Type
 
 from airflow import DAG
 from airflow.operators.python import PythonOperator
@@ -10,27 +11,23 @@ from BatchProcessing.src.writer.local_parquet_writer import LocalParquetWriter
 from BatchProcessing.src.writer.azure_blob_parquet_writer import AzureBlobParquetWriter
 from shared.contracts.data_writer import DataWriter
 
-
+from shared.contracts.pipeline_processor import PipelineProcessor
 from BatchProcessing.src.pipeline.batch_pipeline_processor import BatchPipelineProcessor
 
-from pipeline_processor import PipelineProcessor
-from shared.implementations.pipeline_dag_executions import (
-    execute_reader,
-    execute_validator,
-    execute_processor,
-    execute_validator_backup,
-)
+from shared.implementations.pipeline_dag_executions import execute_processor
 
 
-def _execute_writer(source_path: str,
-                   final_destination: str,
-                   correlation_id: str) -> None:
+def _execute_writer(
+    processor_class: Type[PipelineProcessor],
+    source_path: str,
+    final_destination: str,
+    correlation_id: str
+) -> None:
     # Retrieve configuration and secrets from Airflow backend securely
     azure_connection = BaseHook.get_connection('azure_blob_default')
     azure_conn_str = azure_connection.get_password() 
     azure_container = Variable.get("azure_blob_container_name", default_var="trip-data-processed")
 
-    # Instantiate concrete writers
     local_writer = LocalParquetWriter(correlation_id=correlation_id)
     azure_writer = AzureBlobParquetWriter(
         connection_string=azure_conn_str,
@@ -40,8 +37,7 @@ def _execute_writer(source_path: str,
 
     injected_writers: List[DataWriter] = [local_writer, azure_writer]
 
-    # Instantiate the processor and inject dependencies
-    processor: PipelineProcessor = BatchPipelineProcessor()
+    processor: PipelineProcessor = processor_class()
     processor.run_writer(
         source_path=source_path, 
         final_destination=final_destination, 
@@ -61,7 +57,7 @@ default_args = {
 with DAG(
     dag_id='trip_data_processing_pipeline',
     default_args=default_args,
-    description='Daily orchestration of the Trip Data batch pipeline with DI',
+    description='Daily orchestration of the Trip Data batch pipeline with DI and Quarantine',
     schedule_interval='@daily',
     start_date=datetime(2026, 4, 1),
     catchup=False,
@@ -71,26 +67,16 @@ with DAG(
     BASE_STAGING_PATH = "/tmp/staging/trip_data/{{ ds }}"
     FINAL_DESTINATION = "processed/{{ ds }}/trip_data.parquet" 
     
+    QUARANTINE_PATH_RAW = "/data/quarantine/trip_data/{{ ds }}/{{ run_id }}_raw_invalid.parquet"
+    QUARANTINE_PATH_PROCESSED = "/data/quarantine/trip_data/{{ ds }}/{{ run_id }}_processed_invalid.parquet"
+    
     DAG_CORRELATION_ID = "{{ run_id }}"
 
-    task_reader = PythonOperator(
-        task_id='read_data',
-        python_callable=execute_reader,
-        op_kwargs={
-            'processor_class': BatchPipelineProcessor,  
-            'execution_date': '{{ ds }}',
-            'output_path': f"{BASE_STAGING_PATH}/raw.parquet",
-        },
-    )
+    # TODO: Implement task_reader (PythonOperator using execute_reader)
 
-    task_validator = PythonOperator(
-        task_id='validate_raw_data',
-        python_callable=execute_validator,
-        op_kwargs={
-            'processor_class': BatchPipelineProcessor,
-            'input_path': f"{BASE_STAGING_PATH}/raw.parquet",
-        },
-    )
+    # TODO: Implement task_validator (PythonOperator using execute_validator)
+    # Ensure it uses QUARANTINE_PATH_RAW for routing failed contracts
+    # TODO: Nil metele el esquema de validacion como en el DAG del realtime
 
     task_processor = PythonOperator(
         task_id='process_data',
@@ -103,14 +89,9 @@ with DAG(
         },
     )
 
-    task_validator_backup = PythonOperator(
-        task_id='validate_processed_data',
-        python_callable=execute_validator_backup,
-        op_kwargs={
-            'processor_class': BatchPipelineProcessor,
-            'input_path': f"{BASE_STAGING_PATH}/processed.parquet",
-        },
-    )
+    # TODO: Implement task_validator_backup (PythonOperator using execute_validator)
+    # Ensure it uses QUARANTINE_PATH_PROCESSED for routing failed contracts
+    # TODO: Nil metele el esquema de validacion como en el DAG del realtime
 
     task_writer = PythonOperator(
         task_id='write_data',
@@ -123,4 +104,4 @@ with DAG(
         },
     )
 
-    task_reader >> task_validator >> task_processor >> task_validator_backup >> task_writer
+    # task_reader >> task_validator >> task_processor >> task_validator_backup >> task_writer
