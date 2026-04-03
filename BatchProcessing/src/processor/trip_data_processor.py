@@ -21,7 +21,7 @@ class TripDataProcessor(DataProcessor):
         
         self._optional_columns: List[str] = [
             'tip_amount', 'tolls_amount', 'extra', 'airport_fee',
-            'congestion_surcharge', 'cbd_congestion_fee'
+            'congestion_surcharge', 'cbd_congestion_fee', 'RatecodeID'
         ]
 
         # Define boundaries for time of day categorization

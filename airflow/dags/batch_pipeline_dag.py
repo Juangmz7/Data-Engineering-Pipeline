@@ -12,8 +12,10 @@ from shared.contracts.data_writer import DataWriter
 
 from shared.contracts.pipeline_processor import PipelineProcessor
 from BatchProcessing.src.pipeline.batch_pipeline_processor import BatchPipelineProcessor
+from BatchProcessing.src.validation_schema.yellow_taxi_trip_validation_schema import YellowTaxiTripValidationSchema
+from BatchProcessing.src.validation_schema.yellow_taxi_trip_backup_validation_schema import YellowTaxiTripBackupValidationSchema
 
-from shared.implementations.pipeline_dag_executions import execute_processor
+from shared.implementations.pipeline_dag_executions import execute_processor, execute_reader, execute_validator
 
 
 def _execute_writer(
@@ -71,11 +73,27 @@ with DAG(
     
     DAG_CORRELATION_ID = "{{ run_id }}"
 
-    # TODO: Implement task_reader (PythonOperator using execute_reader)
+    task_reader = PythonOperator(
+        task_id='read_batch_data',
+        python_callable=execute_reader,
+        op_kwargs={
+            'processor_class': BatchPipelineProcessor,
+            'execution_date': '{{ ds }}',
+            'output_path': f"{BASE_STAGING_PATH}/raw.parquet",
+        },
+    )
 
-    # TODO: Implement task_validator (PythonOperator using execute_validator)
-    # Ensure it uses QUARANTINE_PATH_RAW for routing failed contracts
-    # TODO: Nil metele el esquema de validacion como en el DAG del realtime
+    task_validator = PythonOperator(
+        task_id='validate_raw_schema',
+        python_callable=execute_validator,
+        op_kwargs={
+            'processor_class': BatchPipelineProcessor,
+            'schema_class': YellowTaxiTripValidationSchema,
+            'input_path': f"{BASE_STAGING_PATH}/raw.parquet",
+            'quarantine_path': QUARANTINE_PATH_RAW,
+            'correlation_id': DAG_CORRELATION_ID,
+        },
+    )
 
     task_processor = PythonOperator(
         task_id='process_data',
@@ -88,9 +106,17 @@ with DAG(
         },
     )
 
-    # TODO: Implement task_validator_backup (PythonOperator using execute_validator)
-    # Ensure it uses QUARANTINE_PATH_PROCESSED for routing failed contracts
-    # TODO: Nil metele el esquema de validacion como en el DAG del realtime
+    task_validator_backup = PythonOperator(
+        task_id='validate_processed_schema',
+        python_callable=execute_validator,
+        op_kwargs={
+            'processor_class': BatchPipelineProcessor,
+            'schema_class': YellowTaxiTripBackupValidationSchema,
+            'input_path': f"{BASE_STAGING_PATH}/processed.parquet",
+            'quarantine_path': QUARANTINE_PATH_PROCESSED,
+            'correlation_id': DAG_CORRELATION_ID,
+        },
+    )
 
     task_writer = PythonOperator(
         task_id='write_data',
@@ -103,4 +129,4 @@ with DAG(
         },
     )
 
-    # task_reader >> task_validator >> task_processor >> task_validator_backup >> task_writer
+    task_reader >> task_validator >> task_processor >> task_validator_backup >> task_writer
