@@ -69,6 +69,7 @@ with DAG(
     tags=['trip_data', 'batch', 'etl'],
 ) as dag:
 
+    LANDING_ZONE_FILE = '/opt/airflow/BatchProcessing/data/yellow_tripdata_2025-01.parquet'
     BASE_STAGING_PATH = "/opt/airflow/data/staging/trip_data/{{ ds }}"
     FINAL_DESTINATION = "processed/{{ ds }}/trip_data.parquet" 
     
@@ -84,7 +85,7 @@ with DAG(
             'processor_class': BatchPipelineProcessor,
             'correlation_id': DAG_CORRELATION_ID,
             'output_path': f"{BASE_STAGING_PATH}/raw.parquet",
-            'source_path': '/opt/airflow/BatchProcessing/data/yellow_tripdata_2025-01.parquet',
+            'source_path': LANDING_ZONE_FILE,
         },
     )
 
