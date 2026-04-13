@@ -71,7 +71,7 @@ with DAG(
 
     LANDING_ZONE_FILE = '/opt/airflow/BatchProcessing/data/yellow_tripdata_2025-01.parquet'
     BASE_STAGING_PATH = "/opt/airflow/data/staging/trip_data/{{ ds }}"
-    FINAL_DESTINATION = "processed/{{ ds }}/trip_data.parquet" 
+    FINAL_DESTINATION = "/opt/airflow/data/processed/{{ ds }}/trip_data.parquet" 
     
     QUARANTINE_PATH_RAW = "/opt/airflow/quarantine/trip_data/{{ ds }}/{{ run_id }}_raw_invalid.parquet"
     QUARANTINE_PATH_PROCESSED = "/opt/airflow/quarantine/trip_data/{{ ds }}/{{ run_id }}_processed_invalid.parquet"
