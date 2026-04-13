@@ -2,7 +2,7 @@ from abc import ABC, abstractmethod
 from typing import List
 
 from shared.contracts.data_writer import DataWriter
-from implementations.composite_writer import CompositeWriter
+from shared.implementations.composite_writer import CompositeWriter
 
 class PipelineProcessor(ABC):
     
