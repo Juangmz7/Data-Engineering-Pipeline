@@ -1,11 +1,13 @@
 from datetime import datetime, timedelta
-from typing import List, Type
+from typing import Type
 
 from airflow import DAG
 from airflow.models import Variable
 from airflow.hooks.base import BaseHook
 from airflow.operators.python import PythonOperator
 from airflow.sensors.filesystem import FileSensor
+from airflow.operators.bash import BashOperator
+
 
 from RealTimeProcessing.src.pipeline.real_time_pipeline_processor import RealTimePipelineProcessor
 from RealTimeProcessing.src.validation_schema.supermarket_sales_validation_schema import SupermarketSalesValidationSchema
@@ -70,13 +72,14 @@ with DAG(
     tags=['sales', 'near_real_time', 'etl'],
 ) as dag:
 
-    LANDING_ZONE_FILE = "/data/landing/supermarket_sales/sales_data.csv"
-    STAGING_RAW_PATH = "/tmp/staging/supermarket_sales/{{ run_id }}/raw.csv"
-    STAGING_PROCESSED_PATH = "/tmp/staging/supermarket_sales/{{ run_id }}/processed.csv"
-    FINAL_DESTINATION_PATH = "/data/processed/supermarket_sales/{{ ds }}/{{ run_id }}_final.csv"
+    # El file en nuestro windows iria en RealTimeProcessing/data/sales_data.csv, pero en Airflow lo vamos a montar aqui
+    LANDING_ZONE_FILE = "/opt/airflow/RealTimeProcessing/data/sales_data.csv"
     
-    QUARANTINE_PATH_RAW = "/data/quarantine/supermarket_sales/{{ ds }}/{{ run_id }}_raw_invalid.csv"
-    QUARANTINE_PATH_PROCESSED = "/data/quarantine/supermarket_sales/{{ ds }}/{{ run_id }}_processed_invalid.csv"
+    BASE_STAGING_PATH = "/opt/airflow/data/staging/supermarket_sales/{{ ds }}"
+    FINAL_DESTINATION_PATH = "processed/{{ ds }}/supermarket_sales.csv"
+    
+    QUARANTINE_PATH_RAW = "/opt/airflow/quarantine/supermarket_sales/{{ ds }}/{{ run_id }}_raw_invalid.csv"
+    QUARANTINE_PATH_PROCESSED = "/opt/airflow/quarantine/supermarket_sales/{{ ds }}/{{ run_id }}_processed_invalid.csv"
     
     DAG_CORRELATION_ID = "{{ run_id }}"
 
@@ -94,7 +97,7 @@ with DAG(
         op_kwargs={
             'processor_class': RealTimePipelineProcessor,
             'source_path': LANDING_ZONE_FILE,
-            'output_path': STAGING_RAW_PATH,
+            'output_path': f"{BASE_STAGING_PATH}/raw.csv",
             'correlation_id': DAG_CORRELATION_ID,
         },
     )
@@ -105,7 +108,7 @@ with DAG(
         op_kwargs={
             'processor_class': RealTimePipelineProcessor,
             'schema_class': SupermarketSalesValidationSchema,
-            'input_path': STAGING_RAW_PATH,
+            'input_path': f"{BASE_STAGING_PATH}/raw.csv",
             'quarantine_path': QUARANTINE_PATH_RAW,
             'correlation_id': DAG_CORRELATION_ID,
         },
@@ -116,8 +119,8 @@ with DAG(
         python_callable=execute_processor,
         op_kwargs={
             'processor_class': RealTimePipelineProcessor,
-            'input_path': STAGING_RAW_PATH,
-            'output_path': STAGING_PROCESSED_PATH,
+            'input_path': f"{BASE_STAGING_PATH}/raw.csv",
+            'output_path': f"{BASE_STAGING_PATH}/processed.csv",
             'correlation_id': DAG_CORRELATION_ID,
         },
     )
@@ -128,7 +131,7 @@ with DAG(
         op_kwargs={
             'processor_class': RealTimePipelineProcessor,
             'schema_class': SupermarketSalesBackupValidationSchema,
-            'input_path': STAGING_PROCESSED_PATH,
+            'input_path': f"{BASE_STAGING_PATH}/processed.csv",
             'quarantine_path': QUARANTINE_PATH_PROCESSED,
             'correlation_id': DAG_CORRELATION_ID,
         },
@@ -139,10 +142,16 @@ with DAG(
         python_callable=_execute_writer,
         op_kwargs={
             'processor_class': RealTimePipelineProcessor,
-            'source_path': STAGING_PROCESSED_PATH,
+            'source_path': f"{BASE_STAGING_PATH}/processed.csv",
             'final_destination': FINAL_DESTINATION_PATH,
             'correlation_id': DAG_CORRELATION_ID,
         },
     )
 
-    # sensor_incoming_file >> task_reader >> task_validator >> task_processor >> task_validator_backup >> task_writer
+    cleanup_staging = BashOperator(
+        task_id='cleanup_staging_files',
+        bash_command=f'rm -rf {BASE_STAGING_PATH}/*',
+        trigger_rule='all_success' 
+    )
+
+    # sensor_incoming_file >> task_reader >> task_validator >> task_processor >> task_validator_backup >> task_writer >> cleanup_staging
