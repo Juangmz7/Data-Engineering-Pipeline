@@ -42,6 +42,7 @@ class TripDataProcessor(DataProcessor):
         self._logger.info("Applying business logic transformations.")
         
         try:
+            df = self._remove_duplicates(df)
             df = self._process_optional_columns(df)
             df = self._drop_unnecessary_columns(df)
             
@@ -66,6 +67,15 @@ class TripDataProcessor(DataProcessor):
             raise RuntimeError(f"Unexpected error in Processor: {e}") from e
         
         return df
+    
+    def _remove_duplicates(self, df: pd.DataFrame) -> pd.DataFrame:
+        self._logger.info("Removing duplicate rows...")
+        prev_count = len(df)
+
+        df = df.drop_duplicates()
+
+        self._logger.info(f"Dropping {prev_count - len(df)} rows.... Remaining {len(df)}.")
+        return df
 
     def _process_optional_columns(self, df: pd.DataFrame) -> pd.DataFrame:
         self._logger.info("Processing optional columns if present.")
@@ -81,8 +91,14 @@ class TripDataProcessor(DataProcessor):
     
     def _drop_unnecessary_columns(self, df: pd.DataFrame) -> pd.DataFrame:
         self._logger.info("Dropping requested columns (VendorID, store_and_fwd_flag, RatecodeID).")
+        prev_count = len(df)
+
         columns_to_drop = ['VendorID', 'store_and_fwd_flag', 'RatecodeID']
-        return df.drop(columns=columns_to_drop, errors='ignore')
+        df = df.drop(columns=columns_to_drop, errors='ignore')
+
+        self._logger.info(f"Dropping {prev_count - len(df.columns)} columns.... Remaining {len(df.columns)}.")
+
+        return df
 
     def _calculate_trip_duration(self, df: pd.DataFrame) -> pd.DataFrame:
         df['trip_duration_minutes'] = (
