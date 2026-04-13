@@ -3,6 +3,7 @@ from typing import List, Type
 
 from airflow import DAG
 from airflow.operators.python import PythonOperator
+from airflow.operators.bash import BashOperator
 from airflow.models import Variable
 from airflow.hooks.base import BaseHook
 
@@ -71,8 +72,8 @@ with DAG(
     BASE_STAGING_PATH = "/opt/airflow/data/staging/trip_data/{{ ds }}"
     FINAL_DESTINATION = "processed/{{ ds }}/trip_data.parquet" 
     
-    QUARANTINE_PATH_RAW = "/opt/airflow/quarantine/trip_data/{{ ds }}/{{ run_id | replace(':', '-') }}_raw_invalid.parquet"
-    QUARANTINE_PATH_PROCESSED = "/opt/airflow/quarantine/trip_data/{{ ds }}/{{ run_id | replace(':', '-') }}_processed_invalid.parquet"
+    QUARANTINE_PATH_RAW = "/opt/airflow/quarantine/trip_data/{{ ds }}/{{ run_id }}_raw_invalid.parquet"
+    QUARANTINE_PATH_PROCESSED = "/opt/airflow/quarantine/trip_data/{{ ds }}/{{ run_id }}_processed_invalid.parquet"
     
     DAG_CORRELATION_ID = "{{ run_id }}"
 
@@ -133,4 +134,10 @@ with DAG(
         },
     )
 
-    task_reader >> task_validator >> task_processor >> task_validator_backup >> task_writer
+    cleanup_staging = BashOperator(
+        task_id='cleanup_staging_files',
+        bash_command='rm -rf {BASE_STAGING_PATH}/*',
+        trigger_rule='all_success' 
+    )
+
+    task_reader >> task_validator >> task_processor >> task_validator_backup >> task_writer >> cleanup_staging
