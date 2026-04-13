@@ -1,7 +1,6 @@
 import pandas as pd
 from typing import Type
 
-from shared.contracts.data_writer import DataWriter
 from shared.contracts.pipeline_processor import PipelineProcessor
 from shared.contracts.validation_schema import DataFrameSchema
 from BatchProcessing.src.processor.trip_data_processor import TripDataProcessor
@@ -17,6 +16,9 @@ class BatchPipelineProcessor(PipelineProcessor):
                 ) -> str:
         reader = ParquetReader(correlation_id=correlation_id)
         df = reader.read(source_path)
+
+        self.create_output_dir(output_path)
+
         df.to_parquet(output_path, index=False)
         return output_path
 
@@ -34,6 +36,8 @@ class BatchPipelineProcessor(PipelineProcessor):
         
         processor = TripDataProcessor(correlation_id=correlation_id)
         processed_df = processor.process(df)
+
+        self.create_output_dir(output_path)
         
         processed_df.to_parquet(output_path, index=False)
         return output_path

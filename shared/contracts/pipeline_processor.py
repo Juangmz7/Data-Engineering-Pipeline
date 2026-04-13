@@ -1,4 +1,6 @@
 from abc import ABC, abstractmethod
+import os
+from pathlib import Path
 from typing import List
 
 from shared.contracts.data_writer import DataWriter
@@ -21,6 +23,11 @@ class PipelineProcessor(ABC):
     @abstractmethod
     def run_processor(self, input_path: str, output_path: str, correlation_id: str) -> str:
         pass
+
+    def create_output_dir(self, output_path: str) -> None:
+        if not os.path.exists(output_path): 
+            output_path_dir = Path(output_path).parent
+            output_path_dir.mkdir(parents=True, exist_ok=True)
 
     def run_writer(self, 
                    source_path: str, 
