@@ -1,4 +1,5 @@
 import logging
+import sys
 
 class PipelineLogFormatter(logging.Formatter):
     """
@@ -19,7 +20,7 @@ def get_pipeline_logger(class_name: str, correlation_id: str, local_id: str) -> 
     
     # Prevent adding multiple handlers if the logger already exists in memory
     if not logger.handlers:
-        handler = logging.StreamHandler()
+        handler = logging.StreamHandler(sys.stdout)
         handler.setFormatter(PipelineLogFormatter())
         logger.addHandler(handler)
         logger.setLevel(logging.INFO)
