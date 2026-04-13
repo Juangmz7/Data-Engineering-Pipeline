@@ -8,9 +8,9 @@ from shared.contracts.pipeline_processor import PipelineProcessor
 from shared.contracts.validation_schema import DataFrameSchema
 
 
-def execute_reader(processor_class: Type[PipelineProcessor], execution_date: str, output_path: str) -> str:
+def execute_reader(processor_class: Type[PipelineProcessor], execution_date: str, source_path: str, output_path: str) -> str:
     processor: PipelineProcessor = processor_class()
-    return processor.run_reader(execution_date, output_path)
+    return processor.run_reader(execution_date, source_path, output_path)
 
 
 def execute_validator(
