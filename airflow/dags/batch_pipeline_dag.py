@@ -68,11 +68,11 @@ with DAG(
     tags=['trip_data', 'batch', 'etl'],
 ) as dag:
 
-    BASE_STAGING_PATH = "/tmp/staging/trip_data/{{ ds }}"
+    BASE_STAGING_PATH = "/opt/airflow/data/staging/trip_data/{{ ds }}"
     FINAL_DESTINATION = "processed/{{ ds }}/trip_data.parquet" 
     
-    QUARANTINE_PATH_RAW = "/data/quarantine/trip_data/{{ ds }}/{{ run_id }}_raw_invalid.parquet"
-    QUARANTINE_PATH_PROCESSED = "/data/quarantine/trip_data/{{ ds }}/{{ run_id }}_processed_invalid.parquet"
+    QUARANTINE_PATH_RAW = "/opt/airflow/quarantine/trip_data/{{ ds }}/{{ run_id | replace(':', '-') }}_raw_invalid.parquet"
+    QUARANTINE_PATH_PROCESSED = "/opt/airflow/quarantine/trip_data/{{ ds }}/{{ run_id | replace(':', '-') }}_processed_invalid.parquet"
     
     DAG_CORRELATION_ID = "{{ run_id }}"
 
@@ -82,8 +82,8 @@ with DAG(
         op_kwargs={
             'processor_class': BatchPipelineProcessor,
             'correlation_id': DAG_CORRELATION_ID,
-            'source_path': '/opt/airflow/BatchProcessing/data/yellow_tripdata_2025-01.parquet',
             'output_path': f"{BASE_STAGING_PATH}/raw.parquet",
+            'source_path': '/opt/airflow/BatchProcessing/data/yellow_tripdata_2025-01.parquet',
         },
     )
 

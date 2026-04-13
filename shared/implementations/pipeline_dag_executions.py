@@ -1,9 +1,8 @@
+import os
 import shutil
 from typing import Type
 
-from airflow.hooks.base import BaseHook
-from anyio import Path
-
+from airflow.exceptions import AirflowSkipException
 from shared.contracts.pipeline_processor import PipelineProcessor
 from shared.contracts.validation_schema import DataFrameSchema
 
@@ -31,7 +30,12 @@ def execute_validator(
     try:
         return processor.run_validator(input_path, schema_class, correlation_id)
     except ValueError as e:
-        Path(quarantine_path).parent.mkdir(parents=True, exist_ok=True)
+        target_dir = os.path.dirname(quarantine_path)
+        os.makedirs(target_dir, exist_ok=True)
+        
+        if not os.path.exists(input_path):
+            raise FileNotFoundError(f"Input path not found: {input_path}")
+            
         shutil.move(input_path, quarantine_path)
         
         raise AirflowSkipException(
