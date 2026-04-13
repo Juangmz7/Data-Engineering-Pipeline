@@ -6,7 +6,6 @@ from shared.contracts.pipeline_processor import PipelineProcessor
 from shared.contracts.validation_schema import DataFrameSchema
 from BatchProcessing.src.processor.trip_data_processor import TripDataProcessor
 from BatchProcessing.src.reader.parquet_reader import ParquetReader
-from implementations.composite_writer import CompositeWriter
 from shared.validator.generic_data_validator import GenericDataValidator
 
 class BatchPipelineProcessor(PipelineProcessor):
