@@ -136,7 +136,7 @@ with DAG(
 
     cleanup_staging = BashOperator(
         task_id='cleanup_staging_files',
-        bash_command='rm -rf {BASE_STAGING_PATH}/*',
+        bash_command=f'rm -rf {BASE_STAGING_PATH}/*',
         trigger_rule='all_success' 
     )
 
