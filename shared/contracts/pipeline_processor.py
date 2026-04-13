@@ -7,11 +7,15 @@ from shared.implementations.composite_writer import CompositeWriter
 class PipelineProcessor(ABC):
     
     @abstractmethod
-    def run_reader(self, execution_date: str, source_path: str, output_path: str) -> str:
+    def run_reader(self,
+                   source_path: str,
+                   output_path: str,
+                   correlation_id: str
+                ) -> str:
         pass
 
     @abstractmethod
-    def run_validator(self, input_path: str) -> str:
+    def run_validator(self, input_path: str, correlation_id: str) -> str:
         pass
 
     @abstractmethod

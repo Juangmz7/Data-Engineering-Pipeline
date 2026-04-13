@@ -26,7 +26,10 @@ def _execute_writer(
 ) -> None:
     # Retrieve configuration and secrets from Airflow backend securely
     azure_connection = BaseHook.get_connection('azure_blob_default')
-    azure_conn_str = azure_connection.get_password() 
+
+    extras = azure_connection.extra_dejson
+    azure_conn_str = extras.get('connection_string') 
+
     azure_container = Variable.get("azure_blob_container_name", default_var="trip-data-processed")
 
     local_writer = LocalParquetWriter(correlation_id=correlation_id)
@@ -59,7 +62,7 @@ with DAG(
     dag_id='trip_data_processing_pipeline',
     default_args=default_args,
     description='Daily orchestration of the Trip Data batch pipeline with DI and Quarantine',
-    schedule_interval='@daily',
+    schedule='@daily',
     start_date=datetime(2026, 4, 1),
     catchup=False,
     tags=['trip_data', 'batch', 'etl'],
@@ -78,7 +81,8 @@ with DAG(
         python_callable=execute_reader,
         op_kwargs={
             'processor_class': BatchPipelineProcessor,
-            'execution_date': '{{ ds }}',
+            'correlation_id': DAG_CORRELATION_ID,
+            'source_path': '/opt/airflow/BatchProcessing/data/yellow_tripdata_2025-01.parquet',
             'output_path': f"{BASE_STAGING_PATH}/raw.parquet",
         },
     )

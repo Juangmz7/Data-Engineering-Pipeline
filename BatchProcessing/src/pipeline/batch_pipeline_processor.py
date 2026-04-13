@@ -1,5 +1,5 @@
 import pandas as pd
-from typing import List, Type
+from typing import Type
 
 from shared.contracts.data_writer import DataWriter
 from shared.contracts.pipeline_processor import PipelineProcessor
@@ -10,8 +10,12 @@ from shared.validator.generic_data_validator import GenericDataValidator
 
 class BatchPipelineProcessor(PipelineProcessor):
     
-    def run_reader(self, execution_date: str, source_path: str, output_path: str) -> str:
-        reader = ParquetReader(correlation_id=execution_date)
+    def run_reader(self,
+                   source_path: str,
+                   output_path: str,
+                   correlation_id: str
+                ) -> str:
+        reader = ParquetReader(correlation_id=correlation_id)
         df = reader.read(source_path)
         df.to_parquet(output_path, index=False)
         return output_path
