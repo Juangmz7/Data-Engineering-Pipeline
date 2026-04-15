@@ -26,7 +26,7 @@ class CsvReader(DataReader):
                 self._logger.error(error_msg)
                 raise FileNotFoundError(error_msg)
             
-            df = pd.read_csv(src)
+            df = pd.read_csv(src, engine="pyarrow", dtype_backend="pyarrow")
             self._logger.info(f"Successfully read {len(df)} rows and {len(df.columns)} columns from {src}.")
             
             return df
