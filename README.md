@@ -88,7 +88,6 @@ _AIRFLOW_WWW_USER_PASSWORD=airflow
 AIRFLOW__API_AUTH__JWT_SECRET=your_strong_random_secret_here
 AIRFLOW__API_AUTH__JWT_ISSUER=airflow
 
-# --- Linux Only ---
 # Set this to your host user ID to avoid permission issues with mounted volumes.
 # Run: echo $(id -u) to find your UID.
 AIRFLOW_UID=50000
