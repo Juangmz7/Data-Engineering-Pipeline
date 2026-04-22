@@ -6,8 +6,6 @@ A modular, Python-based ETL framework for both **batch** and **near real-time** 
 
 ## Table of Contents
 
-## Table of Contents
-
 1. [Environment & Infrastructure Setup](#1-environment--infrastructure-setup)
    - [Prerequisites](#11-prerequisites)
    - [Azure Authentication](#12-azure-authentication)
