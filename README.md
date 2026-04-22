@@ -1,4 +1,8 @@
----
+# Data Engineering Pipelines
+
+A modular, Python-based ETL framework for both **batch** and **near real-time** data processing workloads, orchestrated by **Apache Airflow**.
+
+Built for the Data Engineering course at UCLL.
 
 ```markdown
 # Data Engineering Pipeline
