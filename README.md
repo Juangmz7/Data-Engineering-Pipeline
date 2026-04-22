@@ -308,16 +308,16 @@ Processes NYC Yellow Taxi trip records in Parquet format through a stage-gate va
 
 ```mermaid
 flowchart TD
-    B["read_batch_data\nParquetReader → raw.parquet"]
-    C["validate_raw_schema\nYellowTaxiTripValidationSchema"]
-    D{"Valid?"}
-    E["process_data\nTripDataProcessor → processed.parquet"]
-    F["validate_processed_schema\nYellowTaxiTripBackupValidationSchema"]
-    G{"Valid?"}
-    H["write_data\nLocalParquetWriter + AzureBlobParquetWriter"]
-    I["cleanup_staging_files\nBashOperator: rm -rf staging/*"]
-    Q1["Quarantine\n/quarantine/trip_data/.../raw_invalid.parquet"]
-    Q2["Quarantine\n/quarantine/trip_data/.../processed_invalid.parquet"]
+    A["read_batch_data\nParquetReader → raw.parquet"]
+    B["validate_raw_schema\nYellowTaxiTripValidationSchema"]
+    C{"Valid?"}
+    D["process_data\nTripDataProcessor → processed.parquet"]
+    E["validate_processed_schema\nYellowTaxiTripBackupValidationSchema"]
+    F{"Valid?"}
+    G["write_data\nLocalParquetWriter + AzureBlobParquetWriter"]
+    H["cleanup_staging_files\nBashOperator: rm -rf staging/*"]
+    I1["Quarantine\n/quarantine/trip_data/.../raw_invalid.parquet"]
+    I2["Quarantine\n/quarantine/trip_data/.../processed_invalid.parquet"]
 
     A --> B --> C --> D
     D -- "Pass" --> E --> F --> G
