@@ -2,8 +2,6 @@
 
 A modular, Python-based ETL framework for both **batch** and **near real-time** data processing workloads, orchestrated by **Apache Airflow** and backed by **Azure Blob Storage** provisioned via **Terraform**.
 
-Built for the Data Engineering course at UCLL.
-
 ---
 
 ## Table of Contents
