@@ -325,27 +325,26 @@ Processes NYC Yellow Taxi trip records in Parquet format through a stage-gate va
 
 ```mermaid
 flowchart TD
-    A["wait_for_csv_file\nFileSensor → /opt/airflow/RealTimeProcessing/data/sales_data.csv"]
-    B["read_csv_data\nCsvReader → raw.csv"]
-    C["validate_raw_schema\nSupermarketSalesValidationSchema"]
-    D{"Valid?"}
-    E["process_sales_data\nSupermarketSalesDataProcessor → processed.csv"]
-    F["validate_processed_schema\nSupermarketSalesBackupValidationSchema"]
-    G{"Valid?"}
-    H["write_final_data\nLocalCsvWriter + AzureBlobCsvWriter"]
-    I["cleanup_staging_files\nBashOperator: rm -rf staging/*\n(trigger_rule='all_done')"]
-    Q1["Quarantine\n/quarantine/supermarket_sales/.../raw_invalid.csv"]
-    Q2["Quarantine\n/quarantine/supermarket_sales/.../processed_invalid.csv"]
+    A["read_batch_data\nParquetReader → raw.parquet"]
+    B["validate_raw_schema\nYellowTaxiTripValidationSchema"]
+    C{"Valid?"}
+    D["process_data\nTripDataProcessor → processed.parquet"]
+    E["validate_processed_schema\nYellowTaxiTripBackupValidationSchema"]
+    F{"Valid?"}
+    G["write_data\nLocalParquetWriter + AzureBlobParquetWriter"]
+    H["cleanup_staging_files\nBashOperator: rm -rf staging/*\n(trigger_rule='all_done')"]
+    Q1["Quarantine\n/quarantine/trip_data/.../raw_invalid.parquet"]
+    Q2["Quarantine\n/quarantine/trip_data/.../processed_invalid.parquet"]
 
-    A --> B --> C --> D
-    D -- "Pass" --> E --> F --> G
-    D -- "Fail (AirflowSkipException)" --> Q1
-    G -- "Pass" --> H
-    G -- "Fail (AirflowSkipException)" --> Q2
+    A --> B --> C
+    C -- "Pass" --> D --> E --> F
+    C -- "Fail (AirflowSkipException)" --> Q1
+    F -- "Pass" --> G
+    F -- "Fail (AirflowSkipException)" --> Q2
 
-    H --> I
-    Q1 --> I
-    Q2 --> I
+    G --> H
+    Q1 --> H
+    Q2 --> H
 ```
 
 #### Real-Time Processing Pipeline (`supermarket_sales_processing_pipeline`)
