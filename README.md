@@ -127,8 +127,10 @@ The sensitive Terraform variables are configured via a `terraform.tfvars` file l
 ```bash
 # From the project root
 cp ./.terraform.tfvars_template ./terraform.tfvars
+```
 
 Set your azure subscription id:
+
 ```bash
 subscription_id = "Your-Azure-Subscription_id"
 ```
