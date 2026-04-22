@@ -1,0 +1,1001 @@
+Invoice ID,Branch,City,Customer type,Product line,Unit price,Quantity,Tax 5%,Sales,Date,Time,Payment,cogs,gross margin percentage,gross income,Total Sale,Time of the day,Day of the week
+750-67-8428,Alex,Yangon,Member,Health and beauty,74.69,7,26.1415,548.9715,2019-01-05,2026-04-20 13:08:00,Ewallet,522.83,4.761904762,26.1415,522.8299999999999,Afternoon,Saturday
+226-31-3081,Giza,Naypyitaw,Normal,Electronic accessories,15.28,5,3.82,80.22,2019-03-08,2026-04-20 10:29:00,Cash,76.4,4.761904762,3.82,76.39999999999999,Morning,Friday
+631-41-3108,Alex,Yangon,Normal,Home and lifestyle,46.33,7,16.2155,340.5255,2019-03-03,2026-04-20 13:23:00,Credit card,324.31,4.761904762,16.2155,324.31,Afternoon,Sunday
+123-19-1176,Alex,Yangon,Member,Health and beauty,58.22,8,23.288,489.048,2019-01-27,2026-04-20 20:33:00,Ewallet,465.76,4.761904762,23.288,465.76,Evening,Sunday
+373-73-7910,Alex,Yangon,Member,Sports and travel,86.31,7,30.2085,634.3785,2019-02-08,2026-04-20 10:37:00,Ewallet,604.17,4.761904762,30.2085,604.1700000000001,Morning,Friday
+699-14-3026,Giza,Naypyitaw,Member,Electronic accessories,85.39,7,29.8865,627.6165,2019-03-25,2026-04-20 18:30:00,Ewallet,597.73,4.761904762,29.8865,597.73,Evening,Monday
+355-53-5943,Alex,Yangon,Member,Electronic accessories,68.84,6,20.652,433.692,2019-02-25,2026-04-20 14:36:00,Ewallet,413.04,4.761904762,20.652,413.04,Afternoon,Monday
+315-22-5665,Giza,Naypyitaw,Member,Home and lifestyle,73.56,10,36.78,772.38,2019-02-24,2026-04-20 11:38:00,Ewallet,735.6,4.761904762,36.78,735.6,Morning,Sunday
+665-32-9167,Alex,Yangon,Member,Health and beauty,36.26,2,3.626,76.146,2019-01-10,2026-04-20 17:15:00,Credit card,72.52,4.761904762,3.626,72.52,Afternoon,Thursday
+692-92-5582,Cairo,Mandalay,Member,Food and beverages,54.84,3,8.226,172.746,2019-02-20,2026-04-20 13:27:00,Credit card,164.52,4.761904762,8.226,164.52,Afternoon,Wednesday
+351-62-0822,Cairo,Mandalay,Member,Fashion accessories,14.48,4,2.896,60.816,2019-02-06,2026-04-20 18:07:00,Ewallet,57.92,4.761904762,2.896,57.92,Evening,Wednesday
+529-56-3974,Cairo,Mandalay,Member,Electronic accessories,25.51,4,5.102,107.142,2019-03-09,2026-04-20 17:03:00,Cash,102.04,4.761904762,5.102,102.04,Afternoon,Saturday
+365-64-0515,Alex,Yangon,Member,Electronic accessories,46.95,5,11.7375,246.4875,2019-02-12,2026-04-20 10:25:00,Ewallet,234.75,4.761904762,11.7375,234.75,Morning,Tuesday
+252-56-2699,Alex,Yangon,Member,Food and beverages,43.19,10,21.595,453.495,2019-02-07,2026-04-20 16:48:00,Ewallet,431.9,4.761904762,21.595,431.9,Afternoon,Thursday
+829-34-3910,Alex,Yangon,Member,Health and beauty,71.38,10,35.69,749.49,2019-03-29,2026-04-20 19:21:00,Cash,713.8,4.761904762,35.69,713.8,Evening,Friday
+299-46-1805,Cairo,Mandalay,Member,Sports and travel,93.72,6,28.116,590.436,2019-01-15,2026-04-20 16:19:00,Cash,562.32,4.761904762,28.116,562.3199999999999,Afternoon,Tuesday
+656-95-9349,Alex,Yangon,Member,Health and beauty,68.93,7,24.1255,506.6355,2019-03-11,2026-04-20 11:03:00,Credit card,482.51,4.761904762,24.1255,482.51000000000005,Morning,Monday
+765-26-6951,Alex,Yangon,Member,Sports and travel,72.61,6,21.783,457.443,2019-01-01,2026-04-20 10:39:00,Credit card,435.66,4.761904762,21.783,435.65999999999997,Morning,Tuesday
+329-62-1586,Alex,Yangon,Member,Food and beverages,54.67,3,8.2005,172.2105,2019-01-21,2026-04-20 18:00:00,Credit card,164.01,4.761904762,8.2005,164.01,Evening,Monday
+319-50-3348,Cairo,Mandalay,Member,Home and lifestyle,40.3,2,4.03,84.63,2019-03-11,2026-04-20 15:30:00,Ewallet,80.6,4.761904762,4.03,80.6,Afternoon,Monday
+300-71-4605,Giza,Naypyitaw,Member,Electronic accessories,86.04,5,21.51,451.71,2019-02-25,2026-04-20 11:24:00,Ewallet,430.2,4.761904762,21.51,430.20000000000005,Morning,Monday
+371-85-5789,Cairo,Mandalay,Member,Health and beauty,87.98,3,13.197,277.137,2019-03-05,2026-04-20 10:40:00,Ewallet,263.94,4.761904762,13.197,263.94,Morning,Tuesday
+273-16-6619,Cairo,Mandalay,Member,Home and lifestyle,33.2,2,3.32,69.72,2019-03-15,2026-04-20 12:20:00,Credit card,66.4,4.761904762,3.32,66.4,Afternoon,Friday
+636-48-8204,Alex,Yangon,Member,Electronic accessories,34.56,5,8.64,181.44,2019-02-17,2026-04-20 11:15:00,Ewallet,172.8,4.761904762,8.64,172.8,Morning,Sunday
+549-59-1358,Alex,Yangon,Member,Sports and travel,88.63,3,13.2945,279.1845,2019-03-02,2026-04-20 17:36:00,Ewallet,265.89,4.761904762,13.2945,265.89,Afternoon,Saturday
+227-03-5010,Alex,Yangon,Member,Home and lifestyle,52.59,8,21.036,441.756,2019-03-22,2026-04-20 19:20:00,Credit card,420.72,4.761904762,21.036,420.72,Evening,Friday
+649-29-6775,Cairo,Mandalay,Member,Fashion accessories,33.52,1,1.676,35.196,2019-02-08,2026-04-20 15:31:00,Cash,33.52,4.761904762,1.676,33.52,Afternoon,Friday
+189-17-4241,Alex,Yangon,Member,Fashion accessories,87.67,2,8.767,184.107,2019-03-10,2026-04-20 12:17:00,Credit card,175.34,4.761904762,8.767,175.34,Afternoon,Sunday
+145-94-9061,Cairo,Mandalay,Member,Food and beverages,88.36,5,22.09,463.89,2019-01-25,2026-04-20 19:48:00,Cash,441.8,4.761904762,22.09,441.8,Evening,Friday
+848-62-7243,Alex,Yangon,Member,Health and beauty,24.89,9,11.2005,235.2105,2019-03-15,2026-04-20 15:36:00,Cash,224.01,4.761904762,11.2005,224.01,Afternoon,Friday
+871-79-8483,Cairo,Mandalay,Member,Fashion accessories,94.13,5,23.5325,494.1825,2019-02-25,2026-04-20 19:39:00,Credit card,470.65,4.761904762,23.5325,470.65,Evening,Monday
+149-71-6266,Cairo,Mandalay,Member,Sports and travel,78.07,9,35.1315,737.7615,2019-01-28,2026-04-20 12:43:00,Cash,702.63,4.761904762,35.1315,702.6299999999999,Afternoon,Monday
+640-49-2076,Cairo,Mandalay,Member,Sports and travel,83.78,8,33.512,703.752,2019-01-10,2026-04-20 14:49:00,Cash,670.24,4.761904762,33.512,670.24,Afternoon,Thursday
+595-11-5460,Alex,Yangon,Member,Health and beauty,96.58,2,9.658,202.818,2019-03-15,2026-04-20 10:12:00,Credit card,193.16,4.761904762,9.658,193.16,Morning,Friday
+183-56-6882,Giza,Naypyitaw,Member,Food and beverages,99.42,4,19.884,417.564,2019-02-06,2026-04-20 10:42:00,Ewallet,397.68,4.761904762,19.884,397.68,Morning,Wednesday
+232-16-2483,Giza,Naypyitaw,Member,Sports and travel,68.12,1,3.406,71.526,2019-01-07,2026-04-20 12:28:00,Ewallet,68.12,4.761904762,3.406,68.12,Afternoon,Monday
+129-29-8530,Alex,Yangon,Member,Sports and travel,62.62,5,15.655,328.755,2019-03-10,2026-04-20 19:15:00,Ewallet,313.1,4.761904762,15.655,313.09999999999997,Evening,Sunday
+272-65-1806,Alex,Yangon,Member,Electronic accessories,60.88,9,27.396,575.316,2019-01-15,2026-04-20 17:17:00,Ewallet,547.92,4.761904762,27.396,547.9200000000001,Afternoon,Tuesday
+333-73-7901,Giza,Naypyitaw,Member,Health and beauty,54.92,8,21.968,461.328,2019-03-23,2026-04-20 13:24:00,Ewallet,439.36,4.761904762,21.968,439.36,Afternoon,Saturday
+777-82-7220,Cairo,Mandalay,Member,Home and lifestyle,30.12,8,12.048,253.008,2019-03-03,2026-04-20 13:01:00,Cash,240.96,4.761904762,12.048,240.96,Afternoon,Sunday
+280-35-5823,Cairo,Mandalay,Member,Home and lifestyle,86.72,1,4.336,91.056,2019-01-17,2026-04-20 18:45:00,Ewallet,86.72,4.761904762,4.336,86.72,Evening,Thursday
+554-53-8700,Giza,Naypyitaw,Member,Home and lifestyle,56.11,2,5.611,117.831,2019-02-02,2026-04-20 10:11:00,Cash,112.22,4.761904762,5.611,112.22,Morning,Saturday
+354-25-5821,Cairo,Mandalay,Member,Sports and travel,69.12,6,20.736,435.456,2019-02-08,2026-04-20 13:03:00,Cash,414.72,4.761904762,20.736,414.72,Afternoon,Friday
+228-96-1411,Giza,Naypyitaw,Member,Food and beverages,98.7,8,39.48,829.08,2019-03-04,2026-04-20 20:39:00,Cash,789.6,4.761904762,39.48,789.6,Evening,Monday
+617-15-4209,Giza,Naypyitaw,Member,Health and beauty,15.37,2,1.537,32.277,2019-03-16,2026-04-20 19:47:00,Cash,30.74,4.761904762,1.537,30.74,Evening,Saturday
+132-32-9879,Cairo,Mandalay,Member,Electronic accessories,93.96,4,18.792,394.632,2019-03-09,2026-04-20 18:00:00,Cash,375.84,4.761904762,18.792,375.84,Evening,Saturday
+370-41-7321,Cairo,Mandalay,Member,Health and beauty,56.69,9,25.5105,535.7205,2019-02-27,2026-04-20 17:24:00,Credit card,510.21,4.761904762,25.5105,510.21,Afternoon,Wednesday
+727-46-3608,Cairo,Mandalay,Member,Food and beverages,20.01,9,9.0045,189.0945,2019-02-06,2026-04-20 15:47:00,Ewallet,180.09,4.761904762,9.0045,180.09,Afternoon,Wednesday
+669-54-1719,Cairo,Mandalay,Member,Electronic accessories,18.93,6,5.679,119.259,2019-02-10,2026-04-20 12:45:00,Credit card,113.58,4.761904762,5.679,113.58,Afternoon,Sunday
+574-22-5561,Giza,Naypyitaw,Member,Fashion accessories,82.63,10,41.315,867.615,2019-03-19,2026-04-20 17:08:00,Ewallet,826.3,4.761904762,41.315,826.3,Afternoon,Tuesday
+326-78-5178,Giza,Naypyitaw,Member,Food and beverages,91.4,7,31.99,671.79,2019-02-03,2026-04-20 10:19:00,Cash,639.8,4.761904762,31.99,639.8000000000001,Morning,Sunday
+162-48-8011,Alex,Yangon,Member,Food and beverages,44.59,5,11.1475,234.0975,2019-02-10,2026-04-20 15:10:00,Cash,222.95,4.761904762,11.1475,222.95000000000002,Afternoon,Sunday
+616-24-2851,Cairo,Mandalay,Member,Fashion accessories,17.87,4,3.574,75.054,2019-03-22,2026-04-20 14:42:00,Ewallet,71.48,4.761904762,3.574,71.48,Afternoon,Friday
+778-71-5554,Giza,Naypyitaw,Member,Fashion accessories,15.43,1,0.7715,16.2015,2019-01-25,2026-04-20 15:46:00,Credit card,15.43,4.761904762,0.7715,15.43,Afternoon,Friday
+242-55-6721,Cairo,Mandalay,Member,Home and lifestyle,16.16,2,1.616,33.936,2019-03-07,2026-04-20 11:49:00,Ewallet,32.32,4.761904762,1.616,32.32,Morning,Thursday
+399-46-5918,Giza,Naypyitaw,Member,Electronic accessories,85.98,8,34.392,722.232,2019-02-28,2026-04-20 19:01:00,Cash,687.84,4.761904762,34.392,687.84,Evening,Thursday
+106-35-6779,Alex,Yangon,Member,Home and lifestyle,44.34,2,4.434,93.114,2019-03-27,2026-04-20 11:26:00,Cash,88.68,4.761904762,4.434,88.68,Morning,Wednesday
+635-40-6220,Alex,Yangon,Member,Health and beauty,89.6,8,35.84,752.64,2019-02-07,2026-04-20 11:28:00,Ewallet,716.8,4.761904762,35.84,716.8,Morning,Thursday
+817-48-8732,Alex,Yangon,Member,Home and lifestyle,72.35,10,36.175,759.675,2019-01-20,2026-04-20 15:55:00,Cash,723.5,4.761904762,36.175,723.5,Afternoon,Sunday
+120-06-4233,Giza,Naypyitaw,Member,Electronic accessories,30.61,6,9.183,192.843,2019-03-12,2026-04-20 20:36:00,Cash,183.66,4.761904762,9.183,183.66,Evening,Tuesday
+285-68-5083,Giza,Naypyitaw,Member,Sports and travel,24.74,3,3.711,77.931,2019-02-15,2026-04-20 17:47:00,Credit card,74.22,4.761904762,3.711,74.22,Afternoon,Friday
+803-83-5989,Giza,Naypyitaw,Member,Home and lifestyle,55.73,6,16.719,351.099,2019-02-24,2026-04-20 10:55:00,Ewallet,334.38,4.761904762,16.719,334.38,Morning,Sunday
+347-34-2234,Cairo,Mandalay,Member,Sports and travel,55.07,9,24.7815,520.4115,2019-02-03,2026-04-20 13:40:00,Ewallet,495.63,4.761904762,24.7815,495.63,Afternoon,Sunday
+199-75-8169,Alex,Yangon,Member,Sports and travel,15.81,10,7.905,166.005,2019-03-06,2026-04-20 12:27:00,Credit card,158.1,4.761904762,7.905,158.1,Afternoon,Wednesday
+853-23-2453,Cairo,Mandalay,Member,Health and beauty,75.74,4,15.148,318.108,2019-02-14,2026-04-20 14:35:00,Cash,302.96,4.761904762,15.148,302.96,Afternoon,Thursday
+877-22-3308,Alex,Yangon,Member,Health and beauty,15.87,10,7.935,166.635,2019-03-13,2026-04-20 16:40:00,Cash,158.7,4.761904762,7.935,158.7,Afternoon,Wednesday
+838-78-4295,Giza,Naypyitaw,Member,Health and beauty,33.47,2,3.347,70.287,2019-02-10,2026-04-20 15:43:00,Ewallet,66.94,4.761904762,3.347,66.94,Afternoon,Sunday
+109-28-2512,Cairo,Mandalay,Member,Fashion accessories,97.61,6,29.283,614.943,2019-01-07,2026-04-20 15:01:00,Ewallet,585.66,4.761904762,29.283,585.66,Afternoon,Monday
+232-11-3025,Alex,Yangon,Member,Sports and travel,78.77,10,39.385,827.085,2019-01-24,2026-04-20 10:04:00,Cash,787.7,4.761904762,39.385,787.6999999999999,Morning,Thursday
+382-03-4532,Alex,Yangon,Member,Health and beauty,18.33,1,0.9165,19.2465,2019-02-02,2026-04-20 18:50:00,Cash,18.33,4.761904762,0.9165,18.33,Evening,Saturday
+393-65-2792,Giza,Naypyitaw,Member,Food and beverages,89.48,10,44.74,939.54,2019-01-06,2026-04-20 12:46:00,Credit card,894.8,4.761904762,44.74,894.8000000000001,Afternoon,Sunday
+796-12-2025,Giza,Naypyitaw,Member,Fashion accessories,62.12,10,31.06,652.26,2019-02-11,2026-04-20 16:19:00,Cash,621.2,4.761904762,31.06,621.1999999999999,Afternoon,Monday
+510-95-6347,Cairo,Mandalay,Member,Food and beverages,48.52,3,7.278,152.838,2019-03-05,2026-04-20 18:17:00,Ewallet,145.56,4.761904762,7.278,145.56,Evening,Tuesday
+841-35-6630,Giza,Naypyitaw,Member,Electronic accessories,75.91,6,22.773,478.233,2019-03-09,2026-04-20 18:21:00,Cash,455.46,4.761904762,22.773,455.46,Evening,Saturday
+287-21-9091,Alex,Yangon,Member,Home and lifestyle,74.67,9,33.6015,705.6315,2019-01-22,2026-04-20 10:55:00,Ewallet,672.03,4.761904762,33.6015,672.03,Morning,Tuesday
+732-94-0499,Giza,Naypyitaw,Member,Electronic accessories,41.65,10,20.825,437.325,2019-01-13,2026-04-20 17:04:00,Credit card,416.5,4.761904762,20.825,416.5,Afternoon,Sunday
+263-10-3913,Giza,Naypyitaw,Member,Fashion accessories,49.04,9,22.068,463.428,2019-01-09,2026-04-20 14:20:00,Credit card,441.36,4.761904762,22.068,441.36,Afternoon,Wednesday
+381-20-0914,Alex,Yangon,Member,Fashion accessories,20.01,9,9.0045,189.0945,2019-01-12,2026-04-20 15:48:00,Credit card,180.09,4.761904762,9.0045,180.09,Afternoon,Saturday
+829-49-1914,Giza,Naypyitaw,Member,Food and beverages,78.31,10,39.155,822.255,2019-03-05,2026-04-20 16:24:00,Ewallet,783.1,4.761904762,39.155,783.1,Afternoon,Tuesday
+756-01-7507,Giza,Naypyitaw,Member,Health and beauty,20.38,5,5.095,106.995,2019-01-22,2026-04-20 18:56:00,Cash,101.9,4.761904762,5.095,101.89999999999999,Evening,Tuesday
+870-72-4431,Giza,Naypyitaw,Member,Health and beauty,99.19,6,29.757,624.897,2019-01-21,2026-04-20 14:42:00,Credit card,595.14,4.761904762,29.757,595.14,Afternoon,Monday
+847-38-7188,Cairo,Mandalay,Member,Food and beverages,96.68,3,14.502,304.542,2019-01-26,2026-04-20 19:56:00,Ewallet,290.04,4.761904762,14.502,290.04,Evening,Saturday
+480-63-2856,Giza,Naypyitaw,Member,Food and beverages,19.25,8,7.7,161.7,2019-01-23,2026-04-20 18:37:00,Ewallet,154.0,4.761904762,7.7,154.0,Evening,Wednesday
+787-56-0757,Giza,Naypyitaw,Member,Food and beverages,80.36,4,16.072,337.512,2019-02-23,2026-04-20 18:45:00,Credit card,321.44,4.761904762,16.072,321.44,Evening,Saturday
+360-39-5055,Giza,Naypyitaw,Member,Sports and travel,48.91,5,12.2275,256.7775,2019-03-09,2026-04-20 10:17:00,Cash,244.55,4.761904762,12.2275,244.54999999999998,Morning,Saturday
+730-50-9884,Giza,Naypyitaw,Member,Sports and travel,83.06,7,29.071,610.491,2019-03-05,2026-04-20 14:31:00,Ewallet,581.42,4.761904762,29.071,581.4200000000001,Afternoon,Tuesday
+362-58-8315,Giza,Naypyitaw,Member,Fashion accessories,76.52,5,19.13,401.73,2019-03-25,2026-04-20 10:23:00,Cash,382.6,4.761904762,19.13,382.59999999999997,Morning,Monday
+633-44-8566,Alex,Yangon,Member,Food and beverages,49.38,7,17.283,362.943,2019-03-27,2026-04-20 20:35:00,Credit card,345.66,4.761904762,17.283,345.66,Evening,Wednesday
+504-35-8843,Alex,Yangon,Member,Sports and travel,42.47,1,2.1235,44.5935,2019-01-02,2026-04-20 16:57:00,Cash,42.47,4.761904762,2.1235,42.47,Afternoon,Wednesday
+318-68-5053,Cairo,Mandalay,Member,Health and beauty,76.99,6,23.097,485.037,2019-02-27,2026-04-20 17:55:00,Cash,461.94,4.761904762,23.097,461.93999999999994,Afternoon,Wednesday
+565-80-5980,Giza,Naypyitaw,Member,Home and lifestyle,47.38,4,9.476,198.996,2019-01-23,2026-04-20 10:25:00,Cash,189.52,4.761904762,9.476,189.52,Morning,Wednesday
+225-32-0908,Giza,Naypyitaw,Member,Sports and travel,44.86,10,22.43,471.03,2019-01-26,2026-04-20 19:54:00,Ewallet,448.6,4.761904762,22.43,448.6,Evening,Saturday
+873-51-0671,Alex,Yangon,Member,Sports and travel,21.98,7,7.693,161.553,2019-01-10,2026-04-20 16:42:00,Ewallet,153.86,4.761904762,7.693,153.86,Afternoon,Thursday
+152-08-9985,Cairo,Mandalay,Member,Health and beauty,64.36,9,28.962,608.202,2019-03-12,2026-04-20 12:09:00,Credit card,579.24,4.761904762,28.962,579.24,Afternoon,Tuesday
+512-91-0811,Giza,Naypyitaw,Member,Health and beauty,89.75,1,4.4875,94.2375,2019-02-06,2026-04-20 20:05:00,Credit card,89.75,4.761904762,4.4875,89.75,Evening,Wednesday
+594-34-4444,Alex,Yangon,Member,Electronic accessories,97.16,1,4.858,102.018,2019-03-08,2026-04-20 20:38:00,Ewallet,97.16,4.761904762,4.858,97.16,Evening,Friday
+766-85-7061,Cairo,Mandalay,Member,Health and beauty,87.87,10,43.935,922.635,2019-03-29,2026-04-20 10:25:00,Ewallet,878.7,4.761904762,43.935,878.7,Morning,Friday
+871-39-9221,Giza,Naypyitaw,Member,Electronic accessories,12.45,6,3.735,78.435,2019-02-09,2026-04-20 13:11:00,Cash,74.7,4.761904762,3.735,74.69999999999999,Afternoon,Saturday
+865-92-6136,Alex,Yangon,Member,Food and beverages,52.75,3,7.9125,166.1625,2019-03-23,2026-04-20 10:16:00,Ewallet,158.25,4.761904762,7.9125,158.25,Morning,Saturday
+733-01-9107,Cairo,Mandalay,Member,Home and lifestyle,82.7,6,24.81,521.01,2019-03-05,2026-04-20 18:14:00,Cash,496.2,4.761904762,24.81,496.20000000000005,Evening,Tuesday
+163-56-7055,Giza,Naypyitaw,Member,Fashion accessories,48.71,1,2.4355,51.1455,2019-03-26,2026-04-20 19:20:00,Cash,48.71,4.761904762,2.4355,48.71,Evening,Tuesday
+189-98-2939,Giza,Naypyitaw,Member,Fashion accessories,78.55,9,35.3475,742.2975,2019-03-01,2026-04-20 13:22:00,Cash,706.95,4.761904762,35.3475,706.9499999999999,Afternoon,Friday
+551-21-3069,Giza,Naypyitaw,Member,Electronic accessories,23.07,9,10.3815,218.0115,2019-02-01,2026-04-20 11:27:00,Cash,207.63,4.761904762,10.3815,207.63,Morning,Friday
+212-62-1842,Alex,Yangon,Member,Food and beverages,58.26,6,17.478,367.038,2019-03-28,2026-04-20 16:44:00,Cash,349.56,4.761904762,17.478,349.56,Afternoon,Thursday
+716-39-1409,Cairo,Mandalay,Member,Health and beauty,30.35,7,10.6225,223.0725,2019-03-19,2026-04-20 18:19:00,Cash,212.45,4.761904762,10.6225,212.45000000000002,Evening,Tuesday
+704-48-3927,Alex,Yangon,Member,Electronic accessories,88.67,10,44.335,931.035,2019-01-12,2026-04-20 14:50:00,Ewallet,886.7,4.761904762,44.335,886.7,Afternoon,Saturday
+628-34-3388,Giza,Naypyitaw,Member,Fashion accessories,27.38,6,8.214,172.494,2019-01-05,2026-04-20 20:54:00,Credit card,164.28,4.761904762,8.214,164.28,Evening,Saturday
+630-74-5166,Alex,Yangon,Member,Sports and travel,62.13,6,18.639,391.419,2019-03-22,2026-04-20 20:19:00,Cash,372.78,4.761904762,18.639,372.78000000000003,Evening,Friday
+588-01-7461,Giza,Naypyitaw,Member,Food and beverages,33.98,9,15.291,321.111,2019-03-24,2026-04-20 10:43:00,Cash,305.82,4.761904762,15.291,305.82,Morning,Sunday
+861-77-0145,Giza,Naypyitaw,Member,Electronic accessories,81.97,10,40.985,860.685,2019-03-03,2026-04-20 14:30:00,Cash,819.7,4.761904762,40.985,819.7,Afternoon,Sunday
+479-26-8945,Cairo,Mandalay,Member,Sports and travel,16.49,2,1.649,34.629,2019-02-05,2026-04-20 11:32:00,Ewallet,32.98,4.761904762,1.649,32.98,Morning,Tuesday
+210-67-5886,Giza,Naypyitaw,Member,Health and beauty,98.21,3,14.7315,309.3615,2019-02-05,2026-04-20 10:41:00,Credit card,294.63,4.761904762,14.7315,294.63,Morning,Tuesday
+227-78-1148,Cairo,Mandalay,Member,Fashion accessories,72.84,7,25.494,535.374,2019-02-15,2026-04-20 12:44:00,Cash,509.88,4.761904762,25.494,509.88,Afternoon,Friday
+645-44-1170,Alex,Yangon,Member,Home and lifestyle,58.07,9,26.1315,548.7615,2019-01-19,2026-04-20 20:07:00,Ewallet,522.63,4.761904762,26.1315,522.63,Evening,Saturday
+237-01-6122,Giza,Naypyitaw,Member,Home and lifestyle,80.79,9,36.3555,763.4655,2019-02-01,2026-04-20 20:31:00,Credit card,727.11,4.761904762,36.3555,727.11,Evening,Friday
+225-98-1496,Giza,Naypyitaw,Member,Fashion accessories,27.02,3,4.053,85.113,2019-03-02,2026-04-20 13:01:00,Credit card,81.06,4.761904762,4.053,81.06,Afternoon,Saturday
+291-32-1427,Cairo,Mandalay,Member,Fashion accessories,21.94,5,5.485,115.185,2019-03-05,2026-04-20 12:29:00,Ewallet,109.7,4.761904762,5.485,109.7,Afternoon,Tuesday
+659-65-8956,Cairo,Mandalay,Member,Fashion accessories,51.36,1,2.568,53.928,2019-01-16,2026-04-20 15:26:00,Ewallet,51.36,4.761904762,2.568,51.36,Afternoon,Wednesday
+642-32-2990,Alex,Yangon,Member,Food and beverages,10.96,10,5.48,115.08,2019-02-02,2026-04-20 20:48:00,Ewallet,109.6,4.761904762,5.48,109.60000000000001,Evening,Saturday
+378-24-2715,Cairo,Mandalay,Member,Home and lifestyle,53.44,2,5.344,112.224,2019-01-20,2026-04-20 20:38:00,Ewallet,106.88,4.761904762,5.344,106.88,Evening,Sunday
+638-60-7125,Alex,Yangon,Member,Electronic accessories,99.56,8,39.824,836.304,2019-02-14,2026-04-20 17:03:00,Credit card,796.48,4.761904762,39.824,796.48,Afternoon,Thursday
+659-36-1684,Giza,Naypyitaw,Member,Sports and travel,57.12,7,19.992,419.832,2019-01-12,2026-04-20 12:02:00,Credit card,399.84,4.761904762,19.992,399.84,Afternoon,Saturday
+219-22-9386,Cairo,Mandalay,Member,Sports and travel,99.96,9,44.982,944.622,2019-03-09,2026-04-20 17:26:00,Credit card,899.64,4.761904762,44.982,899.64,Afternoon,Saturday
+336-78-2147,Giza,Naypyitaw,Member,Home and lifestyle,63.91,8,25.564,536.844,2019-03-13,2026-04-20 19:52:00,Credit card,511.28,4.761904762,25.564,511.28,Evening,Wednesday
+268-27-6179,Cairo,Mandalay,Member,Fashion accessories,56.47,8,22.588,474.348,2019-03-09,2026-04-20 14:57:00,Ewallet,451.76,4.761904762,22.588,451.76,Afternoon,Saturday
+668-90-8900,Alex,Yangon,Member,Home and lifestyle,93.69,7,32.7915,688.6215,2019-03-10,2026-04-20 18:44:00,Credit card,655.83,4.761904762,32.7915,655.8299999999999,Evening,Sunday
+870-54-3162,Alex,Yangon,Member,Sports and travel,32.25,5,8.0625,169.3125,2019-01-27,2026-04-20 13:26:00,Cash,161.25,4.761904762,8.0625,161.25,Afternoon,Sunday
+189-08-9157,Giza,Naypyitaw,Member,Fashion accessories,31.73,9,14.2785,299.8485,2019-01-08,2026-04-20 16:17:00,Credit card,285.57,4.761904762,14.2785,285.57,Afternoon,Tuesday
+663-86-9076,Giza,Naypyitaw,Member,Food and beverages,68.54,8,27.416,575.736,2019-01-08,2026-04-20 15:57:00,Ewallet,548.32,4.761904762,27.416,548.32,Afternoon,Tuesday
+549-84-7482,Cairo,Mandalay,Member,Sports and travel,90.28,9,40.626,853.146,2019-02-08,2026-04-20 11:15:00,Ewallet,812.52,4.761904762,40.626,812.52,Morning,Friday
+191-10-6171,Cairo,Mandalay,Normal,Fashion accessories,39.62,7,13.867,291.207,2019-01-25,2026-04-20 13:18:00,Cash,277.34,4.761904762,13.867,277.34,Afternoon,Friday
+802-70-5316,Alex,Yangon,Member,Sports and travel,92.13,6,27.639,580.419,2019-03-06,2026-04-20 20:34:00,Cash,552.78,4.761904762,27.639,552.78,Evening,Wednesday
+695-51-0018,Cairo,Mandalay,Normal,Sports and travel,34.84,4,6.968,146.328,2019-02-10,2026-04-20 18:36:00,Cash,139.36,4.761904762,6.968,139.36,Evening,Sunday
+590-83-4591,Cairo,Mandalay,Member,Electronic accessories,87.45,6,26.235,550.935,2019-02-17,2026-04-20 14:40:00,Credit card,524.7,4.761904762,26.235,524.7,Afternoon,Sunday
+483-71-1164,Giza,Naypyitaw,Normal,Health and beauty,81.3,6,24.39,512.19,2019-03-08,2026-04-20 16:43:00,Ewallet,487.8,4.761904762,24.39,487.79999999999995,Afternoon,Friday
+597-78-7908,Giza,Naypyitaw,Normal,Fashion accessories,90.22,3,13.533,284.193,2019-02-18,2026-04-20 19:39:00,Cash,270.66,4.761904762,13.533,270.65999999999997,Evening,Monday
+700-81-1757,Alex,Yangon,Normal,Electronic accessories,26.31,5,6.5775,138.1275,2019-01-18,2026-04-20 20:59:00,Credit card,131.55,4.761904762,6.5775,131.54999999999998,Evening,Friday
+354-39-5160,Alex,Yangon,Member,Home and lifestyle,34.42,6,10.326,216.846,2019-02-18,2026-04-20 15:39:00,Cash,206.52,4.761904762,10.326,206.52,Afternoon,Monday
+241-72-9525,Cairo,Mandalay,Normal,Sports and travel,51.91,10,25.955,545.055,2019-02-16,2026-04-20 12:21:00,Cash,519.1,4.761904762,25.955,519.0999999999999,Afternoon,Saturday
+575-30-8091,Alex,Yangon,Normal,Sports and travel,72.5,8,29.0,609.0,2019-03-16,2026-04-20 19:25:00,Ewallet,580.0,4.761904762,29.0,580.0,Evening,Saturday
+731-81-9469,Giza,Naypyitaw,Member,Sports and travel,89.8,10,44.9,942.9,2019-01-23,2026-04-20 13:00:00,Credit card,898.0,4.761904762,44.9,898.0,Afternoon,Wednesday
+280-17-4359,Giza,Naypyitaw,Member,Health and beauty,90.5,10,45.25,950.25,2019-01-25,2026-04-20 13:48:00,Cash,905.0,4.761904762,45.25,905.0,Afternoon,Friday
+338-65-2210,Giza,Naypyitaw,Member,Health and beauty,68.6,10,34.3,720.3,2019-02-05,2026-04-20 19:57:00,Cash,686.0,4.761904762,34.3,686.0,Evening,Tuesday
+488-25-4221,Giza,Naypyitaw,Member,Food and beverages,30.41,1,1.5205,31.9305,2019-02-22,2026-04-20 10:36:00,Credit card,30.41,4.761904762,1.5205,30.41,Morning,Friday
+239-10-7476,Alex,Yangon,Normal,Home and lifestyle,77.95,6,23.385,491.085,2019-01-21,2026-04-20 16:37:00,Ewallet,467.7,4.761904762,23.385,467.70000000000005,Afternoon,Monday
+458-41-1477,Giza,Naypyitaw,Normal,Health and beauty,46.26,6,13.878,291.438,2019-03-08,2026-04-20 17:11:00,Credit card,277.56,4.761904762,13.878,277.56,Afternoon,Friday
+685-64-1609,Alex,Yangon,Member,Fashion accessories,30.14,10,15.07,316.47,2019-02-10,2026-04-20 12:28:00,Ewallet,301.4,4.761904762,15.07,301.4,Afternoon,Sunday
+568-90-5112,Giza,Naypyitaw,Normal,Health and beauty,66.14,4,13.228,277.788,2019-03-19,2026-04-20 12:46:00,Credit card,264.56,4.761904762,13.228,264.56,Afternoon,Tuesday
+262-47-2794,Cairo,Mandalay,Member,Home and lifestyle,71.86,8,28.744,603.624,2019-03-06,2026-04-20 15:07:00,Credit card,574.88,4.761904762,28.744,574.88,Afternoon,Wednesday
+238-49-0436,Alex,Yangon,Normal,Health and beauty,32.46,8,12.984,272.664,2019-03-27,2026-04-20 13:48:00,Credit card,259.68,4.761904762,12.984,259.68,Afternoon,Wednesday
+608-96-3517,Cairo,Mandalay,Member,Fashion accessories,91.54,4,18.308,384.468,2019-03-23,2026-04-20 19:20:00,Credit card,366.16,4.761904762,18.308,366.16,Evening,Saturday
+584-86-7256,Giza,Naypyitaw,Member,Sports and travel,34.56,7,12.096,254.016,2019-03-11,2026-04-20 16:07:00,Credit card,241.92,4.761904762,12.096,241.92000000000002,Afternoon,Monday
+746-94-0204,Alex,Yangon,Normal,Fashion accessories,83.24,9,37.458,786.618,2019-01-29,2026-04-20 11:56:00,Credit card,749.16,4.761904762,37.458,749.16,Morning,Tuesday
+214-17-6927,Giza,Naypyitaw,Normal,Food and beverages,16.48,6,4.944,103.824,2019-02-07,2026-04-20 18:23:00,Ewallet,98.88,4.761904762,4.944,98.88,Evening,Thursday
+400-89-4171,Giza,Naypyitaw,Normal,Sports and travel,80.97,8,32.388,680.148,2019-01-28,2026-04-20 13:05:00,Cash,647.76,4.761904762,32.388,647.76,Afternoon,Monday
+782-95-9291,Alex,Yangon,Member,Food and beverages,92.29,5,23.0725,484.5225,2019-02-20,2026-04-20 15:55:00,Credit card,461.45,4.761904762,23.0725,461.45000000000005,Afternoon,Wednesday
+279-74-2924,Cairo,Mandalay,Member,Electronic accessories,72.17,1,3.6085,75.7785,2019-01-04,2026-04-20 19:40:00,Cash,72.17,4.761904762,3.6085,72.17,Evening,Friday
+307-85-2293,Cairo,Mandalay,Normal,Home and lifestyle,50.28,5,12.57,263.97,2019-03-07,2026-04-20 13:58:00,Ewallet,251.4,4.761904762,12.57,251.4,Afternoon,Thursday
+743-04-1105,Cairo,Mandalay,Member,Health and beauty,97.22,9,43.749,918.729,2019-03-30,2026-04-20 14:43:00,Ewallet,874.98,4.761904762,43.749,874.98,Afternoon,Saturday
+423-57-2993,Cairo,Mandalay,Normal,Sports and travel,93.39,6,28.017,588.357,2019-03-27,2026-04-20 19:18:00,Ewallet,560.34,4.761904762,28.017,560.34,Evening,Wednesday
+894-41-5205,Giza,Naypyitaw,Normal,Food and beverages,43.18,8,17.272,362.712,2019-01-19,2026-04-20 19:39:00,Credit card,345.44,4.761904762,17.272,345.44,Evening,Saturday
+275-28-0149,Alex,Yangon,Normal,Sports and travel,63.69,1,3.1845,66.8745,2019-02-25,2026-04-20 16:21:00,Cash,63.69,4.761904762,3.1845,63.69,Afternoon,Monday
+101-17-6199,Alex,Yangon,Normal,Food and beverages,45.79,7,16.0265,336.5565,2019-03-13,2026-04-20 19:44:00,Credit card,320.53,4.761904762,16.0265,320.53,Evening,Wednesday
+423-80-0988,Giza,Naypyitaw,Normal,Sports and travel,76.4,2,7.64,160.44,2019-01-30,2026-04-20 19:42:00,Ewallet,152.8,4.761904762,7.64,152.8,Evening,Wednesday
+548-46-9322,Cairo,Mandalay,Normal,Food and beverages,39.9,10,19.95,418.95,2019-02-20,2026-04-20 15:24:00,Credit card,399.0,4.761904762,19.95,399.0,Afternoon,Wednesday
+505-02-0892,Cairo,Mandalay,Member,Health and beauty,42.57,8,17.028,357.588,2019-02-25,2026-04-20 14:12:00,Ewallet,340.56,4.761904762,17.028,340.56,Afternoon,Monday
+234-65-2137,Giza,Naypyitaw,Normal,Home and lifestyle,95.58,10,47.79,1003.59,2019-01-16,2026-04-20 13:32:00,Cash,955.8,4.761904762,47.79,955.8,Afternoon,Wednesday
+687-47-8271,Alex,Yangon,Normal,Fashion accessories,98.98,10,49.49,1039.29,2019-02-08,2026-04-20 16:20:00,Credit card,989.8,4.761904762,49.49,989.8000000000001,Afternoon,Friday
+796-32-9050,Alex,Yangon,Normal,Food and beverages,51.28,6,15.384,323.064,2019-01-19,2026-04-20 16:31:00,Cash,307.68,4.761904762,15.384,307.68,Afternoon,Saturday
+105-31-1824,Alex,Yangon,Member,Sports and travel,69.52,7,24.332,510.972,2019-02-01,2026-04-20 15:10:00,Credit card,486.64,4.761904762,24.332,486.64,Afternoon,Friday
+249-42-3782,Alex,Yangon,Normal,Health and beauty,70.01,5,17.5025,367.5525,2019-01-03,2026-04-20 11:36:00,Ewallet,350.05,4.761904762,17.5025,350.05,Morning,Thursday
+316-55-4634,Cairo,Mandalay,Member,Food and beverages,80.05,5,20.0125,420.2625,2019-01-26,2026-04-20 12:45:00,Credit card,400.25,4.761904762,20.0125,400.25,Afternoon,Saturday
+733-33-4967,Giza,Naypyitaw,Normal,Electronic accessories,20.85,8,8.34,175.14,2019-03-03,2026-04-20 19:17:00,Cash,166.8,4.761904762,8.34,166.8,Evening,Sunday
+608-27-6295,Cairo,Mandalay,Member,Electronic accessories,52.89,6,15.867,333.207,2019-01-19,2026-04-20 17:34:00,Credit card,317.34,4.761904762,15.867,317.34000000000003,Afternoon,Saturday
+414-12-7047,Cairo,Mandalay,Normal,Food and beverages,19.79,8,7.916,166.236,2019-01-18,2026-04-20 12:04:00,Ewallet,158.32,4.761904762,7.916,158.32,Afternoon,Friday
+827-26-2100,Alex,Yangon,Member,Home and lifestyle,33.84,9,15.228,319.788,2019-03-21,2026-04-20 16:21:00,Ewallet,304.56,4.761904762,15.228,304.56000000000006,Afternoon,Thursday
+175-54-2529,Alex,Yangon,Member,Food and beverages,22.17,8,8.868,186.228,2019-03-03,2026-04-20 17:01:00,Credit card,177.36,4.761904762,8.868,177.36,Afternoon,Sunday
+139-52-2867,Giza,Naypyitaw,Normal,Fashion accessories,22.51,7,7.8785,165.4485,2019-02-13,2026-04-20 10:50:00,Credit card,157.57,4.761904762,7.8785,157.57000000000002,Morning,Wednesday
+407-63-8975,Alex,Yangon,Normal,Food and beverages,73.88,6,22.164,465.444,2019-03-23,2026-04-20 19:16:00,Ewallet,443.28,4.761904762,22.164,443.28,Evening,Saturday
+342-65-4817,Giza,Naypyitaw,Member,Health and beauty,86.8,3,13.02,273.42,2019-01-28,2026-04-20 16:47:00,Ewallet,260.4,4.761904762,13.02,260.4,Afternoon,Monday
+130-98-8941,Giza,Naypyitaw,Normal,Fashion accessories,64.26,7,22.491,472.311,2019-02-09,2026-04-20 10:00:00,Cash,449.82,4.761904762,22.491,449.82000000000005,Morning,Saturday
+434-83-9547,Giza,Naypyitaw,Member,Food and beverages,38.47,8,15.388,323.148,2019-01-23,2026-04-20 11:51:00,Cash,307.76,4.761904762,15.388,307.76,Morning,Wednesday
+851-28-6367,Alex,Yangon,Member,Sports and travel,15.5,10,7.75,162.75,2019-03-23,2026-04-20 10:55:00,Ewallet,155.0,4.761904762,7.75,155.0,Morning,Saturday
+824-88-3614,Giza,Naypyitaw,Normal,Health and beauty,34.31,8,13.724,288.204,2019-01-25,2026-04-20 15:00:00,Ewallet,274.48,4.761904762,13.724,274.48,Afternoon,Friday
+586-25-0848,Alex,Yangon,Normal,Sports and travel,12.34,7,4.319,90.699,2019-03-04,2026-04-20 11:19:00,Credit card,86.38,4.761904762,4.319,86.38,Morning,Monday
+895-66-0685,Cairo,Mandalay,Member,Food and beverages,18.08,3,2.712,56.952,2019-03-05,2026-04-20 19:46:00,Ewallet,54.24,4.761904762,2.712,54.239999999999995,Evening,Tuesday
+305-14-0245,Cairo,Mandalay,Member,Home and lifestyle,94.49,8,37.796,793.716,2019-03-03,2026-04-20 19:00:00,Ewallet,755.92,4.761904762,37.796,755.92,Evening,Sunday
+732-04-5373,Cairo,Mandalay,Member,Home and lifestyle,46.47,4,9.294,195.174,2019-02-08,2026-04-20 10:53:00,Cash,185.88,4.761904762,9.294,185.88,Morning,Friday
+400-60-7251,Alex,Yangon,Normal,Home and lifestyle,74.07,1,3.7035,77.7735,2019-02-10,2026-04-20 12:50:00,Ewallet,74.07,4.761904762,3.7035,74.07,Afternoon,Sunday
+593-65-1552,Giza,Naypyitaw,Normal,Home and lifestyle,69.81,4,13.962,293.202,2019-01-28,2026-04-20 20:50:00,Credit card,279.24,4.761904762,13.962,279.24,Evening,Monday
+284-34-9626,Cairo,Mandalay,Normal,Home and lifestyle,77.04,3,11.556,242.676,2019-02-11,2026-04-20 10:39:00,Credit card,231.12,4.761904762,11.556,231.12,Morning,Monday
+437-58-8131,Cairo,Mandalay,Normal,Fashion accessories,73.52,2,7.352,154.392,2019-01-15,2026-04-20 13:41:00,Ewallet,147.04,4.761904762,7.352,147.04,Afternoon,Tuesday
+286-43-6208,Giza,Naypyitaw,Normal,Food and beverages,87.8,9,39.51,829.71,2019-03-16,2026-04-20 19:08:00,Cash,790.2,4.761904762,39.51,790.1999999999999,Evening,Saturday
+641-43-2399,Cairo,Mandalay,Normal,Home and lifestyle,25.55,4,5.11,107.31,2019-01-26,2026-04-20 20:23:00,Ewallet,102.2,4.761904762,5.11,102.2,Evening,Saturday
+831-07-6050,Alex,Yangon,Normal,Electronic accessories,32.71,5,8.1775,171.7275,2019-03-19,2026-04-20 11:30:00,Credit card,163.55,4.761904762,8.1775,163.55,Morning,Tuesday
+556-86-3144,Giza,Naypyitaw,Member,Fashion accessories,74.29,1,3.7145,78.0045,2019-01-13,2026-04-20 19:30:00,Cash,74.29,4.761904762,3.7145,74.29,Evening,Sunday
+848-24-9445,Giza,Naypyitaw,Member,Health and beauty,43.7,2,4.37,91.77,2019-03-26,2026-04-20 18:03:00,Cash,87.4,4.761904762,4.37,87.4,Evening,Tuesday
+856-22-8149,Alex,Yangon,Normal,Home and lifestyle,25.29,1,1.2645,26.5545,2019-03-23,2026-04-20 10:13:00,Ewallet,25.29,4.761904762,1.2645,25.29,Morning,Saturday
+699-01-4164,Giza,Naypyitaw,Normal,Health and beauty,41.5,4,8.3,174.3,2019-03-12,2026-04-20 19:58:00,Credit card,166.0,4.761904762,8.3,166.0,Evening,Tuesday
+420-11-4919,Giza,Naypyitaw,Member,Food and beverages,71.39,5,17.8475,374.7975,2019-02-17,2026-04-20 19:57:00,Credit card,356.95,4.761904762,17.8475,356.95,Evening,Sunday
+606-80-4905,Giza,Naypyitaw,Member,Sports and travel,19.15,6,5.745,120.645,2019-01-29,2026-04-20 10:01:00,Credit card,114.9,4.761904762,5.745,114.89999999999999,Morning,Tuesday
+542-41-0513,Cairo,Mandalay,Member,Electronic accessories,57.49,4,11.498,241.458,2019-03-15,2026-04-20 11:57:00,Cash,229.96,4.761904762,11.498,229.96,Morning,Friday
+426-39-2418,Giza,Naypyitaw,Normal,Electronic accessories,61.41,7,21.4935,451.3635,2019-01-14,2026-04-20 10:02:00,Cash,429.87,4.761904762,21.4935,429.87,Morning,Monday
+875-46-5808,Cairo,Mandalay,Member,Health and beauty,25.9,10,12.95,271.95,2019-02-06,2026-04-20 14:51:00,Ewallet,259.0,4.761904762,12.95,259.0,Afternoon,Wednesday
+394-43-4238,Cairo,Mandalay,Member,Home and lifestyle,17.77,5,4.4425,93.2925,2019-02-15,2026-04-20 12:42:00,Credit card,88.85,4.761904762,4.4425,88.85,Afternoon,Friday
+749-24-1565,Alex,Yangon,Normal,Health and beauty,23.03,9,10.3635,217.6335,2019-01-03,2026-04-20 12:02:00,Ewallet,207.27,4.761904762,10.3635,207.27,Afternoon,Thursday
+672-51-8681,Giza,Naypyitaw,Member,Electronic accessories,66.65,9,29.9925,629.8425,2019-01-04,2026-04-20 18:19:00,Credit card,599.85,4.761904762,29.9925,599.85,Evening,Friday
+263-87-5680,Giza,Naypyitaw,Member,Home and lifestyle,28.53,10,14.265,299.565,2019-03-18,2026-04-20 17:38:00,Ewallet,285.3,4.761904762,14.265,285.3,Afternoon,Monday
+573-58-9734,Cairo,Mandalay,Normal,Fashion accessories,30.37,3,4.5555,95.6655,2019-03-28,2026-04-20 13:41:00,Ewallet,91.11,4.761904762,4.5555,91.11,Afternoon,Thursday
+817-69-8206,Cairo,Mandalay,Normal,Electronic accessories,99.73,9,44.8785,942.4485,2019-03-02,2026-04-20 19:42:00,Credit card,897.57,4.761904762,44.8785,897.57,Evening,Saturday
+888-02-0338,Alex,Yangon,Normal,Electronic accessories,26.23,9,11.8035,247.8735,2019-01-25,2026-04-20 20:24:00,Ewallet,236.07,4.761904762,11.8035,236.07,Evening,Friday
+677-11-0152,Giza,Naypyitaw,Normal,Food and beverages,93.26,9,41.967,881.307,2019-01-16,2026-04-20 18:08:00,Cash,839.34,4.761904762,41.967,839.34,Evening,Wednesday
+142-63-6033,Cairo,Mandalay,Normal,Home and lifestyle,92.36,5,23.09,484.89,2019-03-20,2026-04-20 19:17:00,Ewallet,461.8,4.761904762,23.09,461.8,Evening,Wednesday
+656-16-1063,Cairo,Mandalay,Normal,Sports and travel,46.42,3,6.963,146.223,2019-01-04,2026-04-20 13:24:00,Credit card,139.26,4.761904762,6.963,139.26,Afternoon,Friday
+891-58-8335,Cairo,Mandalay,Member,Sports and travel,29.61,7,10.3635,217.6335,2019-03-11,2026-04-20 15:53:00,Cash,207.27,4.761904762,10.3635,207.26999999999998,Afternoon,Monday
+802-43-8934,Alex,Yangon,Normal,Home and lifestyle,18.28,1,0.914,19.194,2019-03-22,2026-04-20 15:05:00,Credit card,18.28,4.761904762,0.914,18.28,Afternoon,Friday
+560-30-5617,Cairo,Mandalay,Normal,Sports and travel,24.77,5,6.1925,130.0425,2019-03-24,2026-04-20 18:27:00,Cash,123.85,4.761904762,6.1925,123.85,Evening,Sunday
+319-74-2561,Alex,Yangon,Member,Electronic accessories,94.64,3,14.196,298.116,2019-02-21,2026-04-20 16:55:00,Cash,283.92,4.761904762,14.196,283.92,Afternoon,Thursday
+549-03-9315,Cairo,Mandalay,Normal,Fashion accessories,94.87,8,37.948,796.908,2019-02-12,2026-04-20 12:58:00,Ewallet,758.96,4.761904762,37.948,758.96,Afternoon,Tuesday
+790-29-1172,Cairo,Mandalay,Normal,Food and beverages,57.34,3,8.601,180.621,2019-03-10,2026-04-20 18:59:00,Credit card,172.02,4.761904762,8.601,172.02,Evening,Sunday
+239-36-3640,Cairo,Mandalay,Normal,Electronic accessories,45.35,6,13.605,285.705,2019-01-31,2026-04-20 13:44:00,Ewallet,272.1,4.761904762,13.605,272.1,Afternoon,Thursday
+468-01-2051,Cairo,Mandalay,Normal,Food and beverages,62.08,7,21.728,456.288,2019-03-06,2026-04-20 13:46:00,Ewallet,434.56,4.761904762,21.728,434.56,Afternoon,Wednesday
+389-25-3394,Giza,Naypyitaw,Normal,Electronic accessories,11.81,5,2.9525,62.0025,2019-02-17,2026-04-20 18:06:00,Cash,59.05,4.761904762,2.9525,59.050000000000004,Evening,Sunday
+279-62-1445,Giza,Naypyitaw,Member,Fashion accessories,12.54,1,0.627,13.167,2019-02-21,2026-04-20 12:38:00,Cash,12.54,4.761904762,0.627,12.54,Afternoon,Thursday
+213-72-6612,Alex,Yangon,Normal,Food and beverages,43.25,2,4.325,90.825,2019-03-20,2026-04-20 15:56:00,Cash,86.5,4.761904762,4.325,86.5,Afternoon,Wednesday
+746-68-6593,Giza,Naypyitaw,Member,Sports and travel,87.16,2,8.716,183.036,2019-01-11,2026-04-20 14:29:00,Credit card,174.32,4.761904762,8.716,174.32,Afternoon,Friday
+836-82-5858,Cairo,Mandalay,Member,Health and beauty,69.37,9,31.2165,655.5465,2019-01-26,2026-04-20 19:14:00,Ewallet,624.33,4.761904762,31.2165,624.33,Evening,Saturday
+583-72-1480,Giza,Naypyitaw,Member,Electronic accessories,37.06,4,7.412,155.652,2019-01-31,2026-04-20 16:24:00,Ewallet,148.24,4.761904762,7.412,148.24,Afternoon,Thursday
+466-61-5506,Cairo,Mandalay,Member,Electronic accessories,90.7,6,27.21,571.41,2019-02-26,2026-04-20 10:52:00,Cash,544.2,4.761904762,27.21,544.2,Morning,Tuesday
+721-86-6247,Alex,Yangon,Normal,Home and lifestyle,63.42,8,25.368,532.728,2019-03-11,2026-04-20 12:55:00,Ewallet,507.36,4.761904762,25.368,507.36,Afternoon,Monday
+289-65-5721,Cairo,Mandalay,Normal,Fashion accessories,81.37,2,8.137,170.877,2019-01-26,2026-04-20 19:28:00,Cash,162.74,4.761904762,8.137,162.74,Evening,Saturday
+545-46-3100,Cairo,Mandalay,Member,Electronic accessories,10.59,3,1.5885,33.3585,2019-03-12,2026-04-20 13:52:00,Credit card,31.77,4.761904762,1.5885,31.77,Afternoon,Tuesday
+418-02-5978,Cairo,Mandalay,Normal,Health and beauty,84.09,9,37.8405,794.6505,2019-02-11,2026-04-20 10:54:00,Cash,756.81,4.761904762,37.8405,756.8100000000001,Morning,Monday
+269-04-5750,Cairo,Mandalay,Member,Fashion accessories,73.82,4,14.764,310.044,2019-02-21,2026-04-20 18:31:00,Cash,295.28,4.761904762,14.764,295.28,Evening,Thursday
+157-13-5295,Alex,Yangon,Member,Health and beauty,51.94,10,25.97,545.37,2019-03-09,2026-04-20 18:24:00,Ewallet,519.4,4.761904762,25.97,519.4,Evening,Saturday
+645-78-8093,Alex,Yangon,Normal,Sports and travel,93.14,2,9.314,195.594,2019-01-20,2026-04-20 18:09:00,Ewallet,186.28,4.761904762,9.314,186.28,Evening,Sunday
+211-30-9270,Giza,Naypyitaw,Normal,Health and beauty,17.41,5,4.3525,91.4025,2019-01-28,2026-04-20 15:16:00,Credit card,87.05,4.761904762,4.3525,87.05,Afternoon,Monday
+755-12-3214,Giza,Naypyitaw,Member,Fashion accessories,44.22,5,11.055,232.155,2019-03-05,2026-04-20 17:07:00,Credit card,221.1,4.761904762,11.055,221.1,Afternoon,Tuesday
+346-84-3103,Cairo,Mandalay,Member,Electronic accessories,13.22,5,3.305,69.405,2019-03-02,2026-04-20 19:26:00,Cash,66.1,4.761904762,3.305,66.10000000000001,Evening,Saturday
+478-06-7835,Alex,Yangon,Normal,Fashion accessories,89.69,1,4.4845,94.1745,2019-01-11,2026-04-20 11:20:00,Ewallet,89.69,4.761904762,4.4845,89.69,Morning,Friday
+540-11-4336,Alex,Yangon,Normal,Food and beverages,24.94,9,11.223,235.683,2019-01-11,2026-04-20 16:49:00,Credit card,224.46,4.761904762,11.223,224.46,Afternoon,Friday
+448-81-5016,Alex,Yangon,Normal,Health and beauty,59.77,2,5.977,125.517,2019-03-11,2026-04-20 12:01:00,Credit card,119.54,4.761904762,5.977,119.54,Afternoon,Monday
+142-72-4741,Giza,Naypyitaw,Member,Fashion accessories,93.2,2,9.32,195.72,2019-02-28,2026-04-20 18:37:00,Credit card,186.4,4.761904762,9.32,186.4,Evening,Thursday
+217-58-1179,Alex,Yangon,Member,Home and lifestyle,62.65,4,12.53,263.13,2019-01-05,2026-04-20 11:25:00,Cash,250.6,4.761904762,12.53,250.6,Morning,Saturday
+376-02-8238,Cairo,Mandalay,Normal,Home and lifestyle,93.87,8,37.548,788.508,2019-02-02,2026-04-20 18:42:00,Credit card,750.96,4.761904762,37.548,750.96,Evening,Saturday
+530-90-9855,Alex,Yangon,Member,Home and lifestyle,47.59,8,19.036,399.756,2019-01-01,2026-04-20 14:47:00,Cash,380.72,4.761904762,19.036,380.72,Afternoon,Tuesday
+866-05-7563,Cairo,Mandalay,Member,Electronic accessories,81.4,3,12.21,256.41,2019-02-09,2026-04-20 19:43:00,Cash,244.2,4.761904762,12.21,244.20000000000002,Evening,Saturday
+604-70-6476,Alex,Yangon,Member,Fashion accessories,17.94,5,4.485,94.185,2019-01-23,2026-04-20 14:04:00,Ewallet,89.7,4.761904762,4.485,89.7,Afternoon,Wednesday
+799-71-1548,Alex,Yangon,Member,Electronic accessories,77.72,4,15.544,326.424,2019-01-07,2026-04-20 16:11:00,Credit card,310.88,4.761904762,15.544,310.88,Afternoon,Monday
+785-13-7708,Cairo,Mandalay,Normal,Food and beverages,73.06,7,25.571,536.991,2019-01-14,2026-04-20 19:06:00,Credit card,511.42,4.761904762,25.571,511.42,Evening,Monday
+845-51-0542,Cairo,Mandalay,Member,Food and beverages,46.55,9,20.9475,439.8975,2019-02-02,2026-04-20 15:34:00,Ewallet,418.95,4.761904762,20.9475,418.95,Afternoon,Saturday
+662-47-5456,Giza,Naypyitaw,Member,Fashion accessories,35.19,10,17.595,369.495,2019-03-17,2026-04-20 19:06:00,Credit card,351.9,4.761904762,17.595,351.9,Evening,Sunday
+883-17-4236,Giza,Naypyitaw,Normal,Sports and travel,14.39,2,1.439,30.219,2019-03-02,2026-04-20 19:44:00,Credit card,28.78,4.761904762,1.439,28.78,Evening,Saturday
+290-68-2984,Alex,Yangon,Normal,Home and lifestyle,23.75,4,4.75,99.75,2019-03-16,2026-04-20 11:22:00,Cash,95.0,4.761904762,4.75,95.0,Morning,Saturday
+704-11-6354,Alex,Yangon,Member,Home and lifestyle,58.9,8,23.56,494.76,2019-01-06,2026-04-20 11:23:00,Cash,471.2,4.761904762,23.56,471.2,Morning,Sunday
+110-48-7033,Cairo,Mandalay,Member,Fashion accessories,32.62,4,6.524,137.004,2019-01-29,2026-04-20 14:12:00,Cash,130.48,4.761904762,6.524,130.48,Afternoon,Tuesday
+366-93-0948,Alex,Yangon,Member,Electronic accessories,66.35,1,3.3175,69.6675,2019-01-31,2026-04-20 10:46:00,Credit card,66.35,4.761904762,3.3175,66.35,Morning,Thursday
+729-09-9681,Alex,Yangon,Member,Home and lifestyle,25.91,6,7.773,163.233,2019-02-05,2026-04-20 10:16:00,Ewallet,155.46,4.761904762,7.773,155.46,Morning,Tuesday
+151-16-1484,Alex,Yangon,Member,Electronic accessories,32.25,4,6.45,135.45,2019-02-13,2026-04-20 12:38:00,Ewallet,129.0,4.761904762,6.45,129.0,Afternoon,Wednesday
+380-94-4661,Giza,Naypyitaw,Member,Electronic accessories,65.94,4,13.188,276.948,2019-02-07,2026-04-20 13:05:00,Credit card,263.76,4.761904762,13.188,263.76,Afternoon,Thursday
+850-41-9669,Alex,Yangon,Normal,Electronic accessories,75.06,9,33.777,709.317,2019-03-19,2026-04-20 13:25:00,Ewallet,675.54,4.761904762,33.777,675.54,Afternoon,Tuesday
+821-07-3596,Giza,Naypyitaw,Normal,Fashion accessories,16.45,4,3.29,69.09,2019-03-07,2026-04-20 14:53:00,Ewallet,65.8,4.761904762,3.29,65.8,Afternoon,Thursday
+655-85-5130,Cairo,Mandalay,Member,Fashion accessories,38.3,4,7.66,160.86,2019-03-13,2026-04-20 19:22:00,Cash,153.2,4.761904762,7.66,153.2,Evening,Wednesday
+447-15-7839,Alex,Yangon,Member,Sports and travel,22.24,10,11.12,233.52,2019-02-09,2026-04-20 11:00:00,Cash,222.4,4.761904762,11.12,222.39999999999998,Morning,Saturday
+154-74-7179,Cairo,Mandalay,Normal,Sports and travel,54.45,1,2.7225,57.1725,2019-02-26,2026-04-20 19:24:00,Ewallet,54.45,4.761904762,2.7225,54.45,Evening,Tuesday
+253-12-6086,Alex,Yangon,Member,Sports and travel,98.4,7,34.44,723.24,2019-03-12,2026-04-20 12:43:00,Credit card,688.8,4.761904762,34.44,688.8000000000001,Afternoon,Tuesday
+808-65-0703,Giza,Naypyitaw,Normal,Home and lifestyle,35.47,4,7.094,148.974,2019-03-14,2026-04-20 17:22:00,Credit card,141.88,4.761904762,7.094,141.88,Afternoon,Thursday
+571-94-0759,Cairo,Mandalay,Member,Food and beverages,74.6,10,37.3,783.3,2019-01-08,2026-04-20 20:55:00,Cash,746.0,4.761904762,37.3,746.0,Evening,Tuesday
+144-51-6085,Alex,Yangon,Member,Home and lifestyle,70.74,4,14.148,297.108,2019-01-05,2026-04-20 16:05:00,Credit card,282.96,4.761904762,14.148,282.96,Afternoon,Saturday
+731-14-2199,Alex,Yangon,Member,Home and lifestyle,35.54,10,17.77,373.17,2019-01-04,2026-04-20 13:34:00,Ewallet,355.4,4.761904762,17.77,355.4,Afternoon,Friday
+783-09-1637,Cairo,Mandalay,Normal,Sports and travel,67.43,5,16.8575,354.0075,2019-03-06,2026-04-20 18:13:00,Ewallet,337.15,4.761904762,16.8575,337.15000000000003,Evening,Wednesday
+687-15-1097,Giza,Naypyitaw,Member,Health and beauty,21.12,2,2.112,44.352,2019-01-03,2026-04-20 19:17:00,Cash,42.24,4.761904762,2.112,42.24,Evening,Thursday
+126-54-1082,Alex,Yangon,Member,Home and lifestyle,21.54,9,9.693,203.553,2019-01-07,2026-04-20 11:44:00,Credit card,193.86,4.761904762,9.693,193.85999999999999,Morning,Monday
+633-91-1052,Alex,Yangon,Normal,Home and lifestyle,12.03,2,1.203,25.263,2019-01-27,2026-04-20 15:51:00,Cash,24.06,4.761904762,1.203,24.06,Afternoon,Sunday
+477-24-6490,Cairo,Mandalay,Normal,Health and beauty,99.71,6,29.913,628.173,2019-02-26,2026-04-20 16:52:00,Ewallet,598.26,4.761904762,29.913,598.26,Afternoon,Tuesday
+566-19-5475,Cairo,Mandalay,Normal,Fashion accessories,47.97,7,16.7895,352.5795,2019-01-07,2026-04-20 20:52:00,Cash,335.79,4.761904762,16.7895,335.78999999999996,Evening,Monday
+526-86-8552,Giza,Naypyitaw,Member,Home and lifestyle,21.82,10,10.91,229.11,2019-01-07,2026-04-20 17:36:00,Cash,218.2,4.761904762,10.91,218.2,Afternoon,Monday
+376-56-3573,Giza,Naypyitaw,Normal,Fashion accessories,95.42,4,19.084,400.764,2019-02-02,2026-04-20 13:23:00,Ewallet,381.68,4.761904762,19.084,381.68,Afternoon,Saturday
+537-72-0426,Giza,Naypyitaw,Member,Fashion accessories,70.99,10,35.495,745.395,2019-03-20,2026-04-20 16:28:00,Cash,709.9,4.761904762,35.495,709.9,Afternoon,Wednesday
+828-61-5674,Alex,Yangon,Member,Sports and travel,44.02,10,22.01,462.21,2019-03-20,2026-04-20 19:57:00,Credit card,440.2,4.761904762,22.01,440.20000000000005,Evening,Wednesday
+136-08-6195,Alex,Yangon,Normal,Home and lifestyle,69.96,8,27.984,587.664,2019-02-15,2026-04-20 17:01:00,Credit card,559.68,4.761904762,27.984,559.68,Afternoon,Friday
+523-38-0215,Giza,Naypyitaw,Normal,Home and lifestyle,37.0,1,1.85,38.85,2019-03-06,2026-04-20 13:29:00,Credit card,37.0,4.761904762,1.85,37.0,Afternoon,Wednesday
+490-29-1201,Alex,Yangon,Normal,Sports and travel,15.34,1,0.767,16.107,2019-01-06,2026-04-20 11:09:00,Cash,15.34,4.761904762,0.767,15.34,Morning,Sunday
+667-92-0055,Alex,Yangon,Member,Health and beauty,99.83,6,29.949,628.929,2019-03-04,2026-04-20 15:02:00,Ewallet,598.98,4.761904762,29.949,598.98,Afternoon,Monday
+565-17-3836,Alex,Yangon,Member,Health and beauty,47.67,4,9.534,200.214,2019-03-12,2026-04-20 14:21:00,Cash,190.68,4.761904762,9.534,190.68,Afternoon,Tuesday
+498-41-1961,Cairo,Mandalay,Normal,Health and beauty,66.68,5,16.67,350.07,2019-02-20,2026-04-20 18:01:00,Cash,333.4,4.761904762,16.67,333.40000000000003,Evening,Wednesday
+593-95-4461,Giza,Naypyitaw,Member,Home and lifestyle,74.86,1,3.743,78.603,2019-03-24,2026-04-20 14:49:00,Cash,74.86,4.761904762,3.743,74.86,Afternoon,Sunday
+226-71-3580,Giza,Naypyitaw,Normal,Sports and travel,23.75,9,10.6875,224.4375,2019-01-31,2026-04-20 12:02:00,Cash,213.75,4.761904762,10.6875,213.75,Afternoon,Thursday
+283-79-9594,Cairo,Mandalay,Normal,Food and beverages,48.51,7,16.9785,356.5485,2019-01-25,2026-04-20 13:30:00,Credit card,339.57,4.761904762,16.9785,339.57,Afternoon,Friday
+430-60-3493,Alex,Yangon,Member,Home and lifestyle,94.88,7,33.208,697.368,2019-02-03,2026-04-20 14:38:00,Cash,664.16,4.761904762,33.208,664.16,Afternoon,Sunday
+139-20-0155,Cairo,Mandalay,Member,Electronic accessories,40.3,10,20.15,423.15,2019-01-24,2026-04-20 17:37:00,Credit card,403.0,4.761904762,20.15,403.0,Afternoon,Thursday
+558-80-4082,Giza,Naypyitaw,Normal,Electronic accessories,27.85,7,9.7475,204.6975,2019-03-14,2026-04-20 17:20:00,Ewallet,194.95,4.761904762,9.7475,194.95000000000002,Afternoon,Thursday
+278-97-7759,Alex,Yangon,Member,Electronic accessories,62.48,1,3.124,65.604,2019-02-18,2026-04-20 20:29:00,Cash,62.48,4.761904762,3.124,62.48,Evening,Monday
+316-68-6352,Alex,Yangon,Member,Food and beverages,36.36,2,3.636,76.356,2019-01-21,2026-04-20 10:00:00,Cash,72.72,4.761904762,3.636,72.72,Morning,Monday
+585-03-5943,Cairo,Mandalay,Normal,Health and beauty,18.11,10,9.055,190.155,2019-03-13,2026-04-20 11:46:00,Ewallet,181.1,4.761904762,9.055,181.1,Morning,Wednesday
+211-05-0490,Giza,Naypyitaw,Member,Electronic accessories,51.92,5,12.98,272.58,2019-03-03,2026-04-20 13:42:00,Cash,259.6,4.761904762,12.98,259.6,Afternoon,Sunday
+727-75-6477,Giza,Naypyitaw,Normal,Electronic accessories,28.84,4,5.768,121.128,2019-03-29,2026-04-20 14:44:00,Cash,115.36,4.761904762,5.768,115.36,Afternoon,Friday
+744-02-5987,Alex,Yangon,Member,Home and lifestyle,78.38,6,23.514,493.794,2019-01-10,2026-04-20 14:16:00,Ewallet,470.28,4.761904762,23.514,470.28,Afternoon,Thursday
+307-83-9164,Alex,Yangon,Member,Home and lifestyle,60.01,4,12.002,252.042,2019-01-25,2026-04-20 15:54:00,Cash,240.04,4.761904762,12.002,240.04,Afternoon,Friday
+779-06-0012,Giza,Naypyitaw,Member,Home and lifestyle,88.61,1,4.4305,93.0405,2019-01-19,2026-04-20 10:21:00,Cash,88.61,4.761904762,4.4305,88.61,Morning,Saturday
+446-47-6729,Giza,Naypyitaw,Normal,Fashion accessories,99.82,2,9.982,209.622,2019-01-02,2026-04-20 18:09:00,Credit card,199.64,4.761904762,9.982,199.64,Evening,Wednesday
+573-10-3877,Cairo,Mandalay,Member,Health and beauty,39.01,1,1.9505,40.9605,2019-03-12,2026-04-20 16:46:00,Credit card,39.01,4.761904762,1.9505,39.01,Afternoon,Tuesday
+735-06-4124,Giza,Naypyitaw,Normal,Food and beverages,48.61,1,2.4305,51.0405,2019-02-25,2026-04-20 15:31:00,Cash,48.61,4.761904762,2.4305,48.61,Afternoon,Monday
+439-54-7422,Alex,Yangon,Normal,Electronic accessories,51.19,4,10.238,214.998,2019-03-18,2026-04-20 17:15:00,Credit card,204.76,4.761904762,10.238,204.76,Afternoon,Monday
+396-90-2219,Cairo,Mandalay,Normal,Electronic accessories,14.96,8,5.984,125.664,2019-02-23,2026-04-20 12:29:00,Cash,119.68,4.761904762,5.984,119.68,Afternoon,Saturday
+411-77-0180,Alex,Yangon,Member,Electronic accessories,72.2,7,25.27,530.67,2019-03-26,2026-04-20 20:14:00,Ewallet,505.4,4.761904762,25.27,505.40000000000003,Evening,Tuesday
+286-01-5402,Alex,Yangon,Normal,Sports and travel,40.23,7,14.0805,295.6905,2019-03-30,2026-04-20 13:22:00,Cash,281.61,4.761904762,14.0805,281.60999999999996,Afternoon,Saturday
+803-17-8013,Alex,Yangon,Member,Home and lifestyle,88.79,8,35.516,745.836,2019-02-17,2026-04-20 17:09:00,Cash,710.32,4.761904762,35.516,710.32,Afternoon,Sunday
+512-98-1403,Alex,Yangon,Member,Electronic accessories,26.48,3,3.972,83.412,2019-03-21,2026-04-20 10:40:00,Ewallet,79.44,4.761904762,3.972,79.44,Morning,Thursday
+848-42-2560,Alex,Yangon,Normal,Fashion accessories,81.91,2,8.191,172.011,2019-03-05,2026-04-20 17:43:00,Cash,163.82,4.761904762,8.191,163.82,Afternoon,Tuesday
+532-59-7201,Cairo,Mandalay,Member,Sports and travel,79.93,6,23.979,503.559,2019-01-31,2026-04-20 14:04:00,Cash,479.58,4.761904762,23.979,479.58000000000004,Afternoon,Thursday
+181-94-6432,Giza,Naypyitaw,Member,Fashion accessories,69.33,2,6.933,145.593,2019-02-05,2026-04-20 19:05:00,Ewallet,138.66,4.761904762,6.933,138.66,Evening,Tuesday
+870-76-1733,Alex,Yangon,Member,Food and beverages,14.23,5,3.5575,74.7075,2019-02-01,2026-04-20 10:08:00,Credit card,71.15,4.761904762,3.5575,71.15,Morning,Friday
+423-64-4619,Alex,Yangon,Member,Health and beauty,15.55,9,6.9975,146.9475,2019-03-07,2026-04-20 13:12:00,Cash,139.95,4.761904762,6.9975,139.95000000000002,Afternoon,Thursday
+227-07-4446,Giza,Naypyitaw,Member,Electronic accessories,78.13,10,39.065,820.365,2019-02-10,2026-04-20 20:51:00,Cash,781.3,4.761904762,39.065,781.3,Evening,Sunday
+174-36-3675,Giza,Naypyitaw,Member,Food and beverages,99.37,2,9.937,208.677,2019-02-14,2026-04-20 17:29:00,Cash,198.74,4.761904762,9.937,198.74,Afternoon,Thursday
+428-83-5800,Giza,Naypyitaw,Member,Food and beverages,21.08,3,3.162,66.402,2019-02-09,2026-04-20 10:25:00,Cash,63.24,4.761904762,3.162,63.239999999999995,Morning,Saturday
+603-07-0961,Giza,Naypyitaw,Member,Electronic accessories,74.79,5,18.6975,392.6475,2019-01-10,2026-04-20 11:34:00,Cash,373.95,4.761904762,18.6975,373.95000000000005,Morning,Thursday
+704-20-4138,Giza,Naypyitaw,Member,Health and beauty,29.67,7,10.3845,218.0745,2019-03-11,2026-04-20 18:58:00,Credit card,207.69,4.761904762,10.3845,207.69,Evening,Monday
+787-15-1757,Giza,Naypyitaw,Member,Health and beauty,44.07,4,8.814,185.094,2019-02-18,2026-04-20 16:28:00,Ewallet,176.28,4.761904762,8.814,176.28,Afternoon,Monday
+649-11-3678,Giza,Naypyitaw,Normal,Food and beverages,22.93,9,10.3185,216.6885,2019-02-26,2026-04-20 20:26:00,Cash,206.37,4.761904762,10.3185,206.37,Evening,Tuesday
+622-20-1945,Giza,Naypyitaw,Normal,Health and beauty,39.42,1,1.971,41.391,2019-01-18,2026-04-20 15:08:00,Cash,39.42,4.761904762,1.971,39.42,Afternoon,Friday
+372-94-8041,Alex,Yangon,Normal,Health and beauty,15.26,6,4.578,96.138,2019-02-15,2026-04-20 18:03:00,Ewallet,91.56,4.761904762,4.578,91.56,Evening,Friday
+563-91-7120,Alex,Yangon,Normal,Fashion accessories,61.77,5,15.4425,324.2925,2019-03-08,2026-04-20 13:21:00,Cash,308.85,4.761904762,15.4425,308.85,Afternoon,Friday
+746-54-5508,Alex,Yangon,Normal,Home and lifestyle,21.52,6,6.456,135.576,2019-01-17,2026-04-20 12:48:00,Credit card,129.12,4.761904762,6.456,129.12,Afternoon,Thursday
+276-54-0879,Cairo,Mandalay,Normal,Sports and travel,97.74,4,19.548,410.508,2019-03-12,2026-04-20 19:53:00,Ewallet,390.96,4.761904762,19.548,390.96,Evening,Tuesday
+815-11-1168,Alex,Yangon,Member,Food and beverages,99.78,5,24.945,523.845,2019-03-09,2026-04-20 19:09:00,Cash,498.9,4.761904762,24.945,498.9,Evening,Saturday
+719-76-3868,Giza,Naypyitaw,Member,Food and beverages,94.26,4,18.852,395.892,2019-03-12,2026-04-20 16:30:00,Cash,377.04,4.761904762,18.852,377.04,Afternoon,Tuesday
+730-61-8757,Cairo,Mandalay,Member,Health and beauty,51.13,4,10.226,214.746,2019-01-25,2026-04-20 10:11:00,Credit card,204.52,4.761904762,10.226,204.52,Morning,Friday
+340-66-0321,Alex,Yangon,Member,Electronic accessories,36.36,4,7.272,152.712,2019-03-25,2026-04-20 13:07:00,Cash,145.44,4.761904762,7.272,145.44,Afternoon,Monday
+868-81-1752,Cairo,Mandalay,Normal,Home and lifestyle,22.02,9,9.909,208.089,2019-02-07,2026-04-20 18:48:00,Cash,198.18,4.761904762,9.909,198.18,Evening,Thursday
+634-97-8956,Alex,Yangon,Normal,Food and beverages,32.9,3,4.935,103.635,2019-02-17,2026-04-20 17:27:00,Credit card,98.7,4.761904762,4.935,98.69999999999999,Afternoon,Sunday
+566-71-1091,Alex,Yangon,Normal,Fashion accessories,77.02,5,19.255,404.355,2019-02-03,2026-04-20 15:59:00,Cash,385.1,4.761904762,19.255,385.09999999999997,Afternoon,Sunday
+442-48-3607,Alex,Yangon,Member,Food and beverages,23.48,2,2.348,49.308,2019-03-14,2026-04-20 11:21:00,Credit card,46.96,4.761904762,2.348,46.96,Morning,Thursday
+835-16-0096,Giza,Naypyitaw,Member,Sports and travel,14.7,5,3.675,77.175,2019-03-24,2026-04-20 13:48:00,Ewallet,73.5,4.761904762,3.675,73.5,Afternoon,Sunday
+527-09-6272,Alex,Yangon,Member,Electronic accessories,28.45,5,7.1125,149.3625,2019-03-21,2026-04-20 10:17:00,Credit card,142.25,4.761904762,7.1125,142.25,Morning,Thursday
+898-04-2717,Alex,Yangon,Normal,Fashion accessories,76.4,9,34.38,721.98,2019-03-19,2026-04-20 15:49:00,Ewallet,687.6,4.761904762,34.38,687.6,Afternoon,Tuesday
+692-27-8933,Cairo,Mandalay,Normal,Sports and travel,57.95,6,17.385,365.085,2019-02-24,2026-04-20 13:02:00,Cash,347.7,4.761904762,17.385,347.70000000000005,Afternoon,Sunday
+633-09-3463,Giza,Naypyitaw,Normal,Electronic accessories,47.65,3,7.1475,150.0975,2019-03-28,2026-04-20 12:58:00,Credit card,142.95,4.761904762,7.1475,142.95,Afternoon,Thursday
+374-17-3652,Cairo,Mandalay,Member,Food and beverages,42.82,9,19.269,404.649,2019-02-05,2026-04-20 15:26:00,Credit card,385.38,4.761904762,19.269,385.38,Afternoon,Tuesday
+378-07-7001,Cairo,Mandalay,Member,Electronic accessories,48.09,3,7.2135,151.4835,2019-02-10,2026-04-20 18:23:00,Credit card,144.27,4.761904762,7.2135,144.27,Evening,Sunday
+433-75-6987,Cairo,Mandalay,Member,Health and beauty,55.97,7,19.5895,411.3795,2019-03-05,2026-04-20 19:06:00,Ewallet,391.79,4.761904762,19.5895,391.78999999999996,Evening,Tuesday
+873-95-4984,Cairo,Mandalay,Member,Health and beauty,76.9,7,26.915,565.215,2019-02-15,2026-04-20 20:21:00,Cash,538.3,4.761904762,26.915,538.3000000000001,Evening,Friday
+416-13-5917,Giza,Naypyitaw,Normal,Food and beverages,97.03,5,24.2575,509.4075,2019-01-30,2026-04-20 16:24:00,Ewallet,485.15,4.761904762,24.2575,485.15,Afternoon,Wednesday
+150-89-8043,Alex,Yangon,Normal,Sports and travel,44.65,3,6.6975,140.6475,2019-02-14,2026-04-20 15:04:00,Cash,133.95,4.761904762,6.6975,133.95,Afternoon,Thursday
+135-84-8019,Alex,Yangon,Normal,Fashion accessories,77.93,9,35.0685,736.4385,2019-02-27,2026-04-20 16:10:00,Ewallet,701.37,4.761904762,35.0685,701.3700000000001,Afternoon,Wednesday
+441-94-7118,Alex,Yangon,Member,Electronic accessories,71.95,1,3.5975,75.5475,2019-02-04,2026-04-20 12:14:00,Cash,71.95,4.761904762,3.5975,71.95,Afternoon,Monday
+725-96-3778,Giza,Naypyitaw,Member,Home and lifestyle,89.25,8,35.7,749.7,2019-01-20,2026-04-20 10:13:00,Cash,714.0,4.761904762,35.7,714.0,Morning,Sunday
+531-80-1784,Alex,Yangon,Normal,Electronic accessories,26.02,7,9.107,191.247,2019-03-28,2026-04-20 17:38:00,Cash,182.14,4.761904762,9.107,182.14,Afternoon,Thursday
+400-45-1220,Cairo,Mandalay,Normal,Health and beauty,13.5,10,6.75,141.75,2019-02-27,2026-04-20 11:06:00,Credit card,135.0,4.761904762,6.75,135.0,Morning,Wednesday
+860-79-0874,Giza,Naypyitaw,Member,Fashion accessories,99.3,10,49.65,1042.65,2019-02-15,2026-04-20 14:53:00,Credit card,993.0,4.761904762,49.65,993.0,Afternoon,Friday
+834-61-8124,Alex,Yangon,Normal,Electronic accessories,51.69,7,18.0915,379.9215,2019-01-26,2026-04-20 18:22:00,Cash,361.83,4.761904762,18.0915,361.83,Evening,Saturday
+115-99-4379,Cairo,Mandalay,Member,Fashion accessories,54.73,7,19.1555,402.2655,2019-03-14,2026-04-20 19:02:00,Credit card,383.11,4.761904762,19.1555,383.10999999999996,Evening,Thursday
+565-67-6697,Cairo,Mandalay,Member,Home and lifestyle,27.0,9,12.15,255.15,2019-03-02,2026-04-20 14:16:00,Cash,243.0,4.761904762,12.15,243.0,Afternoon,Saturday
+320-49-6392,Giza,Naypyitaw,Normal,Electronic accessories,30.24,1,1.512,31.752,2019-03-04,2026-04-20 15:44:00,Cash,30.24,4.761904762,1.512,30.24,Afternoon,Monday
+889-04-9723,Cairo,Mandalay,Member,Food and beverages,89.14,4,17.828,374.388,2019-01-07,2026-04-20 12:20:00,Credit card,356.56,4.761904762,17.828,356.56,Afternoon,Monday
+632-90-0281,Giza,Naypyitaw,Normal,Fashion accessories,37.55,10,18.775,394.275,2019-03-08,2026-04-20 20:01:00,Credit card,375.5,4.761904762,18.775,375.5,Evening,Friday
+554-42-2417,Giza,Naypyitaw,Normal,Sports and travel,95.44,10,47.72,1002.12,2019-01-09,2026-04-20 13:45:00,Cash,954.4,4.761904762,47.72,954.4,Afternoon,Wednesday
+453-63-6187,Cairo,Mandalay,Normal,Electronic accessories,27.5,3,4.125,86.625,2019-03-01,2026-04-20 15:40:00,Ewallet,82.5,4.761904762,4.125,82.5,Afternoon,Friday
+578-80-7669,Cairo,Mandalay,Normal,Sports and travel,74.97,1,3.7485,78.7185,2019-03-16,2026-04-20 16:58:00,Cash,74.97,4.761904762,3.7485,74.97,Afternoon,Saturday
+612-36-5536,Alex,Yangon,Member,Food and beverages,80.96,8,32.384,680.064,2019-02-17,2026-04-20 11:12:00,Credit card,647.68,4.761904762,32.384,647.68,Morning,Sunday
+605-72-4132,Giza,Naypyitaw,Normal,Food and beverages,94.47,8,37.788,793.548,2019-02-27,2026-04-20 15:12:00,Cash,755.76,4.761904762,37.788,755.76,Afternoon,Wednesday
+471-41-2823,Giza,Naypyitaw,Normal,Food and beverages,99.79,2,9.979,209.559,2019-03-07,2026-04-20 20:37:00,Ewallet,199.58,4.761904762,9.979,199.58,Evening,Thursday
+462-67-9126,Alex,Yangon,Normal,Home and lifestyle,73.22,6,21.966,461.286,2019-01-21,2026-04-20 17:44:00,Cash,439.32,4.761904762,21.966,439.32,Afternoon,Monday
+272-27-9238,Giza,Naypyitaw,Normal,Food and beverages,41.24,4,8.248,173.208,2019-02-19,2026-04-20 16:23:00,Cash,164.96,4.761904762,8.248,164.96,Afternoon,Tuesday
+834-25-9262,Giza,Naypyitaw,Normal,Fashion accessories,81.68,4,16.336,343.056,2019-01-06,2026-04-20 12:12:00,Cash,326.72,4.761904762,16.336,326.72,Afternoon,Sunday
+122-61-9553,Giza,Naypyitaw,Normal,Electronic accessories,51.32,9,23.094,484.974,2019-03-14,2026-04-20 19:33:00,Cash,461.88,4.761904762,23.094,461.88,Evening,Thursday
+468-88-0009,Alex,Yangon,Member,Home and lifestyle,65.94,4,13.188,276.948,2019-03-24,2026-04-20 10:29:00,Cash,263.76,4.761904762,13.188,263.76,Morning,Sunday
+613-59-9758,Giza,Naypyitaw,Normal,Sports and travel,14.36,10,7.18,150.78,2019-01-27,2026-04-20 14:28:00,Cash,143.6,4.761904762,7.18,143.6,Afternoon,Sunday
+254-31-0042,Alex,Yangon,Member,Electronic accessories,21.5,9,9.675,203.175,2019-03-06,2026-04-20 12:46:00,Credit card,193.5,4.761904762,9.675,193.5,Afternoon,Wednesday
+201-86-2184,Cairo,Mandalay,Member,Electronic accessories,26.26,7,9.191,193.011,2019-02-02,2026-04-20 19:40:00,Cash,183.82,4.761904762,9.191,183.82000000000002,Evening,Saturday
+261-12-8671,Cairo,Mandalay,Normal,Fashion accessories,60.96,2,6.096,128.016,2019-01-25,2026-04-20 19:39:00,Credit card,121.92,4.761904762,6.096,121.92,Evening,Friday
+730-70-9830,Giza,Naypyitaw,Normal,Home and lifestyle,70.11,6,21.033,441.693,2019-03-14,2026-04-20 17:54:00,Ewallet,420.66,4.761904762,21.033,420.65999999999997,Afternoon,Thursday
+382-25-8917,Giza,Naypyitaw,Normal,Fashion accessories,42.08,6,12.624,265.104,2019-01-29,2026-04-20 12:25:00,Cash,252.48,4.761904762,12.624,252.48,Afternoon,Tuesday
+422-29-8786,Alex,Yangon,Normal,Home and lifestyle,67.09,5,16.7725,352.2225,2019-01-03,2026-04-20 16:47:00,Credit card,335.45,4.761904762,16.7725,335.45000000000005,Afternoon,Thursday
+667-23-5919,Alex,Yangon,Member,Fashion accessories,96.7,5,24.175,507.675,2019-01-14,2026-04-20 12:52:00,Ewallet,483.5,4.761904762,24.175,483.5,Afternoon,Monday
+843-01-4703,Cairo,Mandalay,Member,Home and lifestyle,35.38,9,15.921,334.341,2019-01-05,2026-04-20 19:50:00,Credit card,318.42,4.761904762,15.921,318.42,Evening,Saturday
+743-88-1662,Giza,Naypyitaw,Normal,Sports and travel,95.49,7,33.4215,701.8515,2019-02-22,2026-04-20 18:17:00,Ewallet,668.43,4.761904762,33.4215,668.43,Evening,Friday
+595-86-2894,Giza,Naypyitaw,Member,Fashion accessories,96.98,4,19.396,407.316,2019-02-06,2026-04-20 17:20:00,Ewallet,387.92,4.761904762,19.396,387.92,Afternoon,Wednesday
+182-69-8360,Cairo,Mandalay,Normal,Electronic accessories,23.65,4,4.73,99.33,2019-01-30,2026-04-20 13:32:00,Credit card,94.6,4.761904762,4.73,94.6,Afternoon,Wednesday
+289-15-7034,Alex,Yangon,Member,Sports and travel,82.33,4,16.466,345.786,2019-01-11,2026-04-20 10:37:00,Credit card,329.32,4.761904762,16.466,329.32,Morning,Friday
+462-78-5240,Giza,Naypyitaw,Normal,Electronic accessories,26.61,2,2.661,55.881,2019-03-19,2026-04-20 14:35:00,Cash,53.22,4.761904762,2.661,53.22,Afternoon,Tuesday
+868-52-7573,Cairo,Mandalay,Normal,Food and beverages,99.69,5,24.9225,523.3725,2019-01-14,2026-04-20 12:09:00,Cash,498.45,4.761904762,24.9225,498.45,Afternoon,Monday
+153-58-4872,Giza,Naypyitaw,Member,Food and beverages,74.89,4,14.978,314.538,2019-03-01,2026-04-20 15:32:00,Ewallet,299.56,4.761904762,14.978,299.56,Afternoon,Friday
+662-72-2873,Alex,Yangon,Normal,Food and beverages,40.94,5,10.235,214.935,2019-01-06,2026-04-20 13:58:00,Ewallet,204.7,4.761904762,10.235,204.7,Afternoon,Sunday
+525-88-7307,Cairo,Mandalay,Member,Sports and travel,75.82,1,3.791,79.611,2019-01-31,2026-04-20 13:19:00,Cash,75.82,4.761904762,3.791,75.82,Afternoon,Thursday
+689-16-9784,Giza,Naypyitaw,Normal,Food and beverages,46.77,6,14.031,294.651,2019-03-11,2026-04-20 13:37:00,Cash,280.62,4.761904762,14.031,280.62,Afternoon,Monday
+725-56-0833,Alex,Yangon,Normal,Health and beauty,32.32,10,16.16,339.36,2019-02-20,2026-04-20 16:49:00,Credit card,323.2,4.761904762,16.16,323.2,Afternoon,Wednesday
+394-41-0748,Giza,Naypyitaw,Member,Fashion accessories,54.07,9,24.3315,510.9615,2019-01-27,2026-04-20 14:55:00,Ewallet,486.63,4.761904762,24.3315,486.63,Afternoon,Sunday
+596-42-3999,Cairo,Mandalay,Normal,Food and beverages,18.22,7,6.377,133.917,2019-03-10,2026-04-20 14:04:00,Credit card,127.54,4.761904762,6.377,127.53999999999999,Afternoon,Sunday
+541-89-9860,Giza,Naypyitaw,Member,Fashion accessories,80.48,3,12.072,253.512,2019-02-15,2026-04-20 12:31:00,Cash,241.44,4.761904762,12.072,241.44,Afternoon,Friday
+173-82-9529,Cairo,Mandalay,Normal,Fashion accessories,37.95,10,18.975,398.475,2019-01-26,2026-04-20 14:51:00,Cash,379.5,4.761904762,18.975,379.5,Afternoon,Saturday
+563-36-9814,Alex,Yangon,Member,Electronic accessories,76.82,1,3.841,80.661,2019-02-13,2026-04-20 18:27:00,Ewallet,76.82,4.761904762,3.841,76.82,Evening,Wednesday
+308-47-4913,Alex,Yangon,Member,Sports and travel,52.26,10,26.13,548.73,2019-03-09,2026-04-20 12:45:00,Credit card,522.6,4.761904762,26.13,522.6,Afternoon,Saturday
+885-17-6250,Alex,Yangon,Normal,Health and beauty,79.74,1,3.987,83.727,2019-03-06,2026-04-20 10:36:00,Ewallet,79.74,4.761904762,3.987,79.74,Morning,Wednesday
+726-27-2396,Alex,Yangon,Normal,Health and beauty,77.5,5,19.375,406.875,2019-01-24,2026-04-20 20:36:00,Ewallet,387.5,4.761904762,19.375,387.5,Evening,Thursday
+316-01-3952,Alex,Yangon,Normal,Food and beverages,54.27,5,13.5675,284.9175,2019-03-13,2026-04-20 14:16:00,Ewallet,271.35,4.761904762,13.5675,271.35,Afternoon,Wednesday
+760-54-1821,Cairo,Mandalay,Normal,Home and lifestyle,13.59,9,6.1155,128.4255,2019-03-15,2026-04-20 10:26:00,Cash,122.31,4.761904762,6.1155,122.31,Morning,Friday
+793-10-3222,Cairo,Mandalay,Member,Health and beauty,41.06,6,12.318,258.678,2019-03-05,2026-04-20 13:30:00,Credit card,246.36,4.761904762,12.318,246.36,Afternoon,Tuesday
+346-12-3257,Cairo,Mandalay,Member,Electronic accessories,19.24,9,8.658,181.818,2019-03-04,2026-04-20 16:28:00,Cash,173.16,4.761904762,8.658,173.16,Afternoon,Monday
+110-05-6330,Giza,Naypyitaw,Normal,Food and beverages,39.43,6,11.829,248.409,2019-03-25,2026-04-20 20:18:00,Credit card,236.58,4.761904762,11.829,236.57999999999998,Evening,Monday
+651-61-0874,Giza,Naypyitaw,Normal,Home and lifestyle,46.22,4,9.244,194.124,2019-03-12,2026-04-20 20:04:00,Credit card,184.88,4.761904762,9.244,184.88,Evening,Tuesday
+236-86-3015,Giza,Naypyitaw,Member,Home and lifestyle,13.98,1,0.699,14.679,2019-02-04,2026-04-20 13:38:00,Ewallet,13.98,4.761904762,0.699,13.98,Afternoon,Monday
+831-64-0259,Cairo,Mandalay,Normal,Fashion accessories,39.75,5,9.9375,208.6875,2019-02-22,2026-04-20 10:43:00,Ewallet,198.75,4.761904762,9.9375,198.75,Morning,Friday
+587-03-7455,Giza,Naypyitaw,Member,Fashion accessories,97.79,7,34.2265,718.7565,2019-02-16,2026-04-20 17:30:00,Ewallet,684.53,4.761904762,34.2265,684.5300000000001,Afternoon,Saturday
+882-40-4577,Alex,Yangon,Member,Sports and travel,67.26,4,13.452,282.492,2019-01-19,2026-04-20 15:28:00,Credit card,269.04,4.761904762,13.452,269.04,Afternoon,Saturday
+732-67-5346,Alex,Yangon,Normal,Food and beverages,13.79,5,3.4475,72.3975,2019-01-11,2026-04-20 19:07:00,Credit card,68.95,4.761904762,3.4475,68.94999999999999,Evening,Friday
+725-32-9708,Cairo,Mandalay,Member,Fashion accessories,68.71,4,13.742,288.582,2019-01-04,2026-04-20 19:01:00,Cash,274.84,4.761904762,13.742,274.84,Evening,Friday
+256-08-8343,Alex,Yangon,Normal,Home and lifestyle,56.53,4,11.306,237.426,2019-03-04,2026-04-20 19:48:00,Ewallet,226.12,4.761904762,11.306,226.12,Evening,Monday
+372-26-1506,Giza,Naypyitaw,Normal,Fashion accessories,23.82,5,5.955,125.055,2019-01-28,2026-04-20 19:24:00,Ewallet,119.1,4.761904762,5.955,119.1,Evening,Monday
+244-08-0162,Cairo,Mandalay,Normal,Health and beauty,34.21,10,17.105,359.205,2019-01-02,2026-04-20 13:00:00,Cash,342.1,4.761904762,17.105,342.1,Afternoon,Wednesday
+569-71-4390,Cairo,Mandalay,Normal,Sports and travel,21.87,2,2.187,45.927,2019-01-25,2026-04-20 14:29:00,Ewallet,43.74,4.761904762,2.187,43.74,Afternoon,Friday
+132-23-6451,Alex,Yangon,Member,Health and beauty,20.97,5,5.2425,110.0925,2019-01-04,2026-04-20 13:21:00,Cash,104.85,4.761904762,5.2425,104.85,Afternoon,Friday
+696-90-2548,Alex,Yangon,Normal,Sports and travel,25.84,3,3.876,81.396,2019-03-10,2026-04-20 18:55:00,Ewallet,77.52,4.761904762,3.876,77.52,Evening,Sunday
+472-15-9636,Alex,Yangon,Normal,Home and lifestyle,50.93,8,20.372,427.812,2019-03-22,2026-04-20 19:36:00,Ewallet,407.44,4.761904762,20.372,407.44,Evening,Friday
+268-03-6164,Cairo,Mandalay,Normal,Health and beauty,96.11,1,4.8055,100.9155,2019-01-25,2026-04-20 16:28:00,Ewallet,96.11,4.761904762,4.8055,96.11,Afternoon,Friday
+750-57-9686,Giza,Naypyitaw,Normal,Home and lifestyle,45.38,4,9.076,190.596,2019-01-08,2026-04-20 13:48:00,Credit card,181.52,4.761904762,9.076,181.52,Afternoon,Tuesday
+186-09-3669,Giza,Naypyitaw,Member,Health and beauty,81.51,1,4.0755,85.5855,2019-01-22,2026-04-20 10:57:00,Ewallet,81.51,4.761904762,4.0755,81.51,Morning,Tuesday
+848-07-1692,Cairo,Mandalay,Normal,Health and beauty,57.22,2,5.722,120.162,2019-01-12,2026-04-20 17:13:00,Ewallet,114.44,4.761904762,5.722,114.44,Afternoon,Saturday
+745-71-3520,Alex,Yangon,Member,Electronic accessories,25.22,7,8.827,185.367,2019-02-04,2026-04-20 10:23:00,Cash,176.54,4.761904762,8.827,176.54,Morning,Monday
+266-76-6436,Giza,Naypyitaw,Member,Food and beverages,38.6,3,5.79,121.59,2019-03-28,2026-04-20 13:57:00,Ewallet,115.8,4.761904762,5.79,115.80000000000001,Afternoon,Thursday
+740-22-2500,Giza,Naypyitaw,Normal,Electronic accessories,84.05,3,12.6075,264.7575,2019-01-23,2026-04-20 13:29:00,Cash,252.15,4.761904762,12.6075,252.14999999999998,Afternoon,Wednesday
+271-88-8734,Giza,Naypyitaw,Member,Fashion accessories,97.21,10,48.605,1020.705,2019-02-08,2026-04-20 13:00:00,Credit card,972.1,4.761904762,48.605,972.0999999999999,Afternoon,Friday
+301-81-8610,Cairo,Mandalay,Member,Fashion accessories,25.42,8,10.168,213.528,2019-03-19,2026-04-20 19:42:00,Credit card,203.36,4.761904762,10.168,203.36,Evening,Tuesday
+489-64-4354,Giza,Naypyitaw,Normal,Fashion accessories,16.28,1,0.814,17.094,2019-03-09,2026-04-20 15:36:00,Cash,16.28,4.761904762,0.814,16.28,Afternoon,Saturday
+198-84-7132,Cairo,Mandalay,Member,Fashion accessories,40.61,9,18.2745,383.7645,2019-01-02,2026-04-20 13:40:00,Cash,365.49,4.761904762,18.2745,365.49,Afternoon,Wednesday
+269-10-8440,Alex,Yangon,Member,Health and beauty,53.17,7,18.6095,390.7995,2019-01-21,2026-04-20 18:01:00,Cash,372.19,4.761904762,18.6095,372.19,Evening,Monday
+650-98-6268,Cairo,Mandalay,Member,Food and beverages,20.87,3,3.1305,65.7405,2019-03-20,2026-04-20 13:53:00,Credit card,62.61,4.761904762,3.1305,62.61,Afternoon,Wednesday
+741-73-3559,Cairo,Mandalay,Normal,Sports and travel,67.27,5,16.8175,353.1675,2019-02-27,2026-04-20 17:27:00,Cash,336.35,4.761904762,16.8175,336.34999999999997,Afternoon,Wednesday
+325-77-6186,Alex,Yangon,Member,Home and lifestyle,90.65,10,45.325,951.825,2019-03-08,2026-04-20 10:53:00,Ewallet,906.5,4.761904762,45.325,906.5,Morning,Friday
+286-75-7818,Cairo,Mandalay,Normal,Fashion accessories,69.08,2,6.908,145.068,2019-01-31,2026-04-20 19:48:00,Credit card,138.16,4.761904762,6.908,138.16,Evening,Thursday
+574-57-9721,Giza,Naypyitaw,Normal,Food and beverages,43.27,2,4.327,90.867,2019-03-08,2026-04-20 16:53:00,Ewallet,86.54,4.761904762,4.327,86.54,Afternoon,Friday
+459-50-7686,Alex,Yangon,Normal,Electronic accessories,23.46,6,7.038,147.798,2019-01-13,2026-04-20 19:14:00,Ewallet,140.76,4.761904762,7.038,140.76,Evening,Sunday
+616-87-0016,Cairo,Mandalay,Normal,Fashion accessories,95.54,7,33.439,702.219,2019-03-09,2026-04-20 14:36:00,Credit card,668.78,4.761904762,33.439,668.7800000000001,Afternoon,Saturday
+837-55-7229,Cairo,Mandalay,Normal,Fashion accessories,47.44,1,2.372,49.812,2019-02-22,2026-04-20 18:19:00,Credit card,47.44,4.761904762,2.372,47.44,Evening,Friday
+751-69-0068,Giza,Naypyitaw,Normal,Sports and travel,99.24,9,44.658,937.818,2019-03-19,2026-04-20 19:09:00,Ewallet,893.16,4.761904762,44.658,893.16,Evening,Tuesday
+257-73-1380,Giza,Naypyitaw,Member,Sports and travel,82.93,4,16.586,348.306,2019-01-20,2026-04-20 16:51:00,Ewallet,331.72,4.761904762,16.586,331.72,Afternoon,Sunday
+345-08-4992,Alex,Yangon,Normal,Home and lifestyle,33.99,6,10.197,214.137,2019-03-08,2026-04-20 15:37:00,Credit card,203.94,4.761904762,10.197,203.94,Afternoon,Friday
+549-96-4200,Giza,Naypyitaw,Member,Food and beverages,17.04,4,3.408,71.568,2019-03-08,2026-04-20 20:15:00,Ewallet,68.16,4.761904762,3.408,68.16,Evening,Friday
+810-60-6344,Giza,Naypyitaw,Normal,Electronic accessories,40.86,8,16.344,343.224,2019-02-07,2026-04-20 14:38:00,Credit card,326.88,4.761904762,16.344,326.88,Afternoon,Thursday
+450-28-2866,Giza,Naypyitaw,Member,Food and beverages,17.44,5,4.36,91.56,2019-01-15,2026-04-20 19:25:00,Cash,87.2,4.761904762,4.36,87.2,Evening,Tuesday
+394-30-3170,Cairo,Mandalay,Member,Sports and travel,88.43,8,35.372,742.812,2019-03-22,2026-04-20 19:35:00,Credit card,707.44,4.761904762,35.372,707.44,Evening,Friday
+138-17-5109,Alex,Yangon,Member,Home and lifestyle,89.21,9,40.1445,843.0345,2019-01-15,2026-04-20 15:42:00,Credit card,802.89,4.761904762,40.1445,802.89,Afternoon,Tuesday
+192-98-7397,Giza,Naypyitaw,Normal,Fashion accessories,12.78,1,0.639,13.419,2019-01-08,2026-04-20 14:11:00,Ewallet,12.78,4.761904762,0.639,12.78,Afternoon,Tuesday
+301-11-9629,Alex,Yangon,Normal,Sports and travel,19.1,7,6.685,140.385,2019-01-15,2026-04-20 10:43:00,Cash,133.7,4.761904762,6.685,133.70000000000002,Morning,Tuesday
+390-80-5128,Cairo,Mandalay,Member,Health and beauty,19.15,1,0.9575,20.1075,2019-01-28,2026-04-20 17:58:00,Credit card,19.15,4.761904762,0.9575,19.15,Afternoon,Monday
+235-46-8343,Giza,Naypyitaw,Member,Food and beverages,27.66,10,13.83,290.43,2019-02-14,2026-04-20 11:26:00,Credit card,276.6,4.761904762,13.83,276.6,Morning,Thursday
+453-12-7053,Giza,Naypyitaw,Normal,Fashion accessories,45.74,3,6.861,144.081,2019-03-10,2026-04-20 17:38:00,Credit card,137.22,4.761904762,6.861,137.22,Afternoon,Sunday
+296-11-7041,Cairo,Mandalay,Member,Health and beauty,27.07,1,1.3535,28.4235,2019-01-12,2026-04-20 20:07:00,Credit card,27.07,4.761904762,1.3535,27.07,Evening,Saturday
+449-27-2918,Cairo,Mandalay,Member,Sports and travel,39.12,1,1.956,41.076,2019-03-26,2026-04-20 11:02:00,Credit card,39.12,4.761904762,1.956,39.12,Morning,Tuesday
+891-01-7034,Cairo,Mandalay,Normal,Electronic accessories,74.71,6,22.413,470.673,2019-01-01,2026-04-20 19:07:00,Cash,448.26,4.761904762,22.413,448.26,Evening,Tuesday
+744-09-5786,Cairo,Mandalay,Normal,Electronic accessories,22.01,6,6.603,138.663,2019-01-02,2026-04-20 18:50:00,Cash,132.06,4.761904762,6.603,132.06,Evening,Wednesday
+727-17-0390,Alex,Yangon,Normal,Food and beverages,63.61,5,15.9025,333.9525,2019-03-16,2026-04-20 12:43:00,Ewallet,318.05,4.761904762,15.9025,318.05,Afternoon,Saturday
+568-88-3448,Alex,Yangon,Normal,Health and beauty,25.0,1,1.25,26.25,2019-03-03,2026-04-20 15:09:00,Ewallet,25.0,4.761904762,1.25,25.0,Afternoon,Sunday
+187-83-5490,Alex,Yangon,Member,Electronic accessories,20.77,4,4.154,87.234,2019-01-31,2026-04-20 13:47:00,Cash,83.08,4.761904762,4.154,83.08,Afternoon,Thursday
+767-54-1907,Cairo,Mandalay,Member,Fashion accessories,29.56,5,7.39,155.19,2019-02-13,2026-04-20 16:59:00,Cash,147.8,4.761904762,7.39,147.79999999999998,Afternoon,Wednesday
+710-46-4433,Cairo,Mandalay,Member,Food and beverages,77.4,9,34.83,731.43,2019-02-15,2026-04-20 14:15:00,Credit card,696.6,4.761904762,34.83,696.6,Afternoon,Friday
+533-33-5337,Cairo,Mandalay,Normal,Electronic accessories,79.39,10,39.695,833.595,2019-02-07,2026-04-20 20:24:00,Cash,793.9,4.761904762,39.695,793.9,Evening,Thursday
+325-90-8763,Giza,Naypyitaw,Member,Electronic accessories,46.57,10,23.285,488.985,2019-01-27,2026-04-20 13:58:00,Cash,465.7,4.761904762,23.285,465.7,Afternoon,Sunday
+729-46-7422,Giza,Naypyitaw,Normal,Food and beverages,35.89,1,1.7945,37.6845,2019-02-23,2026-04-20 16:52:00,Credit card,35.89,4.761904762,1.7945,35.89,Afternoon,Saturday
+639-76-1242,Giza,Naypyitaw,Normal,Food and beverages,40.52,5,10.13,212.73,2019-02-03,2026-04-20 15:19:00,Cash,202.6,4.761904762,10.13,202.60000000000002,Afternoon,Sunday
+234-03-4040,Cairo,Mandalay,Member,Food and beverages,73.05,10,36.525,767.025,2019-03-03,2026-04-20 12:25:00,Credit card,730.5,4.761904762,36.525,730.5,Afternoon,Sunday
+326-71-2155,Giza,Naypyitaw,Normal,Sports and travel,73.95,4,14.79,310.59,2019-02-03,2026-04-20 10:02:00,Cash,295.8,4.761904762,14.79,295.8,Morning,Sunday
+320-32-8842,Giza,Naypyitaw,Member,Food and beverages,22.62,1,1.131,23.751,2019-03-17,2026-04-20 18:58:00,Cash,22.62,4.761904762,1.131,22.62,Evening,Sunday
+470-32-9057,Alex,Yangon,Member,Food and beverages,51.34,5,12.835,269.535,2019-03-28,2026-04-20 15:31:00,Credit card,256.7,4.761904762,12.835,256.70000000000005,Afternoon,Thursday
+878-30-2331,Giza,Naypyitaw,Member,Sports and travel,54.55,10,27.275,572.775,2019-03-02,2026-04-20 11:22:00,Credit card,545.5,4.761904762,27.275,545.5,Morning,Saturday
+440-59-5691,Giza,Naypyitaw,Member,Health and beauty,37.15,7,13.0025,273.0525,2019-02-08,2026-04-20 13:12:00,Credit card,260.05,4.761904762,13.0025,260.05,Afternoon,Friday
+554-53-3790,Cairo,Mandalay,Normal,Sports and travel,37.02,6,11.106,233.226,2019-03-22,2026-04-20 18:33:00,Cash,222.12,4.761904762,11.106,222.12,Evening,Friday
+746-19-0921,Giza,Naypyitaw,Normal,Food and beverages,21.58,1,1.079,22.659,2019-02-09,2026-04-20 10:02:00,Ewallet,21.58,4.761904762,1.079,21.58,Morning,Saturday
+233-34-0817,Giza,Naypyitaw,Member,Electronic accessories,98.84,1,4.942,103.782,2019-02-15,2026-04-20 11:21:00,Cash,98.84,4.761904762,4.942,98.84,Morning,Friday
+767-05-1286,Giza,Naypyitaw,Member,Home and lifestyle,83.77,6,25.131,527.751,2019-01-23,2026-04-20 12:10:00,Ewallet,502.62,4.761904762,25.131,502.62,Afternoon,Wednesday
+340-21-9136,Alex,Yangon,Member,Sports and travel,40.05,4,8.01,168.21,2019-01-25,2026-04-20 11:40:00,Cash,160.2,4.761904762,8.01,160.2,Morning,Friday
+405-31-3305,Alex,Yangon,Member,Fashion accessories,43.13,10,21.565,452.865,2019-02-02,2026-04-20 18:31:00,Credit card,431.3,4.761904762,21.565,431.3,Evening,Saturday
+731-59-7531,Cairo,Mandalay,Member,Health and beauty,72.57,8,29.028,609.588,2019-03-30,2026-04-20 17:58:00,Cash,580.56,4.761904762,29.028,580.56,Afternoon,Saturday
+676-39-6028,Alex,Yangon,Member,Electronic accessories,64.44,5,16.11,338.31,2019-03-30,2026-04-20 17:04:00,Cash,322.2,4.761904762,16.11,322.2,Afternoon,Saturday
+502-05-1910,Alex,Yangon,Normal,Health and beauty,65.18,3,9.777,205.317,2019-02-25,2026-04-20 20:35:00,Credit card,195.54,4.761904762,9.777,195.54000000000002,Evening,Monday
+485-30-8700,Alex,Yangon,Normal,Sports and travel,33.26,5,8.315,174.615,2019-03-18,2026-04-20 16:10:00,Credit card,166.3,4.761904762,8.315,166.29999999999998,Afternoon,Monday
+598-47-9715,Giza,Naypyitaw,Normal,Electronic accessories,84.07,4,16.814,353.094,2019-03-07,2026-04-20 16:54:00,Ewallet,336.28,4.761904762,16.814,336.28,Afternoon,Thursday
+701-69-8742,Cairo,Mandalay,Normal,Sports and travel,34.37,10,17.185,360.885,2019-03-16,2026-04-20 10:11:00,Ewallet,343.7,4.761904762,17.185,343.7,Morning,Saturday
+575-67-1508,Alex,Yangon,Normal,Electronic accessories,38.6,1,1.93,40.53,2019-01-29,2026-04-20 11:26:00,Ewallet,38.6,4.761904762,1.93,38.6,Morning,Tuesday
+541-08-3113,Giza,Naypyitaw,Normal,Food and beverages,65.97,8,26.388,554.148,2019-02-02,2026-04-20 20:29:00,Cash,527.76,4.761904762,26.388,527.76,Evening,Saturday
+246-11-3901,Giza,Naypyitaw,Normal,Electronic accessories,32.8,10,16.4,344.4,2019-02-15,2026-04-20 12:12:00,Cash,328.0,4.761904762,16.4,328.0,Afternoon,Friday
+674-15-9296,Alex,Yangon,Normal,Sports and travel,37.14,5,9.285,194.985,2019-01-08,2026-04-20 13:05:00,Ewallet,185.7,4.761904762,9.285,185.7,Afternoon,Tuesday
+305-18-3552,Cairo,Mandalay,Member,Home and lifestyle,60.38,10,30.19,633.99,2019-02-12,2026-04-20 16:19:00,Cash,603.8,4.761904762,30.19,603.8000000000001,Afternoon,Tuesday
+493-65-6248,Giza,Naypyitaw,Member,Sports and travel,36.98,10,18.49,388.29,2019-01-01,2026-04-20 19:48:00,Credit card,369.8,4.761904762,18.49,369.79999999999995,Evening,Tuesday
+438-01-4015,Cairo,Mandalay,Member,Sports and travel,49.49,4,9.898,207.858,2019-03-21,2026-04-20 15:25:00,Ewallet,197.96,4.761904762,9.898,197.96,Afternoon,Thursday
+709-58-4068,Cairo,Mandalay,Normal,Fashion accessories,41.09,10,20.545,431.445,2019-02-28,2026-04-20 14:42:00,Cash,410.9,4.761904762,20.545,410.90000000000003,Afternoon,Thursday
+795-49-7276,Alex,Yangon,Normal,Fashion accessories,37.15,4,7.43,156.03,2019-03-23,2026-04-20 18:59:00,Ewallet,148.6,4.761904762,7.43,148.6,Evening,Saturday
+556-72-8512,Giza,Naypyitaw,Normal,Home and lifestyle,22.96,1,1.148,24.108,2019-01-30,2026-04-20 20:47:00,Cash,22.96,4.761904762,1.148,22.96,Evening,Wednesday
+627-95-3243,Cairo,Mandalay,Member,Home and lifestyle,77.68,9,34.956,734.076,2019-02-04,2026-04-20 13:21:00,Ewallet,699.12,4.761904762,34.956,699.1200000000001,Afternoon,Monday
+686-41-0932,Cairo,Mandalay,Normal,Fashion accessories,34.7,2,3.47,72.87,2019-03-13,2026-04-20 19:48:00,Ewallet,69.4,4.761904762,3.47,69.4,Evening,Wednesday
+510-09-5628,Alex,Yangon,Member,Fashion accessories,19.66,10,9.83,206.43,2019-03-15,2026-04-20 18:20:00,Credit card,196.6,4.761904762,9.83,196.6,Evening,Friday
+608-04-3797,Cairo,Mandalay,Member,Health and beauty,25.32,8,10.128,212.688,2019-03-05,2026-04-20 20:24:00,Ewallet,202.56,4.761904762,10.128,202.56,Evening,Tuesday
+148-82-2527,Giza,Naypyitaw,Member,Home and lifestyle,12.12,10,6.06,127.26,2019-03-05,2026-04-20 13:44:00,Credit card,121.2,4.761904762,6.06,121.19999999999999,Afternoon,Tuesday
+437-53-3084,Cairo,Mandalay,Normal,Fashion accessories,99.89,2,9.989,209.769,2019-02-26,2026-04-20 11:48:00,Ewallet,199.78,4.761904762,9.989,199.78,Morning,Tuesday
+632-32-4574,Cairo,Mandalay,Normal,Sports and travel,75.92,8,30.368,637.728,2019-03-20,2026-04-20 14:14:00,Cash,607.36,4.761904762,30.368,607.36,Afternoon,Wednesday
+556-97-7101,Giza,Naypyitaw,Normal,Electronic accessories,63.22,2,6.322,132.762,2019-01-01,2026-04-20 15:51:00,Cash,126.44,4.761904762,6.322,126.44,Afternoon,Tuesday
+862-59-8517,Giza,Naypyitaw,Normal,Food and beverages,90.24,6,27.072,568.512,2019-01-27,2026-04-20 11:17:00,Cash,541.44,4.761904762,27.072,541.4399999999999,Morning,Sunday
+401-18-8016,Cairo,Mandalay,Member,Sports and travel,98.13,1,4.9065,103.0365,2019-01-21,2026-04-20 17:36:00,Cash,98.13,4.761904762,4.9065,98.13,Afternoon,Monday
+420-18-8989,Alex,Yangon,Member,Sports and travel,51.52,8,20.608,432.768,2019-02-02,2026-04-20 15:47:00,Cash,412.16,4.761904762,20.608,412.16,Afternoon,Saturday
+277-63-2961,Cairo,Mandalay,Member,Sports and travel,73.97,1,3.6985,77.6685,2019-02-03,2026-04-20 15:53:00,Credit card,73.97,4.761904762,3.6985,73.97,Afternoon,Sunday
+573-98-8548,Giza,Naypyitaw,Member,Fashion accessories,31.9,1,1.595,33.495,2019-01-05,2026-04-20 12:40:00,Ewallet,31.9,4.761904762,1.595,31.9,Afternoon,Saturday
+620-02-2046,Giza,Naypyitaw,Normal,Home and lifestyle,69.4,2,6.94,145.74,2019-01-27,2026-04-20 19:48:00,Ewallet,138.8,4.761904762,6.94,138.8,Evening,Sunday
+282-35-2475,Cairo,Mandalay,Normal,Sports and travel,93.31,2,9.331,195.951,2019-03-25,2026-04-20 17:53:00,Cash,186.62,4.761904762,9.331,186.62,Afternoon,Monday
+511-54-3087,Cairo,Mandalay,Normal,Sports and travel,88.45,1,4.4225,92.8725,2019-02-25,2026-04-20 16:36:00,Credit card,88.45,4.761904762,4.4225,88.45,Afternoon,Monday
+726-29-6793,Alex,Yangon,Member,Electronic accessories,24.18,8,9.672,203.112,2019-01-28,2026-04-20 20:54:00,Ewallet,193.44,4.761904762,9.672,193.44,Evening,Monday
+387-49-4215,Cairo,Mandalay,Member,Sports and travel,48.5,3,7.275,152.775,2019-01-08,2026-04-20 12:50:00,Cash,145.5,4.761904762,7.275,145.5,Afternoon,Tuesday
+862-17-9201,Cairo,Mandalay,Normal,Food and beverages,84.05,6,25.215,529.515,2019-01-29,2026-04-20 10:48:00,Credit card,504.3,4.761904762,25.215,504.29999999999995,Morning,Tuesday
+291-21-5991,Cairo,Mandalay,Member,Health and beauty,61.29,5,15.3225,321.7725,2019-03-29,2026-04-20 14:28:00,Cash,306.45,4.761904762,15.3225,306.45,Afternoon,Friday
+602-80-9671,Giza,Naypyitaw,Member,Home and lifestyle,15.95,6,4.785,100.485,2019-02-09,2026-04-20 17:15:00,Credit card,95.7,4.761904762,4.785,95.69999999999999,Afternoon,Saturday
+347-72-6115,Cairo,Mandalay,Member,Sports and travel,90.74,7,31.759,666.939,2019-01-16,2026-04-20 18:03:00,Credit card,635.18,4.761904762,31.759,635.18,Evening,Wednesday
+209-61-0206,Alex,Yangon,Normal,Home and lifestyle,42.91,5,10.7275,225.2775,2019-01-05,2026-04-20 17:29:00,Ewallet,214.55,4.761904762,10.7275,214.54999999999998,Afternoon,Saturday
+595-27-4851,Alex,Yangon,Normal,Fashion accessories,54.28,7,18.998,398.958,2019-01-27,2026-04-20 18:05:00,Ewallet,379.96,4.761904762,18.998,379.96000000000004,Evening,Sunday
+189-52-0236,Alex,Yangon,Normal,Electronic accessories,99.55,7,34.8425,731.6925,2019-03-14,2026-04-20 12:07:00,Cash,696.85,4.761904762,34.8425,696.85,Afternoon,Thursday
+503-07-0930,Giza,Naypyitaw,Member,Sports and travel,58.39,7,20.4365,429.1665,2019-02-23,2026-04-20 19:49:00,Credit card,408.73,4.761904762,20.4365,408.73,Evening,Saturday
+413-20-6708,Giza,Naypyitaw,Member,Fashion accessories,51.47,1,2.5735,54.0435,2019-03-18,2026-04-20 15:52:00,Ewallet,51.47,4.761904762,2.5735,51.47,Afternoon,Monday
+425-85-2085,Cairo,Mandalay,Member,Health and beauty,54.86,5,13.715,288.015,2019-03-29,2026-04-20 16:48:00,Ewallet,274.3,4.761904762,13.715,274.3,Afternoon,Friday
+521-18-7827,Giza,Naypyitaw,Member,Home and lifestyle,39.39,5,9.8475,206.7975,2019-01-22,2026-04-20 20:46:00,Credit card,196.95,4.761904762,9.8475,196.95,Evening,Tuesday
+220-28-1851,Alex,Yangon,Normal,Home and lifestyle,34.73,2,3.473,72.933,2019-03-01,2026-04-20 18:14:00,Ewallet,69.46,4.761904762,3.473,69.46,Evening,Friday
+600-38-9738,Giza,Naypyitaw,Member,Sports and travel,71.92,5,17.98,377.58,2019-01-17,2026-04-20 15:05:00,Credit card,359.6,4.761904762,17.98,359.6,Afternoon,Thursday
+734-91-1155,Cairo,Mandalay,Normal,Electronic accessories,45.71,3,6.8565,143.9865,2019-03-26,2026-04-20 10:34:00,Credit card,137.13,4.761904762,6.8565,137.13,Morning,Tuesday
+451-28-5717,Giza,Naypyitaw,Member,Home and lifestyle,83.17,6,24.951,523.971,2019-03-20,2026-04-20 11:23:00,Cash,499.02,4.761904762,24.951,499.02,Morning,Wednesday
+609-81-8548,Alex,Yangon,Member,Home and lifestyle,37.44,6,11.232,235.872,2019-02-06,2026-04-20 13:55:00,Credit card,224.64,4.761904762,11.232,224.64,Afternoon,Wednesday
+133-14-7229,Giza,Naypyitaw,Normal,Health and beauty,62.87,2,6.287,132.027,2019-01-01,2026-04-20 11:43:00,Cash,125.74,4.761904762,6.287,125.74,Morning,Tuesday
+534-01-4457,Alex,Yangon,Normal,Food and beverages,81.71,6,24.513,514.773,2019-01-27,2026-04-20 14:36:00,Credit card,490.26,4.761904762,24.513,490.26,Afternoon,Sunday
+719-89-8991,Alex,Yangon,Member,Sports and travel,91.41,5,22.8525,479.9025,2019-02-25,2026-04-20 16:03:00,Ewallet,457.05,4.761904762,22.8525,457.04999999999995,Afternoon,Monday
+286-62-6248,Cairo,Mandalay,Normal,Fashion accessories,39.21,4,7.842,164.682,2019-01-16,2026-04-20 20:03:00,Credit card,156.84,4.761904762,7.842,156.84,Evening,Wednesday
+339-38-9982,Cairo,Mandalay,Member,Fashion accessories,59.86,2,5.986,125.706,2019-01-13,2026-04-20 14:55:00,Ewallet,119.72,4.761904762,5.986,119.72,Afternoon,Sunday
+827-44-5872,Cairo,Mandalay,Member,Food and beverages,54.36,10,27.18,570.78,2019-02-07,2026-04-20 11:28:00,Credit card,543.6,4.761904762,27.18,543.6,Morning,Thursday
+827-77-7633,Alex,Yangon,Normal,Sports and travel,98.09,9,44.1405,926.9505,2019-02-17,2026-04-20 19:41:00,Cash,882.81,4.761904762,44.1405,882.8100000000001,Evening,Sunday
+287-83-1405,Alex,Yangon,Normal,Health and beauty,25.43,6,7.629,160.209,2019-02-12,2026-04-20 19:01:00,Ewallet,152.58,4.761904762,7.629,152.57999999999998,Evening,Tuesday
+435-13-4908,Alex,Yangon,Member,Fashion accessories,86.68,8,34.672,728.112,2019-01-24,2026-04-20 18:04:00,Credit card,693.44,4.761904762,34.672,693.44,Evening,Thursday
+857-67-9057,Cairo,Mandalay,Normal,Electronic accessories,22.95,10,11.475,240.975,2019-02-06,2026-04-20 19:20:00,Ewallet,229.5,4.761904762,11.475,229.5,Evening,Wednesday
+236-27-1144,Giza,Naypyitaw,Normal,Food and beverages,16.31,9,7.3395,154.1295,2019-03-26,2026-04-20 10:31:00,Ewallet,146.79,4.761904762,7.3395,146.79,Morning,Tuesday
+892-05-6689,Alex,Yangon,Normal,Home and lifestyle,28.32,5,7.08,148.68,2019-03-11,2026-04-20 13:28:00,Ewallet,141.6,4.761904762,7.08,141.6,Afternoon,Monday
+583-41-4548,Giza,Naypyitaw,Normal,Home and lifestyle,16.67,7,5.8345,122.5245,2019-02-07,2026-04-20 11:36:00,Ewallet,116.69,4.761904762,5.8345,116.69000000000001,Morning,Thursday
+339-12-4827,Cairo,Mandalay,Member,Fashion accessories,73.96,1,3.698,77.658,2019-01-05,2026-04-20 11:32:00,Credit card,73.96,4.761904762,3.698,73.96,Morning,Saturday
+643-38-7867,Alex,Yangon,Normal,Home and lifestyle,97.94,1,4.897,102.837,2019-03-07,2026-04-20 11:44:00,Ewallet,97.94,4.761904762,4.897,97.94,Morning,Thursday
+308-81-0538,Alex,Yangon,Normal,Fashion accessories,73.05,4,14.61,306.81,2019-02-25,2026-04-20 17:16:00,Credit card,292.2,4.761904762,14.61,292.2,Afternoon,Monday
+358-88-9262,Giza,Naypyitaw,Member,Food and beverages,87.48,6,26.244,551.124,2019-02-01,2026-04-20 18:43:00,Ewallet,524.88,4.761904762,26.244,524.88,Evening,Friday
+460-35-4390,Alex,Yangon,Normal,Home and lifestyle,30.68,3,4.602,96.642,2019-01-22,2026-04-20 11:00:00,Ewallet,92.04,4.761904762,4.602,92.03999999999999,Morning,Tuesday
+343-87-0864,Giza,Naypyitaw,Member,Health and beauty,75.88,1,3.794,79.674,2019-01-03,2026-04-20 10:30:00,Credit card,75.88,4.761904762,3.794,75.88,Morning,Thursday
+173-50-1108,Cairo,Mandalay,Member,Sports and travel,20.18,4,4.036,84.756,2019-02-13,2026-04-20 12:14:00,Credit card,80.72,4.761904762,4.036,80.72,Afternoon,Wednesday
+243-47-2663,Giza,Naypyitaw,Member,Electronic accessories,18.77,6,5.631,118.251,2019-01-28,2026-04-20 16:43:00,Credit card,112.62,4.761904762,5.631,112.62,Afternoon,Monday
+841-18-8232,Cairo,Mandalay,Normal,Food and beverages,71.2,1,3.56,74.76,2019-01-05,2026-04-20 20:40:00,Credit card,71.2,4.761904762,3.56,71.2,Evening,Saturday
+701-23-5550,Cairo,Mandalay,Member,Home and lifestyle,38.81,4,7.762,163.002,2019-03-19,2026-04-20 13:40:00,Ewallet,155.24,4.761904762,7.762,155.24,Afternoon,Tuesday
+647-50-1224,Alex,Yangon,Normal,Fashion accessories,29.42,10,14.71,308.91,2019-01-12,2026-04-20 16:23:00,Ewallet,294.2,4.761904762,14.71,294.20000000000005,Afternoon,Saturday
+541-48-8554,Alex,Yangon,Normal,Sports and travel,60.95,9,27.4275,575.9775,2019-01-07,2026-04-20 12:08:00,Credit card,548.55,4.761904762,27.4275,548.5500000000001,Afternoon,Monday
+539-21-7227,Cairo,Mandalay,Normal,Sports and travel,51.54,5,12.885,270.585,2019-01-26,2026-04-20 17:45:00,Cash,257.7,4.761904762,12.885,257.7,Afternoon,Saturday
+213-32-1216,Alex,Yangon,Normal,Electronic accessories,66.06,6,19.818,416.178,2019-01-23,2026-04-20 10:28:00,Cash,396.36,4.761904762,19.818,396.36,Morning,Wednesday
+747-58-7183,Cairo,Mandalay,Normal,Fashion accessories,57.27,3,8.5905,180.4005,2019-02-09,2026-04-20 20:31:00,Ewallet,171.81,4.761904762,8.5905,171.81,Evening,Saturday
+582-52-8065,Cairo,Mandalay,Normal,Fashion accessories,54.31,9,24.4395,513.2295,2019-02-22,2026-04-20 10:49:00,Cash,488.79,4.761904762,24.4395,488.79,Morning,Friday
+210-57-1719,Cairo,Mandalay,Normal,Health and beauty,58.24,9,26.208,550.368,2019-02-05,2026-04-20 12:34:00,Cash,524.16,4.761904762,26.208,524.16,Afternoon,Tuesday
+399-69-4630,Giza,Naypyitaw,Normal,Electronic accessories,22.21,6,6.663,139.923,2019-03-07,2026-04-20 10:23:00,Credit card,133.26,4.761904762,6.663,133.26,Morning,Thursday
+134-75-2619,Alex,Yangon,Member,Electronic accessories,19.32,7,6.762,142.002,2019-03-25,2026-04-20 18:51:00,Cash,135.24,4.761904762,6.762,135.24,Evening,Monday
+356-44-8813,Cairo,Mandalay,Normal,Home and lifestyle,37.48,3,5.622,118.062,2019-01-20,2026-04-20 13:45:00,Credit card,112.44,4.761904762,5.622,112.44,Afternoon,Sunday
+198-66-9832,Cairo,Mandalay,Member,Fashion accessories,72.04,2,7.204,151.284,2019-02-04,2026-04-20 19:38:00,Cash,144.08,4.761904762,7.204,144.08,Evening,Monday
+283-26-5248,Giza,Naypyitaw,Member,Food and beverages,98.52,10,49.26,1034.46,2019-01-30,2026-04-20 20:23:00,Ewallet,985.2,4.761904762,49.26,985.1999999999999,Evening,Wednesday
+712-39-0363,Alex,Yangon,Member,Food and beverages,41.66,6,12.498,262.458,2019-01-02,2026-04-20 15:24:00,Ewallet,249.96,4.761904762,12.498,249.95999999999998,Afternoon,Wednesday
+218-59-9410,Alex,Yangon,Member,Home and lifestyle,72.42,3,10.863,228.123,2019-03-29,2026-04-20 16:54:00,Ewallet,217.26,4.761904762,10.863,217.26,Afternoon,Friday
+174-75-0888,Cairo,Mandalay,Normal,Electronic accessories,21.58,9,9.711,203.931,2019-03-14,2026-04-20 12:32:00,Cash,194.22,4.761904762,9.711,194.21999999999997,Afternoon,Thursday
+866-99-7614,Giza,Naypyitaw,Normal,Food and beverages,89.2,10,44.6,936.6,2019-02-11,2026-04-20 15:42:00,Credit card,892.0,4.761904762,44.6,892.0,Afternoon,Monday
+134-54-4720,Cairo,Mandalay,Normal,Electronic accessories,42.42,8,16.968,356.328,2019-01-30,2026-04-20 13:58:00,Ewallet,339.36,4.761904762,16.968,339.36,Afternoon,Wednesday
+760-90-2357,Alex,Yangon,Member,Electronic accessories,74.51,6,22.353,469.413,2019-03-20,2026-04-20 15:08:00,Ewallet,447.06,4.761904762,22.353,447.06000000000006,Afternoon,Wednesday
+514-37-2845,Cairo,Mandalay,Normal,Fashion accessories,99.25,2,9.925,208.425,2019-03-20,2026-04-20 13:02:00,Cash,198.5,4.761904762,9.925,198.5,Afternoon,Wednesday
+698-98-5964,Alex,Yangon,Normal,Food and beverages,81.21,10,40.605,852.705,2019-01-17,2026-04-20 13:01:00,Credit card,812.1,4.761904762,40.605,812.0999999999999,Afternoon,Thursday
+718-57-9773,Giza,Naypyitaw,Normal,Sports and travel,49.33,10,24.665,517.965,2019-02-03,2026-04-20 16:40:00,Credit card,493.3,4.761904762,24.665,493.29999999999995,Afternoon,Sunday
+651-88-7328,Alex,Yangon,Normal,Fashion accessories,65.74,9,29.583,621.243,2019-01-01,2026-04-20 13:55:00,Cash,591.66,4.761904762,29.583,591.66,Afternoon,Tuesday
+241-11-2261,Cairo,Mandalay,Normal,Fashion accessories,79.86,7,27.951,586.971,2019-01-10,2026-04-20 10:33:00,Credit card,559.02,4.761904762,27.951,559.02,Morning,Thursday
+408-26-9866,Giza,Naypyitaw,Normal,Sports and travel,73.98,7,25.893,543.753,2019-03-02,2026-04-20 16:42:00,Ewallet,517.86,4.761904762,25.893,517.86,Afternoon,Saturday
+834-83-1826,Cairo,Mandalay,Member,Home and lifestyle,82.04,5,20.51,430.71,2019-02-25,2026-04-20 17:16:00,Credit card,410.2,4.761904762,20.51,410.20000000000005,Afternoon,Monday
+343-61-3544,Cairo,Mandalay,Member,Sports and travel,26.67,10,13.335,280.035,2019-01-29,2026-04-20 11:48:00,Cash,266.7,4.761904762,13.335,266.70000000000005,Morning,Tuesday
+239-48-4278,Alex,Yangon,Member,Food and beverages,10.13,7,3.5455,74.4555,2019-03-10,2026-04-20 19:35:00,Ewallet,70.91,4.761904762,3.5455,70.91000000000001,Evening,Sunday
+355-34-6244,Cairo,Mandalay,Normal,Food and beverages,72.39,2,7.239,152.019,2019-01-13,2026-04-20 19:55:00,Credit card,144.78,4.761904762,7.239,144.78,Evening,Sunday
+550-84-8664,Alex,Yangon,Normal,Sports and travel,85.91,5,21.4775,451.0275,2019-03-22,2026-04-20 14:33:00,Credit card,429.55,4.761904762,21.4775,429.54999999999995,Afternoon,Friday
+339-96-8318,Cairo,Mandalay,Member,Fashion accessories,81.31,7,28.4585,597.6285,2019-03-01,2026-04-20 19:49:00,Ewallet,569.17,4.761904762,28.4585,569.1700000000001,Evening,Friday
+458-61-0011,Cairo,Mandalay,Normal,Food and beverages,60.3,4,12.06,253.26,2019-02-20,2026-04-20 18:43:00,Cash,241.2,4.761904762,12.06,241.2,Evening,Wednesday
+592-34-6155,Giza,Naypyitaw,Normal,Food and beverages,31.77,4,6.354,133.434,2019-01-14,2026-04-20 14:43:00,Ewallet,127.08,4.761904762,6.354,127.08,Afternoon,Monday
+797-88-0493,Alex,Yangon,Normal,Health and beauty,64.27,4,12.854,269.934,2019-03-26,2026-04-20 13:54:00,Cash,257.08,4.761904762,12.854,257.08,Afternoon,Tuesday
+207-73-1363,Cairo,Mandalay,Normal,Health and beauty,69.51,2,6.951,145.971,2019-03-01,2026-04-20 12:15:00,Ewallet,139.02,4.761904762,6.951,139.02,Afternoon,Friday
+390-31-6381,Giza,Naypyitaw,Normal,Food and beverages,27.22,3,4.083,85.743,2019-01-07,2026-04-20 12:37:00,Cash,81.66,4.761904762,4.083,81.66,Afternoon,Monday
+443-82-0585,Alex,Yangon,Member,Health and beauty,77.68,4,15.536,326.256,2019-02-01,2026-04-20 19:54:00,Cash,310.72,4.761904762,15.536,310.72,Evening,Friday
+339-18-7061,Giza,Naypyitaw,Member,Fashion accessories,92.98,2,9.298,195.258,2019-02-13,2026-04-20 15:06:00,Credit card,185.96,4.761904762,9.298,185.96,Afternoon,Wednesday
+359-90-3665,Cairo,Mandalay,Member,Fashion accessories,18.08,4,3.616,75.936,2019-01-14,2026-04-20 18:03:00,Credit card,72.32,4.761904762,3.616,72.32,Evening,Monday
+375-72-3056,Cairo,Mandalay,Normal,Sports and travel,63.06,3,9.459,198.639,2019-01-19,2026-04-20 15:58:00,Ewallet,189.18,4.761904762,9.459,189.18,Afternoon,Saturday
+127-47-6963,Alex,Yangon,Normal,Health and beauty,51.71,4,10.342,217.182,2019-03-09,2026-04-20 13:53:00,Credit card,206.84,4.761904762,10.342,206.84,Afternoon,Saturday
+278-86-2735,Alex,Yangon,Normal,Food and beverages,52.34,3,7.851,164.871,2019-03-27,2026-04-20 14:03:00,Cash,157.02,4.761904762,7.851,157.02,Afternoon,Wednesday
+695-28-6250,Alex,Yangon,Normal,Sports and travel,43.06,5,10.765,226.065,2019-02-04,2026-04-20 16:38:00,Ewallet,215.3,4.761904762,10.765,215.3,Afternoon,Monday
+379-17-6588,Giza,Naypyitaw,Normal,Fashion accessories,59.61,10,29.805,625.905,2019-03-14,2026-04-20 11:07:00,Cash,596.1,4.761904762,29.805,596.1,Morning,Thursday
+227-50-3718,Alex,Yangon,Normal,Health and beauty,14.62,5,3.655,76.755,2019-03-04,2026-04-20 12:23:00,Cash,73.1,4.761904762,3.655,73.1,Afternoon,Monday
+302-15-2162,Giza,Naypyitaw,Member,Health and beauty,46.53,6,13.959,293.139,2019-03-03,2026-04-20 10:54:00,Credit card,279.18,4.761904762,13.959,279.18,Morning,Sunday
+788-07-8452,Giza,Naypyitaw,Member,Home and lifestyle,24.24,7,8.484,178.164,2019-01-27,2026-04-20 17:38:00,Ewallet,169.68,4.761904762,8.484,169.67999999999998,Afternoon,Sunday
+560-49-6611,Alex,Yangon,Member,Sports and travel,45.58,1,2.279,47.859,2019-02-07,2026-04-20 14:13:00,Cash,45.58,4.761904762,2.279,45.58,Afternoon,Thursday
+880-35-0356,Alex,Yangon,Member,Sports and travel,75.2,3,11.28,236.88,2019-02-05,2026-04-20 11:51:00,Ewallet,225.6,4.761904762,11.28,225.60000000000002,Morning,Tuesday
+585-11-6748,Cairo,Mandalay,Member,Sports and travel,96.8,3,14.52,304.92,2019-03-15,2026-04-20 13:05:00,Cash,290.4,4.761904762,14.52,290.4,Afternoon,Friday
+470-31-3286,Cairo,Mandalay,Normal,Health and beauty,14.82,3,2.223,46.683,2019-03-01,2026-04-20 11:30:00,Credit card,44.46,4.761904762,2.223,44.46,Morning,Friday
+152-68-2907,Alex,Yangon,Normal,Food and beverages,52.2,3,7.83,164.43,2019-02-15,2026-04-20 13:30:00,Credit card,156.6,4.761904762,7.83,156.60000000000002,Afternoon,Friday
+123-35-4896,Giza,Naypyitaw,Normal,Sports and travel,46.66,9,20.997,440.937,2019-02-17,2026-04-20 19:11:00,Ewallet,419.94,4.761904762,20.997,419.93999999999994,Evening,Sunday
+258-69-7810,Giza,Naypyitaw,Normal,Fashion accessories,36.85,5,9.2125,193.4625,2019-01-26,2026-04-20 18:53:00,Cash,184.25,4.761904762,9.2125,184.25,Evening,Saturday
+334-64-2006,Alex,Yangon,Member,Home and lifestyle,70.32,2,7.032,147.672,2019-03-24,2026-04-20 14:22:00,Ewallet,140.64,4.761904762,7.032,140.64,Afternoon,Sunday
+219-61-4139,Giza,Naypyitaw,Normal,Electronic accessories,83.08,1,4.154,87.234,2019-01-23,2026-04-20 17:16:00,Ewallet,83.08,4.761904762,4.154,83.08,Afternoon,Wednesday
+881-41-7302,Giza,Naypyitaw,Normal,Fashion accessories,64.99,1,3.2495,68.2395,2019-01-26,2026-04-20 10:06:00,Credit card,64.99,4.761904762,3.2495,64.99,Morning,Saturday
+373-09-4567,Giza,Naypyitaw,Normal,Food and beverages,77.56,10,38.78,814.38,2019-03-14,2026-04-20 20:35:00,Ewallet,775.6,4.761904762,38.78,775.6,Evening,Thursday
+642-30-6693,Cairo,Mandalay,Normal,Sports and travel,54.51,6,16.353,343.413,2019-03-17,2026-04-20 13:54:00,Ewallet,327.06,4.761904762,16.353,327.06,Afternoon,Sunday
+484-22-8230,Giza,Naypyitaw,Member,Fashion accessories,51.89,7,18.1615,381.3915,2019-01-08,2026-04-20 20:08:00,Cash,363.23,4.761904762,18.1615,363.23,Evening,Tuesday
+830-58-2383,Cairo,Mandalay,Normal,Home and lifestyle,31.75,4,6.35,133.35,2019-02-08,2026-04-20 15:26:00,Cash,127.0,4.761904762,6.35,127.0,Afternoon,Friday
+559-98-9873,Alex,Yangon,Member,Fashion accessories,53.65,7,18.7775,394.3275,2019-02-10,2026-04-20 12:56:00,Ewallet,375.55,4.761904762,18.7775,375.55,Afternoon,Sunday
+544-32-5024,Giza,Naypyitaw,Member,Food and beverages,49.79,4,9.958,209.118,2019-03-28,2026-04-20 19:16:00,Credit card,199.16,4.761904762,9.958,199.16,Evening,Thursday
+318-12-0304,Alex,Yangon,Normal,Fashion accessories,30.61,1,1.5305,32.1405,2019-01-23,2026-04-20 12:20:00,Ewallet,30.61,4.761904762,1.5305,30.61,Afternoon,Wednesday
+349-97-8902,Cairo,Mandalay,Member,Food and beverages,57.89,2,5.789,121.569,2019-01-17,2026-04-20 10:37:00,Ewallet,115.78,4.761904762,5.789,115.78,Morning,Thursday
+421-95-9805,Alex,Yangon,Normal,Electronic accessories,28.96,1,1.448,30.408,2019-02-07,2026-04-20 10:18:00,Credit card,28.96,4.761904762,1.448,28.96,Morning,Thursday
+277-35-5865,Giza,Naypyitaw,Member,Food and beverages,98.97,9,44.5365,935.2665,2019-03-09,2026-04-20 11:23:00,Cash,890.73,4.761904762,44.5365,890.73,Morning,Saturday
+789-23-8625,Cairo,Mandalay,Member,Fashion accessories,93.22,3,13.983,293.643,2019-01-24,2026-04-20 11:45:00,Cash,279.66,4.761904762,13.983,279.65999999999997,Morning,Thursday
+284-54-4231,Giza,Naypyitaw,Member,Sports and travel,80.93,1,4.0465,84.9765,2019-01-19,2026-04-20 16:08:00,Credit card,80.93,4.761904762,4.0465,80.93,Afternoon,Saturday
+443-59-0061,Alex,Yangon,Member,Food and beverages,67.45,10,33.725,708.225,2019-02-03,2026-04-20 11:25:00,Ewallet,674.5,4.761904762,33.725,674.5,Morning,Sunday
+509-29-3912,Alex,Yangon,Member,Sports and travel,38.72,9,17.424,365.904,2019-03-20,2026-04-20 12:24:00,Ewallet,348.48,4.761904762,17.424,348.48,Afternoon,Wednesday
+327-40-9673,Cairo,Mandalay,Member,Sports and travel,72.6,6,21.78,457.38,2019-01-13,2026-04-20 19:51:00,Cash,435.6,4.761904762,21.78,435.59999999999997,Evening,Sunday
+840-19-2096,Giza,Naypyitaw,Member,Electronic accessories,87.91,5,21.9775,461.5275,2019-03-14,2026-04-20 18:10:00,Ewallet,439.55,4.761904762,21.9775,439.54999999999995,Evening,Thursday
+828-46-6863,Alex,Yangon,Member,Food and beverages,98.53,6,29.559,620.739,2019-01-23,2026-04-20 11:22:00,Credit card,591.18,4.761904762,29.559,591.1800000000001,Morning,Wednesday
+641-96-3695,Giza,Naypyitaw,Member,Fashion accessories,43.46,6,13.038,273.798,2019-02-07,2026-04-20 17:55:00,Ewallet,260.76,4.761904762,13.038,260.76,Afternoon,Thursday
+420-97-3340,Alex,Yangon,Normal,Food and beverages,71.68,3,10.752,225.792,2019-03-28,2026-04-20 15:30:00,Credit card,215.04,4.761904762,10.752,215.04000000000002,Afternoon,Thursday
+436-54-4512,Alex,Yangon,Member,Food and beverages,91.61,1,4.5805,96.1905,2019-03-20,2026-04-20 19:44:00,Cash,91.61,4.761904762,4.5805,91.61,Evening,Wednesday
+670-79-6321,Cairo,Mandalay,Member,Home and lifestyle,94.59,7,33.1065,695.2365,2019-01-17,2026-04-20 15:27:00,Credit card,662.13,4.761904762,33.1065,662.13,Afternoon,Thursday
+852-62-7105,Cairo,Mandalay,Normal,Fashion accessories,83.25,10,41.625,874.125,2019-01-12,2026-04-20 11:25:00,Credit card,832.5,4.761904762,41.625,832.5,Morning,Saturday
+598-06-7312,Cairo,Mandalay,Member,Fashion accessories,91.35,1,4.5675,95.9175,2019-02-16,2026-04-20 15:42:00,Cash,91.35,4.761904762,4.5675,91.35,Afternoon,Saturday
+135-13-8269,Cairo,Mandalay,Member,Food and beverages,78.88,2,7.888,165.648,2019-01-26,2026-04-20 16:04:00,Cash,157.76,4.761904762,7.888,157.76,Afternoon,Saturday
+816-57-2053,Alex,Yangon,Normal,Sports and travel,60.87,2,6.087,127.827,2019-03-09,2026-04-20 12:37:00,Ewallet,121.74,4.761904762,6.087,121.74,Afternoon,Saturday
+628-90-8624,Cairo,Mandalay,Member,Health and beauty,82.58,10,41.29,867.09,2019-03-14,2026-04-20 14:41:00,Cash,825.8,4.761904762,41.29,825.8,Afternoon,Thursday
+856-66-2701,Alex,Yangon,Member,Home and lifestyle,53.3,3,7.995,167.895,2019-01-25,2026-04-20 14:19:00,Ewallet,159.9,4.761904762,7.995,159.89999999999998,Afternoon,Friday
+308-39-1707,Alex,Yangon,Normal,Fashion accessories,12.09,1,0.6045,12.6945,2019-01-26,2026-04-20 18:19:00,Credit card,12.09,4.761904762,0.6045,12.09,Evening,Saturday
+149-61-1929,Alex,Yangon,Normal,Sports and travel,64.19,10,32.095,673.995,2019-01-19,2026-04-20 14:08:00,Credit card,641.9,4.761904762,32.095,641.9,Afternoon,Saturday
+655-07-2265,Alex,Yangon,Normal,Electronic accessories,78.31,3,11.7465,246.6765,2019-03-05,2026-04-20 16:38:00,Ewallet,234.93,4.761904762,11.7465,234.93,Afternoon,Tuesday
+589-02-8023,Alex,Yangon,Member,Food and beverages,83.77,2,8.377,175.917,2019-01-15,2026-04-20 10:54:00,Credit card,167.54,4.761904762,8.377,167.54,Morning,Tuesday
+420-04-7590,Cairo,Mandalay,Normal,Home and lifestyle,99.7,3,14.955,314.055,2019-03-18,2026-04-20 11:29:00,Ewallet,299.1,4.761904762,14.955,299.1,Morning,Monday
+182-88-2763,Cairo,Mandalay,Member,Food and beverages,79.91,3,11.9865,251.7165,2019-03-20,2026-04-20 19:28:00,Credit card,239.73,4.761904762,11.9865,239.73,Evening,Wednesday
+188-55-0967,Cairo,Mandalay,Member,Health and beauty,66.47,10,33.235,697.935,2019-01-15,2026-04-20 15:01:00,Credit card,664.7,4.761904762,33.235,664.7,Afternoon,Tuesday
+610-46-4100,Alex,Yangon,Normal,Health and beauty,28.95,7,10.1325,212.7825,2019-03-03,2026-04-20 20:31:00,Credit card,202.65,4.761904762,10.1325,202.65,Evening,Sunday
+318-81-2368,Giza,Naypyitaw,Normal,Electronic accessories,46.2,1,2.31,48.51,2019-03-19,2026-04-20 12:16:00,Cash,46.2,4.761904762,2.31,46.2,Afternoon,Tuesday
+364-33-8584,Cairo,Mandalay,Member,Food and beverages,17.63,5,4.4075,92.5575,2019-03-08,2026-04-20 15:27:00,Cash,88.15,4.761904762,4.4075,88.14999999999999,Afternoon,Friday
+665-63-9737,Cairo,Mandalay,Normal,Fashion accessories,52.42,3,7.863,165.123,2019-02-27,2026-04-20 17:36:00,Ewallet,157.26,4.761904762,7.863,157.26,Afternoon,Wednesday
+695-09-5146,Cairo,Mandalay,Member,Food and beverages,98.79,3,14.8185,311.1885,2019-02-23,2026-04-20 20:00:00,Ewallet,296.37,4.761904762,14.8185,296.37,Evening,Saturday
+155-45-3814,Giza,Naypyitaw,Member,Electronic accessories,88.55,8,35.42,743.82,2019-03-19,2026-04-20 15:29:00,Ewallet,708.4,4.761904762,35.42,708.4,Afternoon,Tuesday
+794-32-2436,Cairo,Mandalay,Member,Electronic accessories,55.67,2,5.567,116.907,2019-03-27,2026-04-20 15:08:00,Ewallet,111.34,4.761904762,5.567,111.34,Afternoon,Wednesday
+131-15-8856,Giza,Naypyitaw,Member,Food and beverages,72.52,8,29.008,609.168,2019-03-30,2026-04-20 19:26:00,Credit card,580.16,4.761904762,29.008,580.16,Evening,Saturday
+273-84-2164,Giza,Naypyitaw,Member,Electronic accessories,12.05,5,3.0125,63.2625,2019-02-16,2026-04-20 15:53:00,Ewallet,60.25,4.761904762,3.0125,60.25,Afternoon,Saturday
+706-36-6154,Alex,Yangon,Member,Home and lifestyle,19.36,9,8.712,182.952,2019-01-18,2026-04-20 18:43:00,Ewallet,174.24,4.761904762,8.712,174.24,Evening,Friday
+778-89-7974,Giza,Naypyitaw,Normal,Health and beauty,70.21,6,21.063,442.323,2019-03-30,2026-04-20 14:58:00,Cash,421.26,4.761904762,21.063,421.26,Afternoon,Saturday
+574-31-8277,Cairo,Mandalay,Member,Fashion accessories,33.63,1,1.6815,35.3115,2019-03-20,2026-04-20 19:55:00,Cash,33.63,4.761904762,1.6815,33.63,Evening,Wednesday
+859-71-0933,Giza,Naypyitaw,Member,Sports and travel,15.49,2,1.549,32.529,2019-01-16,2026-04-20 15:10:00,Cash,30.98,4.761904762,1.549,30.98,Afternoon,Wednesday
+740-11-5257,Giza,Naypyitaw,Normal,Electronic accessories,24.74,10,12.37,259.77,2019-02-24,2026-04-20 16:44:00,Cash,247.4,4.761904762,12.37,247.39999999999998,Afternoon,Sunday
+369-82-2676,Cairo,Mandalay,Normal,Electronic accessories,75.66,5,18.915,397.215,2019-01-15,2026-04-20 18:22:00,Ewallet,378.3,4.761904762,18.915,378.29999999999995,Evening,Tuesday
+563-47-4072,Cairo,Mandalay,Normal,Health and beauty,55.81,6,16.743,351.603,2019-01-22,2026-04-20 11:52:00,Cash,334.86,4.761904762,16.743,334.86,Morning,Tuesday
+742-04-5161,Alex,Yangon,Member,Home and lifestyle,72.78,10,36.39,764.19,2019-02-03,2026-04-20 17:24:00,Cash,727.8,4.761904762,36.39,727.8,Afternoon,Sunday
+149-15-7606,Cairo,Mandalay,Member,Sports and travel,37.32,9,16.794,352.674,2019-03-06,2026-04-20 15:31:00,Ewallet,335.88,4.761904762,16.794,335.88,Afternoon,Wednesday
+133-77-3154,Cairo,Mandalay,Member,Fashion accessories,60.18,4,12.036,252.756,2019-02-16,2026-04-20 18:04:00,Credit card,240.72,4.761904762,12.036,240.72,Evening,Saturday
+169-52-4504,Alex,Yangon,Normal,Electronic accessories,15.69,3,2.3535,49.4235,2019-03-14,2026-04-20 14:13:00,Credit card,47.07,4.761904762,2.3535,47.07,Afternoon,Thursday
+250-81-7186,Giza,Naypyitaw,Normal,Electronic accessories,99.69,1,4.9845,104.6745,2019-02-27,2026-04-20 10:23:00,Credit card,99.69,4.761904762,4.9845,99.69,Morning,Wednesday
+562-12-5430,Alex,Yangon,Member,Fashion accessories,88.15,3,13.2225,277.6725,2019-01-18,2026-04-20 10:11:00,Ewallet,264.45,4.761904762,13.2225,264.45000000000005,Morning,Friday
+816-72-8853,Alex,Yangon,Member,Sports and travel,27.93,5,6.9825,146.6325,2019-01-29,2026-04-20 15:48:00,Cash,139.65,4.761904762,6.9825,139.65,Afternoon,Tuesday
+491-38-3499,Alex,Yangon,Member,Fashion accessories,55.45,1,2.7725,58.2225,2019-02-26,2026-04-20 17:46:00,Credit card,55.45,4.761904762,2.7725,55.45,Afternoon,Tuesday
+322-02-2271,Cairo,Mandalay,Normal,Sports and travel,42.97,3,6.4455,135.3555,2019-02-03,2026-04-20 11:46:00,Cash,128.91,4.761904762,6.4455,128.91,Morning,Sunday
+842-29-4695,Giza,Naypyitaw,Member,Sports and travel,17.14,7,5.999,125.979,2019-01-16,2026-04-20 12:07:00,Credit card,119.98,4.761904762,5.999,119.98,Afternoon,Wednesday
+725-67-2480,Cairo,Mandalay,Member,Fashion accessories,58.75,6,17.625,370.125,2019-03-24,2026-04-20 18:14:00,Credit card,352.5,4.761904762,17.625,352.5,Evening,Sunday
+641-51-2661,Giza,Naypyitaw,Member,Food and beverages,87.1,10,43.55,914.55,2019-02-12,2026-04-20 14:45:00,Credit card,871.0,4.761904762,43.55,871.0,Afternoon,Tuesday
+714-02-3114,Giza,Naypyitaw,Normal,Sports and travel,98.8,2,9.88,207.48,2019-02-21,2026-04-20 11:39:00,Cash,197.6,4.761904762,9.88,197.6,Morning,Thursday
+518-17-2983,Alex,Yangon,Normal,Fashion accessories,48.63,4,9.726,204.246,2019-02-04,2026-04-20 15:44:00,Ewallet,194.52,4.761904762,9.726,194.52,Afternoon,Monday
+779-42-2410,Cairo,Mandalay,Member,Food and beverages,57.74,3,8.661,181.881,2019-02-20,2026-04-20 13:06:00,Ewallet,173.22,4.761904762,8.661,173.22,Afternoon,Wednesday
+190-14-3147,Cairo,Mandalay,Normal,Health and beauty,17.97,4,3.594,75.474,2019-02-23,2026-04-20 20:43:00,Ewallet,71.88,4.761904762,3.594,71.88,Evening,Saturday
+408-66-6712,Giza,Naypyitaw,Member,Health and beauty,47.71,6,14.313,300.573,2019-02-16,2026-04-20 14:19:00,Ewallet,286.26,4.761904762,14.313,286.26,Afternoon,Saturday
+679-22-6530,Cairo,Mandalay,Normal,Sports and travel,40.62,2,4.062,85.302,2019-01-17,2026-04-20 10:01:00,Credit card,81.24,4.761904762,4.062,81.24,Morning,Thursday
+588-47-8641,Alex,Yangon,Member,Fashion accessories,56.04,10,28.02,588.42,2019-01-14,2026-04-20 19:30:00,Ewallet,560.4,4.761904762,28.02,560.4,Evening,Monday
+642-61-4706,Cairo,Mandalay,Member,Food and beverages,93.4,2,9.34,196.14,2019-03-30,2026-04-20 16:34:00,Cash,186.8,4.761904762,9.34,186.8,Afternoon,Saturday
+576-31-4774,Cairo,Mandalay,Normal,Health and beauty,73.41,3,11.0115,231.2415,2019-03-02,2026-04-20 13:10:00,Ewallet,220.23,4.761904762,11.0115,220.23,Afternoon,Saturday
+556-41-6224,Giza,Naypyitaw,Normal,Health and beauty,33.64,8,13.456,282.576,2019-02-15,2026-04-20 17:10:00,Credit card,269.12,4.761904762,13.456,269.12,Afternoon,Friday
+811-03-8790,Alex,Yangon,Normal,Electronic accessories,45.48,10,22.74,477.54,2019-03-01,2026-04-20 10:22:00,Credit card,454.8,4.761904762,22.74,454.79999999999995,Morning,Friday
+242-11-3142,Cairo,Mandalay,Member,Fashion accessories,83.77,2,8.377,175.917,2019-02-24,2026-04-20 19:57:00,Cash,167.54,4.761904762,8.377,167.54,Evening,Sunday
+752-23-3760,Cairo,Mandalay,Member,Sports and travel,64.08,7,22.428,470.988,2019-02-19,2026-04-20 19:29:00,Credit card,448.56,4.761904762,22.428,448.56,Evening,Tuesday
+274-05-5470,Alex,Yangon,Member,Food and beverages,73.47,4,14.694,308.574,2019-02-23,2026-04-20 18:30:00,Cash,293.88,4.761904762,14.694,293.88,Evening,Saturday
+648-94-3045,Giza,Naypyitaw,Normal,Health and beauty,58.95,10,29.475,618.975,2019-02-07,2026-04-20 14:27:00,Ewallet,589.5,4.761904762,29.475,589.5,Afternoon,Thursday
+130-67-4723,Alex,Yangon,Member,Food and beverages,48.5,6,14.55,305.55,2019-01-11,2026-04-20 13:57:00,Ewallet,291.0,4.761904762,14.55,291.0,Afternoon,Friday
+528-87-5606,Cairo,Mandalay,Member,Electronic accessories,39.48,1,1.974,41.454,2019-02-12,2026-04-20 19:43:00,Cash,39.48,4.761904762,1.974,39.48,Evening,Tuesday
+320-85-2052,Cairo,Mandalay,Normal,Sports and travel,34.81,1,1.7405,36.5505,2019-01-14,2026-04-20 10:11:00,Credit card,34.81,4.761904762,1.7405,34.81,Morning,Monday
+370-96-0655,Giza,Naypyitaw,Normal,Fashion accessories,49.32,6,14.796,310.716,2019-01-09,2026-04-20 13:46:00,Ewallet,295.92,4.761904762,14.796,295.92,Afternoon,Wednesday
+105-10-6182,Alex,Yangon,Member,Fashion accessories,21.48,2,2.148,45.108,2019-02-27,2026-04-20 12:22:00,Ewallet,42.96,4.761904762,2.148,42.96,Afternoon,Wednesday
+510-79-0415,Cairo,Mandalay,Member,Sports and travel,23.08,6,6.924,145.404,2019-01-24,2026-04-20 19:20:00,Ewallet,138.48,4.761904762,6.924,138.48,Evening,Thursday
+241-96-5076,Cairo,Mandalay,Member,Home and lifestyle,49.1,2,4.91,103.11,2019-01-08,2026-04-20 12:58:00,Credit card,98.2,4.761904762,4.91,98.2,Afternoon,Tuesday
+767-97-4650,Cairo,Mandalay,Member,Sports and travel,64.83,2,6.483,136.143,2019-01-08,2026-04-20 11:59:00,Credit card,129.66,4.761904762,6.483,129.66,Morning,Tuesday
+648-83-1321,Alex,Yangon,Member,Home and lifestyle,63.56,10,31.78,667.38,2019-01-16,2026-04-20 17:59:00,Cash,635.6,4.761904762,31.78,635.6,Afternoon,Wednesday
+173-57-2300,Giza,Naypyitaw,Member,Sports and travel,72.88,2,7.288,153.048,2019-03-13,2026-04-20 12:51:00,Cash,145.76,4.761904762,7.288,145.76,Afternoon,Wednesday
+305-03-2383,Alex,Yangon,Normal,Food and beverages,67.1,3,10.065,211.365,2019-02-15,2026-04-20 10:36:00,Cash,201.3,4.761904762,10.065,201.29999999999998,Morning,Friday
+394-55-6384,Giza,Naypyitaw,Member,Sports and travel,70.19,9,31.5855,663.2955,2019-01-25,2026-04-20 13:38:00,Cash,631.71,4.761904762,31.5855,631.71,Afternoon,Friday
+266-20-6657,Giza,Naypyitaw,Member,Food and beverages,55.04,7,19.264,404.544,2019-03-12,2026-04-20 19:39:00,Ewallet,385.28,4.761904762,19.264,385.28,Evening,Tuesday
+689-05-1884,Alex,Yangon,Member,Health and beauty,48.63,10,24.315,510.615,2019-03-04,2026-04-20 12:44:00,Cash,486.3,4.761904762,24.315,486.3,Afternoon,Monday
+196-01-2849,Giza,Naypyitaw,Member,Fashion accessories,73.38,7,25.683,539.343,2019-02-10,2026-04-20 13:56:00,Cash,513.66,4.761904762,25.683,513.66,Afternoon,Sunday
+372-62-5264,Giza,Naypyitaw,Normal,Food and beverages,52.6,9,23.67,497.07,2019-01-16,2026-04-20 14:42:00,Cash,473.4,4.761904762,23.67,473.40000000000003,Afternoon,Wednesday
+800-09-8606,Alex,Yangon,Member,Home and lifestyle,87.37,5,21.8425,458.6925,2019-01-29,2026-04-20 19:45:00,Cash,436.85,4.761904762,21.8425,436.85,Evening,Tuesday
+182-52-7000,Alex,Yangon,Member,Sports and travel,27.04,4,5.408,113.568,2019-01-01,2026-04-20 20:26:00,Ewallet,108.16,4.761904762,5.408,108.16,Evening,Tuesday
+826-58-8051,Cairo,Mandalay,Normal,Home and lifestyle,62.19,4,12.438,261.198,2019-01-06,2026-04-20 19:46:00,Ewallet,248.76,4.761904762,12.438,248.76,Evening,Sunday
+868-06-0466,Alex,Yangon,Member,Electronic accessories,69.58,9,31.311,657.531,2019-02-19,2026-04-20 19:38:00,Credit card,626.22,4.761904762,31.311,626.22,Evening,Tuesday
+751-41-9720,Giza,Naypyitaw,Normal,Home and lifestyle,97.5,10,48.75,1023.75,2019-01-12,2026-04-20 16:18:00,Ewallet,975.0,4.761904762,48.75,975.0,Afternoon,Saturday
+626-43-7888,Giza,Naypyitaw,Normal,Fashion accessories,60.41,8,24.164,507.444,2019-02-07,2026-04-20 12:23:00,Ewallet,483.28,4.761904762,24.164,483.28,Afternoon,Thursday
+176-64-7711,Cairo,Mandalay,Normal,Food and beverages,32.32,3,4.848,101.808,2019-03-27,2026-04-20 19:11:00,Credit card,96.96,4.761904762,4.848,96.96000000000001,Evening,Wednesday
+191-29-0321,Cairo,Mandalay,Member,Fashion accessories,19.77,10,9.885,207.585,2019-02-27,2026-04-20 18:57:00,Credit card,197.7,4.761904762,9.885,197.7,Evening,Wednesday
+729-06-2010,Cairo,Mandalay,Member,Health and beauty,80.47,9,36.2115,760.4415,2019-01-06,2026-04-20 11:18:00,Cash,724.23,4.761904762,36.2115,724.23,Morning,Sunday
+640-48-5028,Cairo,Mandalay,Member,Home and lifestyle,88.39,9,39.7755,835.2855,2019-03-02,2026-04-20 12:40:00,Cash,795.51,4.761904762,39.7755,795.51,Afternoon,Saturday
+186-79-9562,Cairo,Mandalay,Normal,Health and beauty,71.77,7,25.1195,527.5095,2019-03-29,2026-04-20 14:06:00,Cash,502.39,4.761904762,25.1195,502.39,Afternoon,Friday
+834-45-5519,Cairo,Mandalay,Normal,Electronic accessories,43.0,4,8.6,180.6,2019-01-31,2026-04-20 20:48:00,Ewallet,172.0,4.761904762,8.6,172.0,Evening,Thursday
+162-65-8559,Giza,Naypyitaw,Member,Food and beverages,68.98,1,3.449,72.429,2019-01-21,2026-04-20 20:13:00,Cash,68.98,4.761904762,3.449,68.98,Evening,Monday
+760-27-5490,Giza,Naypyitaw,Normal,Fashion accessories,15.62,8,6.248,131.208,2019-01-20,2026-04-20 20:37:00,Ewallet,124.96,4.761904762,6.248,124.96,Evening,Sunday
+445-30-9252,Alex,Yangon,Normal,Sports and travel,25.7,3,3.855,80.955,2019-01-17,2026-04-20 17:59:00,Ewallet,77.1,4.761904762,3.855,77.1,Afternoon,Thursday
+786-94-2700,Alex,Yangon,Member,Food and beverages,80.62,6,24.186,507.906,2019-02-28,2026-04-20 20:18:00,Cash,483.72,4.761904762,24.186,483.72,Evening,Thursday
+728-88-7867,Giza,Naypyitaw,Member,Home and lifestyle,75.53,4,15.106,317.226,2019-03-19,2026-04-20 15:52:00,Ewallet,302.12,4.761904762,15.106,302.12,Afternoon,Tuesday
+183-21-3799,Giza,Naypyitaw,Normal,Electronic accessories,77.63,9,34.9335,733.6035,2019-02-19,2026-04-20 15:14:00,Ewallet,698.67,4.761904762,34.9335,698.67,Afternoon,Tuesday
+268-20-3585,Giza,Naypyitaw,Normal,Health and beauty,13.85,9,6.2325,130.8825,2019-02-04,2026-04-20 12:50:00,Ewallet,124.65,4.761904762,6.2325,124.64999999999999,Afternoon,Monday
+735-32-9839,Giza,Naypyitaw,Member,Fashion accessories,98.7,8,39.48,829.08,2019-01-31,2026-04-20 10:36:00,Ewallet,789.6,4.761904762,39.48,789.6,Morning,Thursday
+258-92-7466,Alex,Yangon,Normal,Health and beauty,35.68,5,8.92,187.32,2019-02-06,2026-04-20 18:33:00,Credit card,178.4,4.761904762,8.92,178.4,Evening,Wednesday
+857-16-3520,Alex,Yangon,Member,Fashion accessories,71.46,7,25.011,525.231,2019-03-28,2026-04-20 16:06:00,Ewallet,500.22,4.761904762,25.011,500.21999999999997,Afternoon,Thursday
+482-17-1179,Alex,Yangon,Member,Electronic accessories,11.94,3,1.791,37.611,2019-01-19,2026-04-20 12:47:00,Credit card,35.82,4.761904762,1.791,35.82,Afternoon,Saturday
+788-21-5741,Alex,Yangon,Normal,Fashion accessories,45.38,3,6.807,142.947,2019-02-17,2026-04-20 13:34:00,Credit card,136.14,4.761904762,6.807,136.14000000000001,Afternoon,Sunday
+821-14-9046,Cairo,Mandalay,Member,Fashion accessories,17.48,6,5.244,110.124,2019-01-18,2026-04-20 15:04:00,Credit card,104.88,4.761904762,5.244,104.88,Afternoon,Friday
+418-05-0656,Cairo,Mandalay,Normal,Fashion accessories,25.56,7,8.946,187.866,2019-02-02,2026-04-20 20:42:00,Cash,178.92,4.761904762,8.946,178.92,Evening,Saturday
+678-79-0726,Giza,Naypyitaw,Member,Sports and travel,90.63,9,40.7835,856.4535,2019-01-18,2026-04-20 15:28:00,Cash,815.67,4.761904762,40.7835,815.67,Afternoon,Friday
+776-68-1096,Cairo,Mandalay,Normal,Home and lifestyle,44.12,3,6.618,138.978,2019-03-18,2026-04-20 13:45:00,Credit card,132.36,4.761904762,6.618,132.35999999999999,Afternoon,Monday
+592-46-1692,Giza,Naypyitaw,Member,Food and beverages,36.77,7,12.8695,270.2595,2019-01-11,2026-04-20 20:10:00,Cash,257.39,4.761904762,12.8695,257.39000000000004,Evening,Friday
+434-35-9162,Cairo,Mandalay,Member,Food and beverages,23.34,4,4.668,98.028,2019-02-04,2026-04-20 18:53:00,Ewallet,93.36,4.761904762,4.668,93.36,Evening,Monday
+149-14-0304,Giza,Naypyitaw,Member,Health and beauty,28.5,8,11.4,239.4,2019-02-06,2026-04-20 14:24:00,Cash,228.0,4.761904762,11.4,228.0,Afternoon,Wednesday
+442-44-6497,Giza,Naypyitaw,Member,Home and lifestyle,55.57,3,8.3355,175.0455,2019-01-08,2026-04-20 11:42:00,Credit card,166.71,4.761904762,8.3355,166.71,Morning,Tuesday
+174-64-0215,Cairo,Mandalay,Normal,Sports and travel,69.74,10,34.87,732.27,2019-03-05,2026-04-20 17:49:00,Credit card,697.4,4.761904762,34.87,697.4,Afternoon,Tuesday
+210-74-9613,Giza,Naypyitaw,Normal,Fashion accessories,97.26,4,19.452,408.492,2019-03-16,2026-04-20 15:33:00,Ewallet,389.04,4.761904762,19.452,389.04,Afternoon,Saturday
+299-29-0180,Cairo,Mandalay,Member,Home and lifestyle,52.18,7,18.263,383.523,2019-03-09,2026-04-20 10:54:00,Cash,365.26,4.761904762,18.263,365.26,Morning,Saturday
+247-11-2470,Alex,Yangon,Member,Fashion accessories,22.32,4,4.464,93.744,2019-03-01,2026-04-20 16:23:00,Credit card,89.28,4.761904762,4.464,89.28,Afternoon,Friday
+635-28-5728,Alex,Yangon,Normal,Health and beauty,56.0,3,8.4,176.4,2019-02-28,2026-04-20 19:33:00,Ewallet,168.0,4.761904762,8.4,168.0,Evening,Thursday
+756-49-0168,Alex,Yangon,Member,Fashion accessories,19.7,1,0.985,20.685,2019-02-08,2026-04-20 11:39:00,Ewallet,19.7,4.761904762,0.985,19.7,Morning,Friday
+438-23-1242,Cairo,Mandalay,Normal,Electronic accessories,75.88,7,26.558,557.718,2019-01-24,2026-04-20 10:38:00,Ewallet,531.16,4.761904762,26.558,531.16,Morning,Thursday
+238-45-6950,Cairo,Mandalay,Member,Food and beverages,53.72,1,2.686,56.406,2019-03-01,2026-04-20 20:03:00,Ewallet,53.72,4.761904762,2.686,53.72,Evening,Friday
+607-65-2441,Giza,Naypyitaw,Member,Health and beauty,81.95,10,40.975,860.475,2019-03-10,2026-04-20 12:39:00,Credit card,819.5,4.761904762,40.975,819.5,Afternoon,Sunday
+386-27-7606,Giza,Naypyitaw,Member,Home and lifestyle,81.2,7,28.42,596.82,2019-03-23,2026-04-20 15:59:00,Credit card,568.4,4.761904762,28.42,568.4,Afternoon,Saturday
+137-63-5492,Giza,Naypyitaw,Normal,Electronic accessories,58.76,10,29.38,616.98,2019-01-29,2026-04-20 14:26:00,Ewallet,587.6,4.761904762,29.38,587.6,Afternoon,Tuesday
+197-77-7132,Cairo,Mandalay,Member,Electronic accessories,91.56,8,36.624,769.104,2019-01-12,2026-04-20 18:22:00,Ewallet,732.48,4.761904762,36.624,732.48,Evening,Saturday
+805-86-0265,Alex,Yangon,Normal,Home and lifestyle,93.96,9,42.282,887.922,2019-03-20,2026-04-20 11:32:00,Cash,845.64,4.761904762,42.282,845.64,Morning,Wednesday
+733-29-1227,Giza,Naypyitaw,Normal,Home and lifestyle,55.61,7,19.4635,408.7335,2019-03-23,2026-04-20 12:41:00,Cash,389.27,4.761904762,19.4635,389.27,Afternoon,Saturday
+451-73-2711,Giza,Naypyitaw,Normal,Food and beverages,84.83,1,4.2415,89.0715,2019-01-14,2026-04-20 15:20:00,Ewallet,84.83,4.761904762,4.2415,84.83,Afternoon,Monday
+373-14-0504,Alex,Yangon,Member,Sports and travel,71.63,2,7.163,150.423,2019-02-12,2026-04-20 14:33:00,Ewallet,143.26,4.761904762,7.163,143.26,Afternoon,Tuesday
+546-80-2899,Alex,Yangon,Member,Home and lifestyle,37.69,2,3.769,79.149,2019-02-20,2026-04-20 15:29:00,Ewallet,75.38,4.761904762,3.769,75.38,Afternoon,Wednesday
+345-68-9016,Giza,Naypyitaw,Member,Sports and travel,31.67,8,12.668,266.028,2019-01-02,2026-04-20 16:19:00,Credit card,253.36,4.761904762,12.668,253.36,Afternoon,Wednesday
+390-17-5806,Giza,Naypyitaw,Member,Food and beverages,38.42,1,1.921,40.341,2019-02-02,2026-04-20 16:33:00,Cash,38.42,4.761904762,1.921,38.42,Afternoon,Saturday
+457-13-1708,Cairo,Mandalay,Member,Fashion accessories,65.23,10,32.615,684.915,2019-01-08,2026-04-20 19:07:00,Credit card,652.3,4.761904762,32.615,652.3000000000001,Evening,Tuesday
+664-14-2882,Giza,Naypyitaw,Member,Home and lifestyle,10.53,5,2.6325,55.2825,2019-01-30,2026-04-20 14:43:00,Credit card,52.65,4.761904762,2.6325,52.65,Afternoon,Wednesday
+487-79-6868,Cairo,Mandalay,Member,Home and lifestyle,12.29,9,5.5305,116.1405,2019-03-26,2026-04-20 19:28:00,Credit card,110.61,4.761904762,5.5305,110.60999999999999,Evening,Tuesday
+314-23-4520,Giza,Naypyitaw,Member,Health and beauty,81.23,7,28.4305,597.0405,2019-01-15,2026-04-20 20:44:00,Cash,568.61,4.761904762,28.4305,568.61,Evening,Tuesday
+210-30-7976,Cairo,Mandalay,Member,Fashion accessories,22.32,4,4.464,93.744,2019-03-14,2026-04-20 11:16:00,Ewallet,89.28,4.761904762,4.464,89.28,Morning,Thursday
+585-86-8361,Alex,Yangon,Normal,Food and beverages,27.28,5,6.82,143.22,2019-02-03,2026-04-20 10:31:00,Credit card,136.4,4.761904762,6.82,136.4,Morning,Sunday
+807-14-7833,Alex,Yangon,Member,Electronic accessories,17.42,10,8.71,182.91,2019-02-22,2026-04-20 12:30:00,Ewallet,174.2,4.761904762,8.71,174.20000000000002,Afternoon,Friday
+775-72-1988,Cairo,Mandalay,Normal,Home and lifestyle,73.28,5,18.32,384.72,2019-01-24,2026-04-20 15:05:00,Ewallet,366.4,4.761904762,18.32,366.4,Afternoon,Thursday
+288-38-3758,Giza,Naypyitaw,Member,Fashion accessories,84.87,3,12.7305,267.3405,2019-01-25,2026-04-20 18:30:00,Ewallet,254.61,4.761904762,12.7305,254.61,Evening,Friday
+652-43-6591,Alex,Yangon,Normal,Fashion accessories,97.29,8,38.916,817.236,2019-03-09,2026-04-20 13:18:00,Credit card,778.32,4.761904762,38.916,778.32,Afternoon,Saturday
+785-96-0615,Cairo,Mandalay,Member,Electronic accessories,35.74,8,14.296,300.216,2019-02-17,2026-04-20 15:28:00,Ewallet,285.92,4.761904762,14.296,285.92,Afternoon,Sunday
+406-46-7107,Alex,Yangon,Normal,Home and lifestyle,96.52,6,28.956,608.076,2019-01-11,2026-04-20 11:52:00,Cash,579.12,4.761904762,28.956,579.12,Morning,Friday
+250-17-5703,Alex,Yangon,Member,Food and beverages,18.85,10,9.425,197.925,2019-02-27,2026-04-20 18:24:00,Ewallet,188.5,4.761904762,9.425,188.5,Evening,Wednesday
+156-95-3964,Alex,Yangon,Normal,Food and beverages,55.39,4,11.078,232.638,2019-03-25,2026-04-20 15:19:00,Ewallet,221.56,4.761904762,11.078,221.56,Afternoon,Monday
+842-40-8179,Cairo,Mandalay,Member,Food and beverages,77.2,10,38.6,810.6,2019-02-11,2026-04-20 10:38:00,Credit card,772.0,4.761904762,38.6,772.0,Morning,Monday
+525-09-8450,Cairo,Mandalay,Normal,Electronic accessories,72.13,10,36.065,757.365,2019-01-31,2026-04-20 15:12:00,Credit card,721.3,4.761904762,36.065,721.3,Afternoon,Thursday
+410-67-1709,Alex,Yangon,Member,Fashion accessories,63.88,8,25.552,536.592,2019-01-20,2026-04-20 17:48:00,Ewallet,511.04,4.761904762,25.552,511.04,Afternoon,Sunday
+587-73-4862,Alex,Yangon,Member,Health and beauty,10.69,5,2.6725,56.1225,2019-03-26,2026-04-20 11:07:00,Ewallet,53.45,4.761904762,2.6725,53.449999999999996,Morning,Tuesday
+787-87-2010,Alex,Yangon,Member,Health and beauty,55.5,4,11.1,233.1,2019-01-20,2026-04-20 15:48:00,Credit card,222.0,4.761904762,11.1,222.0,Afternoon,Sunday
+593-14-4239,Cairo,Mandalay,Normal,Home and lifestyle,95.46,8,38.184,801.864,2019-03-05,2026-04-20 19:40:00,Ewallet,763.68,4.761904762,38.184,763.68,Evening,Tuesday
+801-88-0346,Giza,Naypyitaw,Normal,Fashion accessories,76.06,3,11.409,239.589,2019-01-05,2026-04-20 20:30:00,Credit card,228.18,4.761904762,11.409,228.18,Evening,Saturday
+388-76-2555,Cairo,Mandalay,Normal,Sports and travel,13.69,6,4.107,86.247,2019-02-13,2026-04-20 13:59:00,Cash,82.14,4.761904762,4.107,82.14,Afternoon,Wednesday
+711-31-1234,Cairo,Mandalay,Normal,Electronic accessories,95.64,4,19.128,401.688,2019-03-16,2026-04-20 18:51:00,Cash,382.56,4.761904762,19.128,382.56,Evening,Saturday
+886-54-6089,Alex,Yangon,Normal,Home and lifestyle,11.43,6,3.429,72.009,2019-01-15,2026-04-20 17:24:00,Cash,68.58,4.761904762,3.429,68.58,Afternoon,Tuesday
+707-32-7409,Cairo,Mandalay,Member,Sports and travel,95.54,4,19.108,401.268,2019-02-26,2026-04-20 11:58:00,Ewallet,382.16,4.761904762,19.108,382.16,Morning,Tuesday
+759-98-4285,Giza,Naypyitaw,Member,Health and beauty,85.87,7,30.0545,631.1445,2019-02-27,2026-04-20 19:01:00,Credit card,601.09,4.761904762,30.0545,601.09,Evening,Wednesday
+201-63-8275,Giza,Naypyitaw,Member,Sports and travel,67.99,7,23.7965,499.7265,2019-02-17,2026-04-20 16:50:00,Ewallet,475.93,4.761904762,23.7965,475.92999999999995,Afternoon,Sunday
+471-06-8611,Giza,Naypyitaw,Normal,Food and beverages,52.42,1,2.621,55.041,2019-02-06,2026-04-20 10:22:00,Credit card,52.42,4.761904762,2.621,52.42,Morning,Wednesday
+200-16-5952,Giza,Naypyitaw,Member,Food and beverages,65.65,2,6.565,137.865,2019-01-17,2026-04-20 16:46:00,Cash,131.3,4.761904762,6.565,131.3,Afternoon,Thursday
+120-54-2248,Cairo,Mandalay,Normal,Food and beverages,28.86,5,7.215,151.515,2019-01-22,2026-04-20 18:08:00,Credit card,144.3,4.761904762,7.215,144.3,Evening,Tuesday
+102-77-2261,Giza,Naypyitaw,Member,Health and beauty,65.31,7,22.8585,480.0285,2019-03-05,2026-04-20 18:02:00,Credit card,457.17,4.761904762,22.8585,457.17,Evening,Tuesday
+875-31-8302,Cairo,Mandalay,Normal,Sports and travel,93.38,1,4.669,98.049,2019-01-03,2026-04-20 13:07:00,Cash,93.38,4.761904762,4.669,93.38,Afternoon,Thursday
+102-06-2002,Giza,Naypyitaw,Member,Sports and travel,25.25,5,6.3125,132.5625,2019-03-20,2026-04-20 17:52:00,Cash,126.25,4.761904762,6.3125,126.25,Afternoon,Wednesday
+457-94-0464,Cairo,Mandalay,Member,Electronic accessories,87.87,9,39.5415,830.3715,2019-01-31,2026-04-20 20:32:00,Ewallet,790.83,4.761904762,39.5415,790.83,Evening,Thursday
+629-42-4133,Giza,Naypyitaw,Normal,Health and beauty,21.8,8,8.72,183.12,2019-02-19,2026-04-20 19:24:00,Cash,174.4,4.761904762,8.72,174.4,Evening,Tuesday
+534-53-3526,Alex,Yangon,Normal,Sports and travel,94.76,4,18.952,397.992,2019-02-11,2026-04-20 16:06:00,Ewallet,379.04,4.761904762,18.952,379.04,Afternoon,Monday
+307-04-2070,Alex,Yangon,Member,Fashion accessories,30.62,1,1.531,32.151,2019-02-05,2026-04-20 14:14:00,Credit card,30.62,4.761904762,1.531,30.62,Afternoon,Tuesday
+468-99-7231,Giza,Naypyitaw,Normal,Home and lifestyle,44.01,8,17.604,369.684,2019-03-03,2026-04-20 17:36:00,Cash,352.08,4.761904762,17.604,352.08,Afternoon,Sunday
+516-77-6464,Giza,Naypyitaw,Member,Health and beauty,10.16,5,2.54,53.34,2019-02-24,2026-04-20 13:08:00,Ewallet,50.8,4.761904762,2.54,50.8,Afternoon,Sunday
+404-91-5964,Alex,Yangon,Normal,Electronic accessories,74.58,7,26.103,548.163,2019-02-04,2026-04-20 16:09:00,Credit card,522.06,4.761904762,26.103,522.06,Afternoon,Monday
+886-77-9084,Giza,Naypyitaw,Normal,Electronic accessories,71.89,8,28.756,603.876,2019-02-19,2026-04-20 11:33:00,Ewallet,575.12,4.761904762,28.756,575.12,Morning,Tuesday
+790-38-4466,Giza,Naypyitaw,Normal,Health and beauty,10.99,5,2.7475,57.6975,2019-01-23,2026-04-20 10:18:00,Credit card,54.95,4.761904762,2.7475,54.95,Morning,Wednesday
+704-10-4056,Giza,Naypyitaw,Member,Health and beauty,60.47,3,9.0705,190.4805,2019-01-14,2026-04-20 10:55:00,Credit card,181.41,4.761904762,9.0705,181.41,Morning,Monday
+497-37-6538,Alex,Yangon,Normal,Sports and travel,58.91,7,20.6185,432.9885,2019-01-17,2026-04-20 15:15:00,Ewallet,412.37,4.761904762,20.6185,412.37,Afternoon,Thursday
+651-96-5970,Alex,Yangon,Normal,Fashion accessories,46.41,1,2.3205,48.7305,2019-03-03,2026-04-20 20:06:00,Credit card,46.41,4.761904762,2.3205,46.41,Evening,Sunday
+400-80-4065,Giza,Naypyitaw,Member,Health and beauty,68.55,4,13.71,287.91,2019-02-15,2026-04-20 20:21:00,Credit card,274.2,4.761904762,13.71,274.2,Evening,Friday
+744-16-7898,Cairo,Mandalay,Normal,Home and lifestyle,97.37,10,48.685,1022.385,2019-01-15,2026-04-20 13:48:00,Credit card,973.7,4.761904762,48.685,973.7,Afternoon,Tuesday
+263-12-5321,Alex,Yangon,Member,Electronic accessories,92.6,7,32.41,680.61,2019-02-27,2026-04-20 12:52:00,Credit card,648.2,4.761904762,32.41,648.1999999999999,Afternoon,Wednesday
+702-72-0487,Alex,Yangon,Normal,Electronic accessories,46.61,2,4.661,97.881,2019-02-26,2026-04-20 12:28:00,Credit card,93.22,4.761904762,4.661,93.22,Afternoon,Tuesday
+605-83-1050,Cairo,Mandalay,Normal,Fashion accessories,27.18,2,2.718,57.078,2019-03-15,2026-04-20 16:26:00,Ewallet,54.36,4.761904762,2.718,54.36,Afternoon,Friday
+443-60-9639,Giza,Naypyitaw,Member,Home and lifestyle,60.87,1,3.0435,63.9135,2019-01-24,2026-04-20 13:24:00,Cash,60.87,4.761904762,3.0435,60.87,Afternoon,Thursday
+864-24-7918,Alex,Yangon,Member,Sports and travel,24.49,10,12.245,257.145,2019-02-22,2026-04-20 15:15:00,Cash,244.9,4.761904762,12.245,244.89999999999998,Afternoon,Friday
+359-94-5395,Cairo,Mandalay,Normal,Health and beauty,92.78,1,4.639,97.419,2019-03-15,2026-04-20 10:50:00,Credit card,92.78,4.761904762,4.639,92.78,Morning,Friday
+401-09-4232,Giza,Naypyitaw,Member,Home and lifestyle,86.69,5,21.6725,455.1225,2019-02-11,2026-04-20 18:38:00,Ewallet,433.45,4.761904762,21.6725,433.45,Evening,Monday
+751-15-6198,Cairo,Mandalay,Normal,Sports and travel,23.01,6,6.903,144.963,2019-01-12,2026-04-20 16:45:00,Ewallet,138.06,4.761904762,6.903,138.06,Afternoon,Saturday
+324-41-6833,Giza,Naypyitaw,Member,Electronic accessories,30.2,8,12.08,253.68,2019-03-03,2026-04-20 19:30:00,Ewallet,241.6,4.761904762,12.08,241.6,Evening,Sunday
+474-33-8305,Giza,Naypyitaw,Member,Fashion accessories,67.39,7,23.5865,495.3165,2019-03-23,2026-04-20 13:23:00,Ewallet,471.73,4.761904762,23.5865,471.73,Afternoon,Saturday
+759-29-9521,Alex,Yangon,Member,Fashion accessories,48.96,9,22.032,462.672,2019-03-04,2026-04-20 11:27:00,Cash,440.64,4.761904762,22.032,440.64,Morning,Monday
+831-81-6575,Cairo,Mandalay,Member,Electronic accessories,75.59,9,34.0155,714.3255,2019-02-23,2026-04-20 11:12:00,Cash,680.31,4.761904762,34.0155,680.3100000000001,Morning,Saturday
+220-68-6701,Alex,Yangon,Normal,Home and lifestyle,77.47,4,15.494,325.374,2019-03-17,2026-04-20 16:36:00,Cash,309.88,4.761904762,15.494,309.88,Afternoon,Sunday
+618-34-8551,Alex,Yangon,Normal,Sports and travel,93.18,2,9.318,195.678,2019-01-16,2026-04-20 18:41:00,Credit card,186.36,4.761904762,9.318,186.36,Evening,Wednesday
+257-60-7754,Alex,Yangon,Normal,Electronic accessories,50.23,4,10.046,210.966,2019-01-08,2026-04-20 17:12:00,Cash,200.92,4.761904762,10.046,200.92,Afternoon,Tuesday
+559-61-5987,Cairo,Mandalay,Normal,Health and beauty,17.75,1,0.8875,18.6375,2019-01-14,2026-04-20 10:38:00,Cash,17.75,4.761904762,0.8875,17.75,Morning,Monday
+189-55-2313,Giza,Naypyitaw,Normal,Fashion accessories,62.18,10,31.09,652.89,2019-01-31,2026-04-20 10:33:00,Ewallet,621.8,4.761904762,31.09,621.8,Morning,Thursday
+565-91-4567,Cairo,Mandalay,Normal,Health and beauty,10.75,8,4.3,90.3,2019-03-15,2026-04-20 14:38:00,Ewallet,86.0,4.761904762,4.3,86.0,Afternoon,Friday
+380-60-5336,Alex,Yangon,Normal,Electronic accessories,40.26,10,20.13,422.73,2019-02-24,2026-04-20 18:06:00,Credit card,402.6,4.761904762,20.13,402.59999999999997,Evening,Sunday
+815-04-6282,Giza,Naypyitaw,Member,Sports and travel,64.97,5,16.2425,341.0925,2019-02-08,2026-04-20 12:52:00,Credit card,324.85,4.761904762,16.2425,324.85,Afternoon,Friday
+674-56-6360,Alex,Yangon,Normal,Electronic accessories,95.15,1,4.7575,99.9075,2019-03-22,2026-04-20 14:00:00,Cash,95.15,4.761904762,4.7575,95.15,Afternoon,Friday
+778-34-2523,Alex,Yangon,Member,Electronic accessories,48.62,8,19.448,408.408,2019-01-24,2026-04-20 10:57:00,Cash,388.96,4.761904762,19.448,388.96,Morning,Thursday
+499-27-7781,Cairo,Mandalay,Normal,Food and beverages,53.21,8,21.284,446.964,2019-03-14,2026-04-20 16:45:00,Ewallet,425.68,4.761904762,21.284,425.68,Afternoon,Thursday
+477-59-2456,Giza,Naypyitaw,Normal,Fashion accessories,45.44,7,15.904,333.984,2019-01-23,2026-04-20 11:15:00,Cash,318.08,4.761904762,15.904,318.08,Morning,Wednesday
+832-51-6761,Alex,Yangon,Normal,Food and beverages,33.88,8,13.552,284.592,2019-01-19,2026-04-20 20:29:00,Ewallet,271.04,4.761904762,13.552,271.04,Evening,Saturday
+869-11-3082,Cairo,Mandalay,Member,Health and beauty,96.16,4,19.232,403.872,2019-01-27,2026-04-20 20:03:00,Credit card,384.64,4.761904762,19.232,384.64,Evening,Sunday
+190-59-3964,Cairo,Mandalay,Member,Food and beverages,47.16,5,11.79,247.59,2019-02-03,2026-04-20 14:35:00,Credit card,235.8,4.761904762,11.79,235.79999999999998,Afternoon,Sunday
+366-43-6862,Cairo,Mandalay,Normal,Electronic accessories,52.89,4,10.578,222.138,2019-03-25,2026-04-20 16:32:00,Ewallet,211.56,4.761904762,10.578,211.56,Afternoon,Monday
+186-43-8965,Alex,Yangon,Member,Home and lifestyle,47.68,2,4.768,100.128,2019-02-24,2026-04-20 10:10:00,Credit card,95.36,4.761904762,4.768,95.36,Morning,Sunday
+784-21-9238,Giza,Naypyitaw,Member,Sports and travel,10.17,1,0.5085,10.6785,2019-02-07,2026-04-20 14:15:00,Cash,10.17,4.761904762,0.5085,10.17,Afternoon,Thursday
+276-75-6884,Alex,Yangon,Normal,Health and beauty,68.71,3,10.3065,216.4365,2019-03-04,2026-04-20 10:05:00,Cash,206.13,4.761904762,10.3065,206.13,Morning,Monday
+109-86-4363,Cairo,Mandalay,Member,Sports and travel,60.08,7,21.028,441.588,2019-02-14,2026-04-20 11:36:00,Credit card,420.56,4.761904762,21.028,420.56,Morning,Thursday
+569-76-2760,Alex,Yangon,Member,Sports and travel,22.01,4,4.402,92.442,2019-01-29,2026-04-20 18:15:00,Credit card,88.04,4.761904762,4.402,88.04,Evening,Tuesday
+222-42-0244,Cairo,Mandalay,Member,Health and beauty,72.11,9,32.4495,681.4395,2019-01-28,2026-04-20 13:53:00,Credit card,648.99,4.761904762,32.4495,648.99,Afternoon,Monday
+760-53-9233,Alex,Yangon,Member,Fashion accessories,41.28,3,6.192,130.032,2019-03-26,2026-04-20 18:37:00,Credit card,123.84,4.761904762,6.192,123.84,Evening,Tuesday
+538-22-0304,Giza,Naypyitaw,Normal,Electronic accessories,64.95,10,32.475,681.975,2019-03-24,2026-04-20 18:27:00,Cash,649.5,4.761904762,32.475,649.5,Evening,Sunday
+416-17-9926,Alex,Yangon,Member,Electronic accessories,74.22,10,37.11,779.31,2019-01-01,2026-04-20 14:42:00,Credit card,742.2,4.761904762,37.11,742.2,Afternoon,Tuesday
+237-44-6163,Alex,Yangon,Normal,Electronic accessories,10.56,8,4.224,88.704,2019-01-24,2026-04-20 17:43:00,Cash,84.48,4.761904762,4.224,84.48,Afternoon,Thursday
+636-17-0325,Cairo,Mandalay,Normal,Health and beauty,62.57,4,12.514,262.794,2019-02-25,2026-04-20 18:37:00,Cash,250.28,4.761904762,12.514,250.28,Evening,Monday
+343-75-9322,Cairo,Mandalay,Member,Sports and travel,11.85,8,4.74,99.54,2019-01-09,2026-04-20 16:34:00,Cash,94.8,4.761904762,4.74,94.8,Afternoon,Wednesday
+528-14-9470,Alex,Yangon,Member,Health and beauty,91.3,1,4.565,95.865,2019-02-14,2026-04-20 14:42:00,Ewallet,91.3,4.761904762,4.565,91.3,Afternoon,Thursday
+427-45-9297,Cairo,Mandalay,Member,Home and lifestyle,40.73,7,14.2555,299.3655,2019-03-12,2026-04-20 11:01:00,Ewallet,285.11,4.761904762,14.2555,285.10999999999996,Morning,Tuesday
+807-34-3742,Alex,Yangon,Normal,Fashion accessories,52.38,1,2.619,54.999,2019-03-26,2026-04-20 19:44:00,Cash,52.38,4.761904762,2.619,52.38,Evening,Tuesday
+288-62-1085,Alex,Yangon,Member,Fashion accessories,38.54,5,9.635,202.335,2019-01-09,2026-04-20 13:34:00,Ewallet,192.7,4.761904762,9.635,192.7,Afternoon,Wednesday
+670-71-7306,Cairo,Mandalay,Normal,Sports and travel,44.63,6,13.389,281.169,2019-01-02,2026-04-20 20:08:00,Credit card,267.78,4.761904762,13.389,267.78000000000003,Evening,Wednesday
+660-29-7083,Giza,Naypyitaw,Normal,Electronic accessories,55.87,10,27.935,586.635,2019-01-15,2026-04-20 15:01:00,Cash,558.7,4.761904762,27.935,558.6999999999999,Afternoon,Tuesday
+271-77-8740,Giza,Naypyitaw,Member,Sports and travel,29.22,6,8.766,184.086,2019-01-01,2026-04-20 11:40:00,Ewallet,175.32,4.761904762,8.766,175.32,Morning,Tuesday
+497-36-0989,Alex,Yangon,Normal,Fashion accessories,51.94,3,7.791,163.611,2019-02-15,2026-04-20 15:21:00,Cash,155.82,4.761904762,7.791,155.82,Afternoon,Friday
+291-59-1384,Cairo,Mandalay,Normal,Electronic accessories,60.3,1,3.015,63.315,2019-02-28,2026-04-20 17:38:00,Cash,60.3,4.761904762,3.015,60.3,Afternoon,Thursday
+860-73-6466,Alex,Yangon,Member,Sports and travel,39.47,2,3.947,82.887,2019-03-02,2026-04-20 16:16:00,Credit card,78.94,4.761904762,3.947,78.94,Afternoon,Saturday
+549-23-9016,Giza,Naypyitaw,Member,Food and beverages,14.87,2,1.487,31.227,2019-02-13,2026-04-20 18:15:00,Credit card,29.74,4.761904762,1.487,29.74,Evening,Wednesday
+896-34-0956,Alex,Yangon,Normal,Fashion accessories,21.32,1,1.066,22.386,2019-01-26,2026-04-20 12:43:00,Cash,21.32,4.761904762,1.066,21.32,Afternoon,Saturday
+804-38-3935,Alex,Yangon,Member,Electronic accessories,93.78,3,14.067,295.407,2019-01-30,2026-04-20 11:32:00,Credit card,281.34,4.761904762,14.067,281.34000000000003,Morning,Wednesday
+585-90-0249,Alex,Yangon,Member,Electronic accessories,73.26,1,3.663,76.923,2019-01-27,2026-04-20 18:08:00,Ewallet,73.26,4.761904762,3.663,73.26,Evening,Sunday
+862-29-5914,Giza,Naypyitaw,Normal,Sports and travel,22.38,1,1.119,23.499,2019-01-30,2026-04-20 17:08:00,Credit card,22.38,4.761904762,1.119,22.38,Afternoon,Wednesday
+845-94-6841,Giza,Naypyitaw,Member,Food and beverages,72.88,9,32.796,688.716,2019-01-08,2026-04-20 19:38:00,Cash,655.92,4.761904762,32.796,655.92,Evening,Tuesday
+125-45-2293,Alex,Yangon,Normal,Fashion accessories,99.1,6,29.73,624.33,2019-01-19,2026-04-20 13:11:00,Cash,594.6,4.761904762,29.73,594.5999999999999,Afternoon,Saturday
+843-73-4724,Alex,Yangon,Normal,Fashion accessories,74.1,1,3.705,77.805,2019-01-25,2026-04-20 11:05:00,Cash,74.1,4.761904762,3.705,74.1,Morning,Friday
+409-33-9708,Alex,Yangon,Normal,Fashion accessories,98.48,2,9.848,206.808,2019-02-19,2026-04-20 10:12:00,Ewallet,196.96,4.761904762,9.848,196.96,Morning,Tuesday
+658-66-3967,Giza,Naypyitaw,Normal,Health and beauty,53.19,7,18.6165,390.9465,2019-01-14,2026-04-20 15:42:00,Ewallet,372.33,4.761904762,18.6165,372.33,Afternoon,Monday
+866-70-2814,Cairo,Mandalay,Normal,Electronic accessories,52.79,10,26.395,554.295,2019-02-25,2026-04-20 11:58:00,Ewallet,527.9,4.761904762,26.395,527.9,Morning,Monday
+160-22-2687,Alex,Yangon,Member,Health and beauty,95.95,5,23.9875,503.7375,2019-01-23,2026-04-20 14:21:00,Ewallet,479.75,4.761904762,23.9875,479.75,Afternoon,Wednesday
+895-03-6665,Cairo,Mandalay,Normal,Fashion accessories,36.51,9,16.4295,345.0195,2019-02-16,2026-04-20 10:52:00,Cash,328.59,4.761904762,16.4295,328.59,Morning,Saturday
+770-42-8960,Cairo,Mandalay,Normal,Food and beverages,21.12,8,8.448,177.408,2019-01-01,2026-04-20 19:31:00,Cash,168.96,4.761904762,8.448,168.96,Evening,Tuesday
+748-45-2862,Alex,Yangon,Member,Home and lifestyle,28.31,4,5.662,118.902,2019-03-07,2026-04-20 18:35:00,Cash,113.24,4.761904762,5.662,113.24,Evening,Thursday
+234-36-2483,Cairo,Mandalay,Normal,Health and beauty,57.59,6,17.277,362.817,2019-02-15,2026-04-20 13:51:00,Cash,345.54,4.761904762,17.277,345.54,Afternoon,Friday
+316-66-3011,Alex,Yangon,Member,Food and beverages,47.63,9,21.4335,450.1035,2019-01-23,2026-04-20 12:35:00,Cash,428.67,4.761904762,21.4335,428.67,Afternoon,Wednesday
+848-95-6252,Giza,Naypyitaw,Member,Home and lifestyle,86.27,1,4.3135,90.5835,2019-02-20,2026-04-20 13:24:00,Ewallet,86.27,4.761904762,4.3135,86.27,Afternoon,Wednesday
+840-76-5966,Alex,Yangon,Member,Sports and travel,12.76,2,1.276,26.796,2019-01-08,2026-04-20 18:06:00,Ewallet,25.52,4.761904762,1.276,25.52,Evening,Tuesday
+152-03-4217,Cairo,Mandalay,Normal,Home and lifestyle,11.28,9,5.076,106.596,2019-03-17,2026-04-20 11:55:00,Credit card,101.52,4.761904762,5.076,101.52,Morning,Sunday
+533-66-5566,Cairo,Mandalay,Normal,Home and lifestyle,51.07,7,17.8745,375.3645,2019-01-12,2026-04-20 11:42:00,Cash,357.49,4.761904762,17.8745,357.49,Morning,Saturday
+124-31-1458,Alex,Yangon,Member,Electronic accessories,79.59,3,11.9385,250.7085,2019-01-08,2026-04-20 14:30:00,Cash,238.77,4.761904762,11.9385,238.77,Afternoon,Tuesday
+176-78-1170,Giza,Naypyitaw,Member,Health and beauty,33.81,3,5.0715,106.5015,2019-01-26,2026-04-20 15:11:00,Ewallet,101.43,4.761904762,5.0715,101.43,Afternoon,Saturday
+361-59-0574,Cairo,Mandalay,Member,Sports and travel,90.53,8,36.212,760.452,2019-03-15,2026-04-20 14:48:00,Credit card,724.24,4.761904762,36.212,724.24,Afternoon,Friday
+101-81-4070,Giza,Naypyitaw,Member,Health and beauty,62.82,2,6.282,131.922,2019-01-17,2026-04-20 12:36:00,Ewallet,125.64,4.761904762,6.282,125.64,Afternoon,Thursday
+631-34-1880,Giza,Naypyitaw,Member,Food and beverages,24.31,3,3.6465,76.5765,2019-01-08,2026-04-20 19:09:00,Credit card,72.93,4.761904762,3.6465,72.92999999999999,Evening,Tuesday
+852-82-2749,Alex,Yangon,Normal,Sports and travel,64.59,4,12.918,271.278,2019-01-06,2026-04-20 13:35:00,Ewallet,258.36,4.761904762,12.918,258.36,Afternoon,Sunday
+873-14-6353,Alex,Yangon,Member,Food and beverages,24.82,7,8.687,182.427,2019-02-16,2026-04-20 10:33:00,Credit card,173.74,4.761904762,8.687,173.74,Morning,Saturday
+584-66-4073,Giza,Naypyitaw,Normal,Fashion accessories,56.5,1,2.825,59.325,2019-03-13,2026-04-20 15:45:00,Ewallet,56.5,4.761904762,2.825,56.5,Afternoon,Wednesday
+544-55-9589,Cairo,Mandalay,Member,Electronic accessories,21.43,10,10.715,225.015,2019-01-28,2026-04-20 11:51:00,Cash,214.3,4.761904762,10.715,214.3,Morning,Monday
+166-19-2553,Alex,Yangon,Member,Sports and travel,89.06,6,26.718,561.078,2019-01-18,2026-04-20 17:26:00,Cash,534.36,4.761904762,26.718,534.36,Afternoon,Friday
+737-88-5876,Alex,Yangon,Member,Home and lifestyle,23.29,4,4.658,97.818,2019-03-19,2026-04-20 11:52:00,Credit card,93.16,4.761904762,4.658,93.16,Morning,Tuesday
+154-87-7367,Giza,Naypyitaw,Normal,Home and lifestyle,65.26,8,26.104,548.184,2019-03-15,2026-04-20 14:04:00,Ewallet,522.08,4.761904762,26.104,522.08,Afternoon,Friday
+885-56-0389,Giza,Naypyitaw,Member,Fashion accessories,52.35,1,2.6175,54.9675,2019-02-12,2026-04-20 17:49:00,Cash,52.35,4.761904762,2.6175,52.35,Afternoon,Tuesday
+608-05-3804,Cairo,Mandalay,Member,Electronic accessories,39.75,1,1.9875,41.7375,2019-02-25,2026-04-20 20:19:00,Cash,39.75,4.761904762,1.9875,39.75,Evening,Monday
+448-61-3783,Alex,Yangon,Normal,Electronic accessories,90.02,8,36.008,756.168,2019-03-21,2026-04-20 16:08:00,Credit card,720.16,4.761904762,36.008,720.16,Afternoon,Thursday
+761-49-0439,Cairo,Mandalay,Member,Electronic accessories,12.1,8,4.84,101.64,2019-01-19,2026-04-20 10:17:00,Ewallet,96.8,4.761904762,4.84,96.8,Morning,Saturday
+490-95-0021,Cairo,Mandalay,Member,Food and beverages,33.21,10,16.605,348.705,2019-01-08,2026-04-20 14:25:00,Ewallet,332.1,4.761904762,16.605,332.1,Afternoon,Tuesday
+115-38-7388,Giza,Naypyitaw,Member,Fashion accessories,10.18,8,4.072,85.512,2019-03-30,2026-04-20 12:51:00,Credit card,81.44,4.761904762,4.072,81.44,Afternoon,Saturday
+311-13-6971,Cairo,Mandalay,Member,Sports and travel,31.99,10,15.995,335.895,2019-02-20,2026-04-20 15:18:00,Credit card,319.9,4.761904762,15.995,319.9,Afternoon,Wednesday
+291-55-6563,Alex,Yangon,Member,Home and lifestyle,34.42,6,10.326,216.846,2019-03-30,2026-04-20 12:45:00,Ewallet,206.52,4.761904762,10.326,206.52,Afternoon,Saturday
+548-48-3156,Alex,Yangon,Member,Food and beverages,83.34,2,8.334,175.014,2019-03-19,2026-04-20 13:37:00,Cash,166.68,4.761904762,8.334,166.68,Afternoon,Tuesday
+460-93-5834,Alex,Yangon,Normal,Sports and travel,45.58,7,15.953,335.013,2019-01-13,2026-04-20 10:03:00,Cash,319.06,4.761904762,15.953,319.06,Morning,Sunday
+325-89-4209,Alex,Yangon,Member,Food and beverages,87.9,1,4.395,92.295,2019-02-05,2026-04-20 19:42:00,Ewallet,87.9,4.761904762,4.395,87.9,Evening,Tuesday
+884-80-6021,Alex,Yangon,Member,Electronic accessories,73.47,10,36.735,771.435,2019-03-23,2026-04-20 13:14:00,Ewallet,734.7,4.761904762,36.735,734.7,Afternoon,Saturday
+137-74-8729,Giza,Naypyitaw,Normal,Fashion accessories,12.19,8,4.876,102.396,2019-03-13,2026-04-20 12:47:00,Ewallet,97.52,4.761904762,4.876,97.52,Afternoon,Wednesday
+880-46-5796,Alex,Yangon,Member,Sports and travel,76.92,10,38.46,807.66,2019-03-17,2026-04-20 19:53:00,Ewallet,769.2,4.761904762,38.46,769.2,Evening,Sunday
+389-70-2397,Giza,Naypyitaw,Normal,Health and beauty,83.66,5,20.915,439.215,2019-02-21,2026-04-20 10:26:00,Cash,418.3,4.761904762,20.915,418.29999999999995,Morning,Thursday
+114-35-5271,Cairo,Mandalay,Normal,Electronic accessories,57.91,8,23.164,486.444,2019-02-07,2026-04-20 15:06:00,Cash,463.28,4.761904762,23.164,463.28,Afternoon,Thursday
+607-76-6216,Giza,Naypyitaw,Member,Fashion accessories,92.49,5,23.1225,485.5725,2019-03-02,2026-04-20 16:35:00,Credit card,462.45,4.761904762,23.1225,462.45,Afternoon,Saturday
+715-20-1673,Cairo,Mandalay,Normal,Electronic accessories,28.38,5,7.095,148.995,2019-03-06,2026-04-20 20:57:00,Cash,141.9,4.761904762,7.095,141.9,Evening,Wednesday
+811-35-1094,Cairo,Mandalay,Member,Electronic accessories,50.45,6,15.135,317.835,2019-02-06,2026-04-20 15:16:00,Credit card,302.7,4.761904762,15.135,302.70000000000005,Afternoon,Wednesday
+699-88-1972,Cairo,Mandalay,Normal,Health and beauty,99.16,8,39.664,832.944,2019-01-28,2026-04-20 17:47:00,Credit card,793.28,4.761904762,39.664,793.28,Afternoon,Monday
+781-84-8059,Giza,Naypyitaw,Normal,Fashion accessories,60.74,7,21.259,446.439,2019-01-18,2026-04-20 16:23:00,Ewallet,425.18,4.761904762,21.259,425.18,Afternoon,Friday
+409-49-6995,Giza,Naypyitaw,Member,Food and beverages,47.27,6,14.181,297.801,2019-02-05,2026-04-20 10:17:00,Cash,283.62,4.761904762,14.181,283.62,Morning,Tuesday
+725-54-0677,Giza,Naypyitaw,Member,Health and beauty,85.6,7,29.96,629.16,2019-03-02,2026-04-20 13:50:00,Cash,599.2,4.761904762,29.96,599.1999999999999,Afternoon,Saturday
+146-09-5432,Alex,Yangon,Member,Food and beverages,35.04,9,15.768,331.128,2019-02-09,2026-04-20 19:17:00,Ewallet,315.36,4.761904762,15.768,315.36,Evening,Saturday
+377-79-7592,Giza,Naypyitaw,Member,Electronic accessories,44.84,9,20.178,423.738,2019-01-14,2026-04-20 14:00:00,Credit card,403.56,4.761904762,20.178,403.56000000000006,Afternoon,Monday
+509-10-0516,Cairo,Mandalay,Normal,Home and lifestyle,45.97,4,9.194,193.074,2019-02-09,2026-04-20 12:02:00,Ewallet,183.88,4.761904762,9.194,183.88,Afternoon,Saturday
+595-94-9924,Alex,Yangon,Member,Health and beauty,27.73,5,6.9325,145.5825,2019-03-26,2026-04-20 20:21:00,Credit card,138.65,4.761904762,6.9325,138.65,Evening,Tuesday
+865-41-9075,Alex,Yangon,Normal,Food and beverages,11.53,7,4.0355,84.7455,2019-01-28,2026-04-20 17:35:00,Cash,80.71,4.761904762,4.0355,80.71,Afternoon,Monday
+545-07-8534,Giza,Naypyitaw,Normal,Health and beauty,58.32,2,5.832,122.472,2019-02-14,2026-04-20 12:42:00,Ewallet,116.64,4.761904762,5.832,116.64,Afternoon,Thursday
+118-62-1812,Giza,Naypyitaw,Member,Home and lifestyle,78.38,4,15.676,329.196,2019-03-24,2026-04-20 17:56:00,Cash,313.52,4.761904762,15.676,313.52,Afternoon,Sunday
+450-42-3339,Giza,Naypyitaw,Normal,Health and beauty,84.61,10,42.305,888.405,2019-02-09,2026-04-20 18:58:00,Credit card,846.1,4.761904762,42.305,846.1,Evening,Saturday
+851-98-3555,Cairo,Mandalay,Normal,Health and beauty,82.88,5,20.72,435.12,2019-03-24,2026-04-20 14:08:00,Credit card,414.4,4.761904762,20.72,414.4,Afternoon,Sunday
+186-71-5196,Alex,Yangon,Member,Food and beverages,79.54,2,7.954,167.034,2019-03-27,2026-04-20 16:30:00,Ewallet,159.08,4.761904762,7.954,159.08,Afternoon,Wednesday
+624-01-8356,Cairo,Mandalay,Normal,Home and lifestyle,49.01,10,24.505,514.605,2019-01-27,2026-04-20 10:44:00,Credit card,490.1,4.761904762,24.505,490.09999999999997,Morning,Sunday
+313-66-9943,Cairo,Mandalay,Member,Food and beverages,29.15,3,4.3725,91.8225,2019-03-27,2026-04-20 20:29:00,Credit card,87.45,4.761904762,4.3725,87.44999999999999,Evening,Wednesday
+151-27-8496,Giza,Naypyitaw,Normal,Electronic accessories,56.13,4,11.226,235.746,2019-01-19,2026-04-20 11:43:00,Ewallet,224.52,4.761904762,11.226,224.52,Morning,Saturday
+453-33-6436,Alex,Yangon,Normal,Home and lifestyle,93.12,8,37.248,782.208,2019-02-07,2026-04-20 10:09:00,Cash,744.96,4.761904762,37.248,744.96,Morning,Thursday
+522-57-8364,Alex,Yangon,Member,Fashion accessories,51.34,8,20.536,431.256,2019-01-31,2026-04-20 10:00:00,Ewallet,410.72,4.761904762,20.536,410.72,Morning,Thursday
+459-45-2396,Alex,Yangon,Member,Food and beverages,99.6,3,14.94,313.74,2019-02-25,2026-04-20 18:45:00,Cash,298.8,4.761904762,14.94,298.79999999999995,Evening,Monday
+717-96-4189,Giza,Naypyitaw,Normal,Electronic accessories,35.49,6,10.647,223.587,2019-02-02,2026-04-20 12:40:00,Cash,212.94,4.761904762,10.647,212.94,Afternoon,Saturday
+722-13-2115,Giza,Naypyitaw,Member,Sports and travel,42.85,1,2.1425,44.9925,2019-03-14,2026-04-20 15:36:00,Credit card,42.85,4.761904762,2.1425,42.85,Afternoon,Thursday
+749-81-8133,Alex,Yangon,Normal,Fashion accessories,94.67,4,18.934,397.614,2019-03-11,2026-04-20 12:04:00,Cash,378.68,4.761904762,18.934,378.68,Afternoon,Monday
+777-67-2495,Cairo,Mandalay,Normal,Home and lifestyle,68.97,3,10.3455,217.2555,2019-02-22,2026-04-20 11:26:00,Ewallet,206.91,4.761904762,10.3455,206.91,Morning,Friday
+636-98-3364,Cairo,Mandalay,Member,Electronic accessories,26.26,3,3.939,82.719,2019-03-02,2026-04-20 12:36:00,Ewallet,78.78,4.761904762,3.939,78.78,Afternoon,Saturday
+246-55-6923,Giza,Naypyitaw,Member,Home and lifestyle,35.79,9,16.1055,338.2155,2019-03-10,2026-04-20 15:06:00,Credit card,322.11,4.761904762,16.1055,322.11,Afternoon,Sunday
+181-82-6255,Cairo,Mandalay,Normal,Home and lifestyle,16.37,6,4.911,103.131,2019-02-08,2026-04-20 10:58:00,Cash,98.22,4.761904762,4.911,98.22,Morning,Friday
+838-02-1821,Giza,Naypyitaw,Member,Home and lifestyle,12.73,2,1.273,26.733,2019-02-22,2026-04-20 12:10:00,Credit card,25.46,4.761904762,1.273,25.46,Afternoon,Friday
+887-42-0517,Giza,Naypyitaw,Normal,Sports and travel,83.14,7,29.099,611.079,2019-01-10,2026-04-20 10:31:00,Credit card,581.98,4.761904762,29.099,581.98,Morning,Thursday
+457-12-0244,Giza,Naypyitaw,Member,Sports and travel,35.22,6,10.566,221.886,2019-03-14,2026-04-20 13:49:00,Ewallet,211.32,4.761904762,10.566,211.32,Afternoon,Thursday
+226-34-0034,Cairo,Mandalay,Normal,Electronic accessories,13.78,4,2.756,57.876,2019-01-10,2026-04-20 11:10:00,Ewallet,55.12,4.761904762,2.756,55.12,Morning,Thursday
+321-49-7382,Cairo,Mandalay,Member,Sports and travel,88.31,1,4.4155,92.7255,2019-02-15,2026-04-20 17:38:00,Credit card,88.31,4.761904762,4.4155,88.31,Afternoon,Friday
+397-25-8725,Alex,Yangon,Member,Health and beauty,39.62,9,17.829,374.409,2019-01-13,2026-04-20 17:54:00,Credit card,356.58,4.761904762,17.829,356.58,Afternoon,Sunday
+431-66-2305,Cairo,Mandalay,Normal,Electronic accessories,88.25,9,39.7125,833.9625,2019-02-15,2026-04-20 20:51:00,Credit card,794.25,4.761904762,39.7125,794.25,Evening,Friday
+825-94-5922,Cairo,Mandalay,Normal,Sports and travel,25.31,2,2.531,53.151,2019-03-02,2026-04-20 19:26:00,Ewallet,50.62,4.761904762,2.531,50.62,Evening,Saturday
+641-62-7288,Cairo,Mandalay,Normal,Home and lifestyle,99.92,6,29.976,629.496,2019-03-24,2026-04-20 13:33:00,Ewallet,599.52,4.761904762,29.976,599.52,Afternoon,Sunday
+756-93-1854,Giza,Naypyitaw,Member,Fashion accessories,83.35,2,8.335,175.035,2019-02-02,2026-04-20 14:05:00,Credit card,166.7,4.761904762,8.335,166.7,Afternoon,Saturday
+243-55-8457,Alex,Yangon,Normal,Food and beverages,74.44,10,37.22,781.62,2019-02-27,2026-04-20 11:40:00,Ewallet,744.4,4.761904762,37.22,744.4,Morning,Wednesday
+458-10-8612,Giza,Naypyitaw,Normal,Health and beauty,64.08,7,22.428,470.988,2019-01-20,2026-04-20 12:27:00,Ewallet,448.56,4.761904762,22.428,448.56,Afternoon,Sunday
+501-61-1753,Cairo,Mandalay,Normal,Home and lifestyle,63.15,6,18.945,397.845,2019-01-03,2026-04-20 20:24:00,Ewallet,378.9,4.761904762,18.945,378.9,Evening,Thursday
+235-06-8510,Giza,Naypyitaw,Member,Home and lifestyle,85.72,3,12.858,270.018,2019-01-24,2026-04-20 20:59:00,Ewallet,257.16,4.761904762,12.858,257.15999999999997,Evening,Thursday
+433-08-7822,Giza,Naypyitaw,Normal,Health and beauty,78.89,7,27.6115,579.8415,2019-01-05,2026-04-20 19:48:00,Ewallet,552.23,4.761904762,27.6115,552.23,Evening,Saturday
+361-85-2571,Alex,Yangon,Normal,Sports and travel,89.48,5,22.37,469.77,2019-03-30,2026-04-20 10:18:00,Cash,447.4,4.761904762,22.37,447.40000000000003,Morning,Saturday
+131-70-8179,Alex,Yangon,Member,Health and beauty,92.09,3,13.8135,290.0835,2019-02-17,2026-04-20 16:27:00,Cash,276.27,4.761904762,13.8135,276.27,Afternoon,Sunday
+500-02-2261,Giza,Naypyitaw,Normal,Food and beverages,57.29,6,17.187,360.927,2019-03-21,2026-04-20 17:04:00,Ewallet,343.74,4.761904762,17.187,343.74,Afternoon,Thursday
+720-72-2436,Alex,Yangon,Normal,Food and beverages,66.52,4,13.304,279.384,2019-03-02,2026-04-20 18:14:00,Ewallet,266.08,4.761904762,13.304,266.08,Evening,Saturday
+702-83-5291,Giza,Naypyitaw,Member,Fashion accessories,99.82,9,44.919,943.299,2019-03-27,2026-04-20 10:43:00,Cash,898.38,4.761904762,44.919,898.3799999999999,Morning,Wednesday
+809-69-9497,Alex,Yangon,Normal,Home and lifestyle,45.68,10,22.84,479.64,2019-01-19,2026-04-20 19:30:00,Ewallet,456.8,4.761904762,22.84,456.8,Evening,Saturday
+449-16-6770,Alex,Yangon,Normal,Health and beauty,50.79,5,12.6975,266.6475,2019-02-19,2026-04-20 14:53:00,Credit card,253.95,4.761904762,12.6975,253.95,Afternoon,Tuesday
+333-23-2632,Alex,Yangon,Member,Health and beauty,10.08,7,3.528,74.088,2019-03-28,2026-04-20 20:14:00,Cash,70.56,4.761904762,3.528,70.56,Evening,Thursday
+489-82-1237,Alex,Yangon,Normal,Electronic accessories,93.88,7,32.858,690.018,2019-01-05,2026-04-20 11:51:00,Credit card,657.16,4.761904762,32.858,657.16,Morning,Saturday
+859-97-6048,Giza,Naypyitaw,Member,Electronic accessories,84.25,2,8.425,176.925,2019-03-26,2026-04-20 14:13:00,Credit card,168.5,4.761904762,8.425,168.5,Afternoon,Tuesday
+676-10-2200,Cairo,Mandalay,Member,Fashion accessories,53.78,1,2.689,56.469,2019-02-03,2026-04-20 20:13:00,Ewallet,53.78,4.761904762,2.689,53.78,Evening,Sunday
+373-88-1424,Giza,Naypyitaw,Member,Home and lifestyle,35.81,5,8.9525,188.0025,2019-02-06,2026-04-20 18:44:00,Ewallet,179.05,4.761904762,8.9525,179.05,Evening,Wednesday
+365-16-4334,Cairo,Mandalay,Normal,Food and beverages,26.43,8,10.572,222.012,2019-02-24,2026-04-20 14:26:00,Ewallet,211.44,4.761904762,10.572,211.44,Afternoon,Sunday
+503-21-4385,Cairo,Mandalay,Member,Health and beauty,39.91,3,5.9865,125.7165,2019-02-21,2026-04-20 12:40:00,Ewallet,119.73,4.761904762,5.9865,119.72999999999999,Afternoon,Thursday
+305-89-2768,Cairo,Mandalay,Member,Home and lifestyle,21.9,3,3.285,68.985,2019-01-09,2026-04-20 18:43:00,Ewallet,65.7,4.761904762,3.285,65.69999999999999,Evening,Wednesday
+574-80-1489,Cairo,Mandalay,Member,Food and beverages,62.85,4,12.57,263.97,2019-02-25,2026-04-20 13:22:00,Ewallet,251.4,4.761904762,12.57,251.4,Afternoon,Monday
+784-08-0310,Giza,Naypyitaw,Member,Food and beverages,21.04,4,4.208,88.368,2019-01-13,2026-04-20 13:58:00,Cash,84.16,4.761904762,4.208,84.16,Afternoon,Sunday
+200-40-6154,Cairo,Mandalay,Member,Home and lifestyle,65.91,6,19.773,415.233,2019-02-09,2026-04-20 11:45:00,Cash,395.46,4.761904762,19.773,395.46,Morning,Saturday
+846-10-0341,Alex,Yangon,Normal,Fashion accessories,42.57,7,14.8995,312.8895,2019-01-06,2026-04-20 11:51:00,Cash,297.99,4.761904762,14.8995,297.99,Morning,Sunday
+577-34-7579,Giza,Naypyitaw,Member,Food and beverages,50.49,9,22.7205,477.1305,2019-01-10,2026-04-20 17:16:00,Cash,454.41,4.761904762,22.7205,454.41,Afternoon,Thursday
+430-02-3888,Cairo,Mandalay,Normal,Electronic accessories,46.02,6,13.806,289.926,2019-02-07,2026-04-20 15:55:00,Cash,276.12,4.761904762,13.806,276.12,Afternoon,Thursday
+867-47-1948,Giza,Naypyitaw,Normal,Home and lifestyle,15.8,10,7.9,165.9,2019-01-09,2026-04-20 12:07:00,Cash,158.0,4.761904762,7.9,158.0,Afternoon,Wednesday
+384-59-6655,Alex,Yangon,Member,Food and beverages,98.66,9,44.397,932.337,2019-02-19,2026-04-20 15:07:00,Cash,887.94,4.761904762,44.397,887.9399999999999,Afternoon,Tuesday
+256-58-3609,Giza,Naypyitaw,Member,Fashion accessories,91.98,1,4.599,96.579,2019-03-18,2026-04-20 15:29:00,Cash,91.98,4.761904762,4.599,91.98,Afternoon,Monday
+324-92-3863,Alex,Yangon,Member,Electronic accessories,20.89,2,2.089,43.869,2019-02-05,2026-04-20 18:45:00,Cash,41.78,4.761904762,2.089,41.78,Evening,Tuesday
+593-08-5916,Alex,Yangon,Normal,Fashion accessories,15.5,1,0.775,16.275,2019-03-19,2026-04-20 15:23:00,Credit card,15.5,4.761904762,0.775,15.5,Afternoon,Tuesday
+364-34-2972,Giza,Naypyitaw,Member,Electronic accessories,96.82,3,14.523,304.983,2019-03-30,2026-04-20 20:37:00,Cash,290.46,4.761904762,14.523,290.46,Evening,Saturday
+794-42-3736,Cairo,Mandalay,Normal,Food and beverages,33.33,2,3.333,69.993,2019-01-26,2026-04-20 14:41:00,Credit card,66.66,4.761904762,3.333,66.66,Afternoon,Saturday
+172-42-8274,Cairo,Mandalay,Normal,Electronic accessories,38.27,2,3.827,80.367,2019-03-02,2026-04-20 18:18:00,Credit card,76.54,4.761904762,3.827,76.54,Evening,Saturday
+558-60-5016,Alex,Yangon,Normal,Home and lifestyle,33.3,9,14.985,314.685,2019-03-04,2026-04-20 15:27:00,Ewallet,299.7,4.761904762,14.985,299.7,Afternoon,Monday
+195-06-0432,Alex,Yangon,Member,Home and lifestyle,81.01,3,12.1515,255.1815,2019-01-13,2026-04-20 12:55:00,Credit card,243.03,4.761904762,12.1515,243.03000000000003,Afternoon,Sunday
+605-03-2706,Alex,Yangon,Normal,Health and beauty,15.8,3,2.37,49.77,2019-03-25,2026-04-20 18:02:00,Cash,47.4,4.761904762,2.37,47.400000000000006,Evening,Monday
+214-30-2776,Cairo,Mandalay,Member,Electronic accessories,34.49,5,8.6225,181.0725,2019-03-11,2026-04-20 19:44:00,Credit card,172.45,4.761904762,8.6225,172.45000000000002,Evening,Monday
+746-04-1077,Cairo,Mandalay,Member,Food and beverages,84.63,10,42.315,888.615,2019-01-01,2026-04-20 11:36:00,Credit card,846.3,4.761904762,42.315,846.3,Morning,Tuesday
+448-34-8700,Cairo,Mandalay,Member,Home and lifestyle,36.91,7,12.9185,271.2885,2019-02-10,2026-04-20 13:51:00,Ewallet,258.37,4.761904762,12.9185,258.37,Afternoon,Sunday
+452-04-8808,Cairo,Mandalay,Normal,Electronic accessories,87.08,7,30.478,640.038,2019-01-26,2026-04-20 15:17:00,Cash,609.56,4.761904762,30.478,609.56,Afternoon,Saturday
+531-56-4728,Alex,Yangon,Normal,Home and lifestyle,80.08,3,12.012,252.252,2019-02-11,2026-04-20 15:29:00,Cash,240.24,4.761904762,12.012,240.24,Afternoon,Monday
+744-82-9138,Giza,Naypyitaw,Normal,Fashion accessories,86.13,2,8.613,180.873,2019-02-07,2026-04-20 17:59:00,Cash,172.26,4.761904762,8.613,172.26,Afternoon,Thursday
+883-69-1285,Cairo,Mandalay,Member,Fashion accessories,49.92,2,4.992,104.832,2019-03-06,2026-04-20 11:55:00,Credit card,99.84,4.761904762,4.992,99.84,Morning,Wednesday
+221-25-5073,Alex,Yangon,Normal,Food and beverages,74.66,4,14.932,313.572,2019-03-04,2026-04-20 10:39:00,Cash,298.64,4.761904762,14.932,298.64,Morning,Monday
+518-71-6847,Cairo,Mandalay,Member,Food and beverages,26.6,6,7.98,167.58,2019-02-26,2026-04-20 15:10:00,Ewallet,159.6,4.761904762,7.98,159.60000000000002,Afternoon,Tuesday
+156-20-0370,Cairo,Mandalay,Normal,Electronic accessories,25.45,1,1.2725,26.7225,2019-03-10,2026-04-20 18:10:00,Credit card,25.45,4.761904762,1.2725,25.45,Evening,Sunday
+151-33-7434,Cairo,Mandalay,Normal,Food and beverages,67.77,1,3.3885,71.1585,2019-02-04,2026-04-20 20:43:00,Credit card,67.77,4.761904762,3.3885,67.77,Evening,Monday
+728-47-9078,Giza,Naypyitaw,Member,Food and beverages,59.59,4,11.918,250.278,2019-01-19,2026-04-20 12:46:00,Cash,238.36,4.761904762,11.918,238.36,Afternoon,Saturday
+809-46-1866,Alex,Yangon,Normal,Health and beauty,58.15,4,11.63,244.23,2019-01-23,2026-04-20 17:44:00,Cash,232.6,4.761904762,11.63,232.6,Afternoon,Wednesday
+139-32-4183,Alex,Yangon,Member,Sports and travel,97.48,9,43.866,921.186,2019-03-14,2026-04-20 14:19:00,Ewallet,877.32,4.761904762,43.866,877.32,Afternoon,Thursday
+148-41-7930,Giza,Naypyitaw,Normal,Health and beauty,99.96,7,34.986,734.706,2019-01-23,2026-04-20 10:33:00,Cash,699.72,4.761904762,34.986,699.7199999999999,Morning,Wednesday
+189-40-5216,Giza,Naypyitaw,Normal,Electronic accessories,96.37,7,33.7295,708.3195,2019-01-09,2026-04-20 11:40:00,Cash,674.59,4.761904762,33.7295,674.59,Morning,Wednesday
+374-38-5555,Cairo,Mandalay,Normal,Fashion accessories,63.71,5,15.9275,334.4775,2019-02-07,2026-04-20 19:30:00,Ewallet,318.55,4.761904762,15.9275,318.55,Evening,Thursday
+764-44-8999,Cairo,Mandalay,Normal,Health and beauty,14.76,2,1.476,30.996,2019-02-18,2026-04-20 14:42:00,Ewallet,29.52,4.761904762,1.476,29.52,Afternoon,Monday
+552-44-5977,Cairo,Mandalay,Member,Health and beauty,62.0,8,24.8,520.8,2019-01-03,2026-04-20 19:08:00,Credit card,496.0,4.761904762,24.8,496.0,Evening,Thursday
+267-62-7380,Giza,Naypyitaw,Member,Electronic accessories,82.34,10,41.17,864.57,2019-03-29,2026-04-20 19:12:00,Ewallet,823.4,4.761904762,41.17,823.4000000000001,Evening,Friday
+430-53-4718,Cairo,Mandalay,Member,Health and beauty,75.37,8,30.148,633.108,2019-01-28,2026-04-20 15:46:00,Credit card,602.96,4.761904762,30.148,602.96,Afternoon,Monday
+886-18-2897,Alex,Yangon,Normal,Food and beverages,56.56,5,14.14,296.94,2019-03-22,2026-04-20 19:06:00,Credit card,282.8,4.761904762,14.14,282.8,Evening,Friday
+602-16-6955,Cairo,Mandalay,Normal,Sports and travel,76.6,10,38.3,804.3,2019-01-24,2026-04-20 18:10:00,Ewallet,766.0,4.761904762,38.3,766.0,Evening,Thursday
+745-74-0715,Alex,Yangon,Normal,Electronic accessories,58.03,2,5.803,121.863,2019-03-10,2026-04-20 20:46:00,Ewallet,116.06,4.761904762,5.803,116.06,Evening,Sunday
+690-01-6631,Cairo,Mandalay,Normal,Fashion accessories,17.49,10,8.745,183.645,2019-02-22,2026-04-20 18:35:00,Ewallet,174.9,4.761904762,8.745,174.89999999999998,Evening,Friday
+652-49-6720,Giza,Naypyitaw,Member,Electronic accessories,60.95,1,3.0475,63.9975,2019-02-18,2026-04-20 11:40:00,Ewallet,60.95,4.761904762,3.0475,60.95,Morning,Monday
+233-67-5758,Giza,Naypyitaw,Normal,Health and beauty,40.35,1,2.0175,42.3675,2019-01-29,2026-04-20 13:46:00,Ewallet,40.35,4.761904762,2.0175,40.35,Afternoon,Tuesday
+303-96-2227,Cairo,Mandalay,Normal,Home and lifestyle,97.38,10,48.69,1022.49,2019-03-02,2026-04-20 17:16:00,Ewallet,973.8,4.761904762,48.69,973.8,Afternoon,Saturday
+727-02-1313,Alex,Yangon,Member,Food and beverages,31.84,1,1.592,33.432,2019-02-09,2026-04-20 13:22:00,Cash,31.84,4.761904762,1.592,31.84,Afternoon,Saturday
+347-56-2442,Alex,Yangon,Normal,Home and lifestyle,65.82,1,3.291,69.111,2019-02-22,2026-04-20 15:33:00,Cash,65.82,4.761904762,3.291,65.82,Afternoon,Friday
+849-09-3807,Alex,Yangon,Member,Fashion accessories,88.34,7,30.919,649.299,2019-02-18,2026-04-20 13:28:00,Cash,618.38,4.761904762,30.919,618.38,Afternoon,Monday

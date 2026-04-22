@@ -49,14 +49,14 @@ class TestSupermarketSalesValidationSchema:
         assert isinstance(validated_df, pd.DataFrame)
         assert len(validated_df) == 2
 
-    def test_strict_mode_rejects_extra_columns(self, schema_provider, valid_dataframe):
-        """Ensures strict=True blocks DataFrames with undeclared columns."""
+    def test_allows_extra_columns(self, schema_provider, valid_dataframe):
+        """Ensures extra columns do not invalidate otherwise valid raw datasets."""
         schema = schema_provider.get_schema()
         df = valid_dataframe.copy()
         df["City"] = ["New York", "Los Angeles"]
-        
-        with pytest.raises(SchemaError, match="column 'City' not in"):
-            schema.validate(df)
+
+        validated_df = schema.validate(df)
+        assert "City" in validated_df.columns
 
     def test_rejects_missing_mandatory_columns(self, schema_provider, valid_dataframe):
         """Ensures required=True is enforced for mandatory columns."""

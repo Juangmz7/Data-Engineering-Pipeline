@@ -1,5 +1,5 @@
 from datetime import datetime, timedelta
-from typing import Type
+from typing import List, Type
 
 from airflow import DAG
 from airflow.models import Variable
@@ -14,6 +14,8 @@ from RealTimeProcessing.src.validation_schema.supermarket_sales_validation_schem
 from RealTimeProcessing.src.validation_schema.supermarket_sales_backup_validatation import SupermarketSalesBackupValidationSchema
 from shared.contracts.pipeline_processor import PipelineProcessor
 from shared.contracts.data_writer import DataWriter
+from RealTimeProcessing.src.writer.local_csv_writer import LocalCsvWriter
+from RealTimeProcessing.src.writer.azure_blob_csv_writer import AzureBlobCsvWriter
 
 from shared.implementations.pipeline_dag_executions import (
     execute_reader,
@@ -29,26 +31,25 @@ def _execute_writer(
 ) -> None:
     # Retrieve configuration and secrets from Airflow backend securely
     azure_connection = BaseHook.get_connection('azure_blob_default')
-    azure_conn_str = azure_connection.get_password() 
-    azure_container = Variable.get("azure_blob_container_name", default_var="trip-data-processed")
+    azure_conn_str = azure_connection.password
+    azure_container = Variable.get("azure_blob_container_name", default_var="blob-data-container")
 
-    # TODO: Nil descomenta esto cuando crees los writers e importalos
-    # local_writer = LocalCsvWriter(correlation_id=correlation_id)
-    # azure_writer = AzureBlobCsvWriter(
-    #     connection_string=azure_conn_str,
-    #     container_name=azure_container,
-    #     correlation_id=correlation_id
-    # )
+    local_writer = LocalCsvWriter(correlation_id=correlation_id)
+    azure_writer = AzureBlobCsvWriter(
+         connection_string=azure_conn_str,
+         container_name=azure_container,
+         correlation_id=correlation_id
+    )
 
-    # injected_writers: List[DataWriter] = [local_writer, azure_writer]
+    injected_writers: List[DataWriter] = [local_writer, azure_writer]
 
-    # processor: PipelineProcessor = processor_class()
-    # processor.run_writer(
-    #     source_path=source_path, 
-    #     final_destination=final_destination, 
-    #     correlation_id=correlation_id,
-    #     writers=injected_writers
-    # )
+    processor: PipelineProcessor = processor_class()
+    processor.run_writer(
+        source_path=source_path, 
+        final_destination=final_destination, 
+        correlation_id=correlation_id,
+        writers=injected_writers
+    )
 
 
 default_args = {
@@ -86,6 +87,7 @@ with DAG(
     sensor_incoming_file = FileSensor(
         task_id='wait_for_csv_file',
         filepath=LANDING_ZONE_FILE,
+        fs_conn_id='fs_default',
         poke_interval=10,
         timeout=60,
         mode='poke',
@@ -154,4 +156,4 @@ with DAG(
         trigger_rule='all_success' 
     )
 
-    # sensor_incoming_file >> task_reader >> task_validator >> task_processor >> task_validator_backup >> task_writer >> cleanup_staging
+    sensor_incoming_file >> task_reader >> task_validator >> task_processor >> task_validator_backup >> task_writer >> cleanup_staging

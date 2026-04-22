@@ -29,7 +29,7 @@ class SupermarketSalesValidationSchema(DataFrameSchema):
                 "Gender": Column(str, Check.isin(["Female", "Male"]), required=False),
                 "Rating": Column(float, Check.in_range(1.0, 10.0), required=False)
             },
-            strict=True 
+            strict=False
         )
         
         
