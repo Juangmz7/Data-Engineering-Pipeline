@@ -106,24 +106,28 @@ All cloud resources (Azure Resource Group, Storage Account, Blob Container) are 
 cd terraform
 ```
 
-**Step 2 — Initialize the Terraform working directory:**
+**Step 2 — Configure Terraform Variables:**
+The sensitive Terraform variables are configured via a `terraform.tfvars` file located inside the `terraform/` directory. Create it by copying the template:
+
+```bash
+# From the project root
+cp ./.terraform.tfvars_template ./terraform.tfvars
+
+Set your azure subscription id:
+```bash
+subscription_id = "Your-Azure-Subscription_id"
+```
+
+**Step 3 — Initialize the Terraform working directory:**
 
 ```bash
 terraform init
 ```
 
-**Step 3 — Preview the infrastructure plan:**
+**Step 4 — Preview the infrastructure plan & Apply the infrastructure:**
 
 ```bash
-terraform plan -var="subscription_id=<YOUR_SUBSCRIPTION_ID>"
-```
-
-Replace `<YOUR_SUBSCRIPTION_ID>` with the value copied during the Azure login step.
-
-**Step 4 — Apply the infrastructure:**
-
-```bash
-terraform apply -var="subscription_id=<YOUR_SUBSCRIPTION_ID>"
+terraform apply
 ```
 
 Type `yes` when prompted to confirm. Terraform will provision:
@@ -146,6 +150,15 @@ The Blob Container Name uses the default value defined in `variables.tf`:
 ```
 blob-data-container
 ```
+
+**Step 6 — Teardown Infrastructure (Clean Up):**
+Once you are finished running the application and want to avoid incurring further Azure costs, you must tear down the provisioned resources. From the `terraform/` directory, run:
+
+```bash
+terraform destroy
+```
+
+Type `yes` when prompted to confirm.
 
 ---
 
@@ -269,7 +282,7 @@ The two Airflow DAGs can be executed in two ways:
 
 #### Option A — Wait for the Scheduled Interval
 
-Both DAGs are configured with a `@daily` schedule and a `start_date` of `2026-04-01`. Once the Airflow scheduler is running, the DAGs will trigger automatically at midnight UTC each day.
+Both DAGs are configured within a specific schedule. Once the Airflow scheduler is running, the DAGs will trigger automatically at midnight UTC each day.
 
 - `trip_data_processing_pipeline` — processes NYC Yellow Taxi Parquet data daily.
 - `supermarket_sales_processing_pipeline` — processes Supermarket Sales CSV data daily.
