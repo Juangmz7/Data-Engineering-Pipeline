@@ -69,7 +69,6 @@ After a successful login, the CLI will print a list of your subscriptions. **Cop
 The Airflow Docker Compose stack is configured via an `.env` file located inside the `airflow/` directory. Create it by copying the template:
 
 ```bash
-# From the project root
 cp airflow/.env_template airflow/.env
 ```
 
