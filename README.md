@@ -124,7 +124,6 @@ cd terraform
 The sensitive Terraform variables are configured via a `terraform.tfvars` file located inside the `terraform/` directory. Create it by copying the template:
 
 ```bash
-# From the project root
 cp ./.terraform.tfvars_template ./terraform.tfvars
 ```
 
