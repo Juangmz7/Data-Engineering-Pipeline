@@ -308,7 +308,6 @@ Processes NYC Yellow Taxi trip records in Parquet format through a stage-gate va
 
 ```mermaid
 flowchart TD
-    A["FileSensor\n(implicit: file present at landing zone)"]
     B["read_batch_data\nParquetReader → raw.parquet"]
     C["validate_raw_schema\nYellowTaxiTripValidationSchema"]
     D{"Valid?"}
