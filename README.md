@@ -316,8 +316,8 @@ flowchart TD
     F{"Valid?"}
     G["write_data\nLocalParquetWriter + AzureBlobParquetWriter"]
     H["cleanup_staging_files\nBashOperator: rm -rf staging/*"]
-    I1["Quarantine\n/quarantine/trip_data/.../raw_invalid.parquet"]
-    I2["Quarantine\n/quarantine/trip_data/.../processed_invalid.parquet"]
+    Q1["Quarantine\n/quarantine/trip_data/.../raw_invalid.parquet"]
+    Q2["Quarantine\n/quarantine/trip_data/.../processed_invalid.parquet"]
 
     A --> B --> C --> D
     D -- "Pass" --> E --> F --> G
