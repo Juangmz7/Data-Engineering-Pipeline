@@ -78,12 +78,12 @@ cp airflow/.env_template airflow/.env
 Open `airflow/.env` and fill in the required values:
 
 ```dotenv
-# --- Airflow User ---
+# --- Airflow User --- (OPTIONAL)
 # Credentials for the Airflow web UI administrator account
 _AIRFLOW_WWW_USER_USERNAME=airflow
 _AIRFLOW_WWW_USER_PASSWORD=airflow
 
-# --- Airflow Security ---
+# --- Airflow Security --- (OPTIONAL)
 # A secret key used to sign JWT tokens for the Airflow API
 AIRFLOW__API_AUTH__JWT_SECRET=your_strong_random_secret_here
 AIRFLOW__API_AUTH__JWT_ISSUER=airflow
