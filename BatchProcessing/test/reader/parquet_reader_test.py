@@ -48,7 +48,11 @@ class TestParquetReader:
             result_df = reader.read(source_file)
 
             # Assert
-            mock_read_parquet.assert_called_once_with(mock_src)
+            mock_read_parquet.assert_called_once_with(
+                mock_src, 
+                engine="pyarrow", 
+                dtype_backend="pyarrow"
+            )
             pd.testing.assert_frame_equal(result_df, expected_df)
 
             # Verify observability metrics

@@ -1,7 +1,7 @@
 import pytest
-from unittest.mock import patch, MagicMock
+from unittest.mock import ANY, patch, MagicMock
 
-from implementations.composite_writer import CompositeWriter
+from shared.implementations.composite_writer import CompositeWriter
 
 @pytest.fixture
 def mock_logger():
@@ -26,7 +26,10 @@ class TestCompositeParquetWriter:
         CompositeWriter(writers=mock_writers, correlation_id="test-corr")
         
         # Assert
-        mock_logger.info.assert_any_call("CompositeParquetWriter initialized with 2 underlying writers.")
+        mock_logger.info.assert_any_call(
+            "CompositeWriter initialized with 2 underlying writers.", 
+            extra=ANY  # Accounts for the correlation_id payload
+        )
 
     def test_write_delegates_to_all_writers(self, mock_logger, mock_id_gen):
         """Ensures that the write call is propagated to every writer in the collection."""
@@ -47,7 +50,10 @@ class TestCompositeParquetWriter:
         writer_b.write.assert_called_once_with(source, destination)
         
         # Verify orchestration logs
-        mock_logger.info.assert_any_call(f"Starting composite write operation from {source} to destination: {destination}")
+        mock_logger.info.assert_any_call(
+            f"Starting composite write operation from {source} to destination: {destination}",
+            extra=ANY
+        )
         mock_logger.info.assert_any_call("Composite write operation completed successfully across all writers.")
 
     def test_write_propagates_exception_and_stops_execution(self, mock_logger, mock_id_gen):
@@ -87,4 +93,7 @@ class TestCompositeParquetWriter:
         composite.write("src", "dst")
         
         # Assert
-        mock_logger.info.assert_any_call("Composite write operation completed successfully across all writers.")
+        mock_logger.info.assert_any_call(
+            "Composite write operation completed successfully across all writers.",
+            extra=ANY
+        )
