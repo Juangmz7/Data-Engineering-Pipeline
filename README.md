@@ -218,17 +218,6 @@ deactivate
 
 ### 1.6 Airflow Integration
 
-#### Start the Airflow Stack
-
-Navigate to the `airflow/` directory and start all services in detached mode:
-
-```bash
-cd airflow
-docker compose up -d
-```
-
-This starts the following services: `postgres`, `redis`, `airflow-apiserver`, `airflow-scheduler`, `airflow-dag-processor`, `airflow-worker`, and `airflow-triggerer`.
-
 #### Access the Web UI
 
 Once all containers are healthy, open your browser and navigate to:
