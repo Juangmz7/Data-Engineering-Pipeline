@@ -115,14 +115,14 @@ All cloud resources (Azure Resource Group, Storage Account, Blob Container) are 
 **Step 1 — Navigate to the Terraform directory:**
 
 ```bash
-cd terraform
+cd ../terraform
 ```
 
 **Step 2 — Configure Terraform Variables:**
 The sensitive Terraform variables are configured via a `terraform.tfvars` file located inside the `terraform/` directory. Create it by copying the template:
 
 ```bash
-cp ./.terraform.tfvars_template ./terraform.tfvars
+cp ./terraform.tfvars_template ./terraform.tfvars
 ```
 
 Set your azure subscription id:
