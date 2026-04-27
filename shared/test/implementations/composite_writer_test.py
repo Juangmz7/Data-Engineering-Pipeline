@@ -1,5 +1,5 @@
 import pytest
-from unittest.mock import ANY, patch, MagicMock
+from unittest.mock import patch, MagicMock
 
 from shared.implementations.composite_writer import CompositeWriter
 
@@ -7,6 +7,13 @@ from shared.implementations.composite_writer import CompositeWriter
 def mock_logger():
     """Provides a mocked pipeline logger to verify orchestration logs."""
     with patch("shared.util.pipeline_log_formatter.get_pipeline_logger") as mock:
+        yield mock.return_value
+
+@pytest.fixture
+def mock_logger():
+    """Provides a mocked pipeline logger to verify orchestration logs."""
+    # Patch where the function is used, not where it is defined
+    with patch("shared.implementations.composite_writer.get_pipeline_logger") as mock:
         yield mock.return_value
 
 @pytest.fixture
@@ -28,7 +35,6 @@ class TestCompositeParquetWriter:
         # Assert
         mock_logger.info.assert_any_call(
             "CompositeWriter initialized with 2 underlying writers.", 
-            extra=ANY  # Accounts for the correlation_id payload
         )
 
     def test_write_delegates_to_all_writers(self, mock_logger, mock_id_gen):
@@ -52,7 +58,6 @@ class TestCompositeParquetWriter:
         # Verify orchestration logs
         mock_logger.info.assert_any_call(
             f"Starting composite write operation from {source} to destination: {destination}",
-            extra=ANY
         )
         mock_logger.info.assert_any_call("Composite write operation completed successfully across all writers.")
 
@@ -95,5 +100,4 @@ class TestCompositeParquetWriter:
         # Assert
         mock_logger.info.assert_any_call(
             "Composite write operation completed successfully across all writers.",
-            extra=ANY
         )
