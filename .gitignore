@@ -1,6 +1,7 @@
 .vscode
 .pytest_cache
 __pycache__
+shared/util/__pycache__
 
 airflow/.env
 airflow/config/airflow.cfg
